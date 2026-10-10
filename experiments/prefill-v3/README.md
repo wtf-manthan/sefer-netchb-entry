@@ -1,0 +1,4 @@
+# Version 3 extraction evaluation
+[VERIFIED - run.ts] Run node --import tsx experiments/prefill-v3/run.ts from repository root with configured user-confirmed free-tier Gemini credentials. Reads the three sample PDFs, invokes extraction only on cache miss, writes extracted.json, and reports cache/cost status without credentials. Provider billing is not measured; null cost is not proof of a zero charge. New schema/prompt cache identity preserves old caches.
+
+[VERIFIED - prepare-submission.ts] Reproduce the reviewed sample artifacts with `node --import tsx experiments/prefill-v3/prepare-submission.ts` after building shared. Reads the checked-in extraction, verifies all sample hashes, records explicit sample corrections/decisions and emits draft XML, review and open-items report. No model or live reference call. Never used by runtime code.

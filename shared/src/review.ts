@@ -15,7 +15,7 @@ export function applyObservationCorrections(original:RawExtractedShipment, corre
     }
     const key=keys[keys.length-1],field=parent?.[key];
     if(!field||typeof field!=='object'||!('status' in field)||!('source' in field))throw new Error('Correction must target an observation: '+path);
-    parent[key]={value:correction.value,status:'inferred',source:correction.source,confidence:1};
+    parent[key]=correction.value===null?{value:null,status:'missing',source:correction.source,confidence:0}:{value:correction.value,status:'inferred',source:correction.source,confidence:1};
   }
   return RawExtractedShipmentSchema.parse(shipment);
 }

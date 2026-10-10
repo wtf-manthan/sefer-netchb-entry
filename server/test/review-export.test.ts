@@ -42,7 +42,7 @@ test('missing decisions still export open items; draft never masquerades as chec
   const {shipment,decisions}=fixture();const empty=emptyDecisions();
   const report=await post('/api/export',{shipmentData:shipment,brokerDecisions:empty,kind:'review'});assert.equal(report.status,200);assert.equal((await report.json()).reviewReport.readyToTransmit,false);
   assert.equal((await post('/api/export',{shipmentData:shipment,brokerDecisions:empty,kind:'ready'})).status,409);
-  assert.equal((await post('/api/export',{shipmentData:shipment,brokerDecisions:empty,kind:'draft'})).status,409);
+  assert.equal((await post('/api/export',{shipmentData:shipment,brokerDecisions:empty,kind:'draft'})).status,200);
   decisions.customsFiling.referenceDataConfirmed=false;
   const draft=await (await post('/api/export',{shipmentData:shipment,brokerDecisions:decisions,kind:'draft'})).json();assert.equal(draft.fileName,'netchb-entry-DRAFT.xml');assert.equal(draft.reviewReport.readyToTransmit,false);
 });

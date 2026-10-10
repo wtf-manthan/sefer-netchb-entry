@@ -7,7 +7,7 @@ import {OpenItemsDrawer} from './components/OpenItemsDrawer';
 import {XmlPreviewPanel} from './components/XmlPreviewPanel';
 import {EvidencePanel} from './components/EvidencePanel';
 import {REVIEW_SECTIONS,ReviewSection,EvidenceSelection,LocalDocument,uniqueFindings,findingSection} from './review-workspace';
-interface Result {xml:string|null;schemaValid:boolean;schemaErrors:string[];readyToTransmit:boolean;blockersCount:number;findings:StructuredFinding[]}
+interface Result {xml:string|null;draftXml:string|null;draftSchemaValid:boolean;draftSchemaErrors:string[];schemaValid:boolean;schemaErrors:string[];readyToTransmit:boolean;blockersCount:number;findings:StructuredFinding[]}
 export default function App(){
   const [retry,setRetry]=useState(0),[uploadBusy,setUploadBusy]=useState(false);
   const [step,setStep]=useState<'upload'|'review'|'export'>('upload');
@@ -104,7 +104,7 @@ export default function App(){
             <EvidencePanel key={selection?.label??'documents'} shipment={shipment} selection={selection} files={files} onAttach={attach}/>
           </div>
         </>:<section className="export-page"><div className="section-heading"><div><span className="eyebrow">REVIEW BEFORE FILING</span><h2>Your entry exports</h2></div><button className="btn btn-secondary" onClick={()=>setStep('review')}>Back to review</button></div>{open.length>0&&<div className="card"><h3>Continue resolving</h3><div className="actions">{REVIEW_SECTIONS.filter(name=>open.some(f=>findingSection(f,shipment??undefined)===name)).map(name=><button className="btn btn-secondary" key={name} onClick={()=>{setSection(name);setStep('review');}}>{name} · {open.filter(f=>findingSection(f,shipment??undefined)===name).length} open</button>)}</div></div>}
-          <XmlPreviewPanel xml={current?result?.xml??'':''} schemaValid={current?result?.schemaValid??null:null} schemaErrors={current?result?.schemaErrors??[]:[]} readyToTransmit={current&&result?.readyToTransmit===true} blockersCount={result?.blockersCount??0} disabled={!current||exporting} onExport={exportEntry}/>
+          <XmlPreviewPanel xml={current?result?.xml??result?.draftXml??'':''} schemaValid={current?result?.schemaValid??null:null} schemaErrors={current?result?.schemaErrors??[]:[]} readyToTransmit={current&&result?.readyToTransmit===true} blockersCount={result?.blockersCount??0} disabled={!current||exporting} onExport={exportEntry}/>
         </section>}
       </>}
     </main>

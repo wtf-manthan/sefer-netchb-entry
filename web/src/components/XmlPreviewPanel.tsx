@@ -62,7 +62,7 @@ export const XmlPreviewPanel: React.FC<XmlPreviewPanelProps> = ({
       </div>
 
       {copyError&&<p role="alert">{copyError}</p>}
-      <p>{readyToTransmit?'Local filing checks complete.':`${blockersCount} open blockers. Draft XML is for review.`} Schema validity and local readiness do not prove NetCHB or CBP acceptance.</p>
+      <p>{readyToTransmit?'Local filing checks complete.':`${blockersCount} open blockers. Draft XML is for review and may omit required fields. Reasons appear in draft comments and the open-items report.`} Schema validity and local readiness do not prove NetCHB or CBP acceptance.</p>
 
       {/* SCHEMA VALIDATION BANNER */}
       <div

@@ -16,7 +16,7 @@ export const CustomsFilingCredentialsSchema = z.object({
   entryPortCode: z.string().regex(/^\d{4}$/).optional(), processingPortCode: z.string().regex(/^\d{4}$/).optional(),
   unladingPortCode: z.string().regex(/^\d{4}$/).optional(), foreignPortCode: z.string().regex(/^\d{5}$/).optional(),
   modeOfTransport: z.string().regex(/^\d{2}$/).optional(),
-  ultimateConsignee: z.object({ name: z.string().min(1), taxId }).strict().optional(),
+  ultimateConsignee: z.object({ name: z.string().min(1).optional(), taxId:taxId.optional() }).strict().optional(),
   relatedParty: z.boolean().optional(), grossWeightKg: money.optional(),
   referenceDataConfirmed: z.boolean().optional(),
 }).strict();
@@ -28,8 +28,9 @@ export const LineDiscrepancyChoiceSchema = z.object({
   reportingQuantities: z.array(z.object({quantity: money, unit: z.string().refine(isStatisticalUnit,'Select a schema-supported statistical unit')}).strict()).min(1).max(3).optional(),
 }).strict().superRefine((d,ctx)=> {if(d.quantityChoice==='CUSTOM' && d.customQuantity===undefined)ctx.addIssue({code:'custom',message:'Custom quantity is required'});});
 export const BrokerDecisionsSchema = z.object({
+  suggestionSelections:z.record(z.string().regex(/^(customsFiling\.(modeOfTransport|ultimateConsignee\.name)|invoiceDecisions\.[A-Za-z0-9_-]+\.(countryOfExport|valuationBasis)|lineDecisions\.[A-Za-z0-9_-]+\.(assistAmount|sampleValue))$/),z.object({id:z.string(),fingerprint:z.string().regex(/^[a-f0-9]{64}$/),value:z.union([z.string(),z.number()])}).strict()).default({}),
   portSelections:z.record(PortTargetSchema,PortSelectionSchema).default({}),
-  observationCorrections: z.record(z.string(),z.object({value:z.union([z.string(),z.number().finite(),z.boolean(),z.array(z.string())]),source:SourceReferenceSchema.extend({doc:z.string().min(1),page:z.number().int().positive(),snippet:z.string().min(1)}),note:z.string().trim().min(3).max(1000)}).strict()).default({}),
+  observationCorrections: z.record(z.string(),z.object({value:z.union([z.null(),z.string(),z.number().finite(),z.boolean(),z.array(z.string())]),source:SourceReferenceSchema.extend({doc:z.string().min(1),page:z.number().int().positive(),snippet:z.string().min(1)}),note:z.string().trim().min(3).max(1000)}).strict()).default({}),
   lineDecisions: z.record(EntityIdSchema,LineDiscrepancyChoiceSchema).default({}),
   invoiceDecisions: z.record(EntityIdSchema,z.object({
     countryOfExport: countryCode.optional(),

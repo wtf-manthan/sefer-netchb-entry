@@ -8,7 +8,7 @@ import {fixture} from './fixtures';
 const files=[{name:'independent.pdf',buffer:Buffer.from('%PDF synthetic')}];
 const fakeKey='synthetic-not-a-key';
 function response(shipment=fixture().shipment,finishReason='STOP'){
- return {candidates:[{finishReason,content:{parts:[{text:JSON.stringify(shipment)}]}}],usageMetadata:{promptTokenCount:100,candidatesTokenCount:200,thoughtsTokenCount:50,totalTokenCount:350}};
+ return {candidates:[{finishReason,content:{parts:[{text:JSON.stringify({...shipment,schemaVersion:'3'})}]}}],usageMetadata:{promptTokenCount:100,candidatesTokenCount:200,thoughtsTokenCount:50,totalTokenCount:350}};
 }
 function setup(body:any=response(),options:Partial<ExtractorOptions>={}){
  const directory=path.resolve('.cache','test-extraction-'+randomUUID());let calls=0;let request:any;

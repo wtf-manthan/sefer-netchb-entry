@@ -32,3 +32,5 @@ export * from './finding-targets';
 
 
 export * from './reference/statistical-units';
+
+export * from './suggestions';

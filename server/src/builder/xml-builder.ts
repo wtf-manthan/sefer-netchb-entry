@@ -8,11 +8,11 @@ function tag(name:string,value:string|number|null|undefined):string {
   return value==null?'':'<'+name+'>'+escapeXml(value)+'</'+name+'>';
 }
 // Only accepts the resolved model. No defaults, lookup calls, or decision logic here.
-export function serializeResolvedEntry(e:ResolvedEntry):string|null {
+export function serializeResolvedEntry(e:ResolvedEntry,incomplete=false):string|null {
   const f=e.filing;
-  if(!f.processingPortCode||!f.entryPortCode||!f.entryDate||!f.entryType||
+  if(!incomplete&&(!f.processingPortCode||!f.entryPortCode||!f.entryDate||!f.entryType||
     e.invoices.some(i=>!i.invoiceNo||i.lines.some(l=>!l.origin||!l.hts||l.valueCents===null))||
-    e.bills.some(b=>b.packages===null||b.unit===null))return null;
+    e.bills.some(b=>b.packages===null||b.unit===null)))return null;
   const first=e.bills[0];
   const header=[
     tag('processing-port',f.processingPortCode),tag('entry-port',f.entryPortCode),tag('entry-date',f.entryDate),
@@ -26,7 +26,7 @@ export function serializeResolvedEntry(e:ResolvedEntry):string|null {
   const containers=e.containers.length?'<containers>'+e.containers.map(c=>'<container>'+tag('container-number',c.number)+tag('seal-numbers',c.seal)+'</container>').join('')+'</containers>':'';
   const invoices=e.invoices.map(i=>'<invoice>'+tag('invoice-no',i.invoiceNo)+'<line-items>'+i.lines.map(l=>{
     const quantities=l.reporting.map((q,n)=>tag('quantity'+(n+1),q.quantity)+tag('unit-of-measure'+(n+1),q.unit)).join('');
-    return '<line-item>'+tag('country-origin',l.origin)+tag('manufacturer-id',l.mid)+tag('country-export',i.countryExport)+tag('export-date',i.exportDate)+tag('lading-port',f.foreignPortCode)+tag('related-party',f.relatedParty===undefined?null:f.relatedParty?'Y':'N')+tag('invoice-quantity',l.quantity)+'<tariffs><tariff>'+tag('tariff-no',l.hts)+tag('value',(l.valueCents!/100).toFixed(2))+quantities+'</tariff></tariffs></line-item>';
+    return '<line-item>'+tag('country-origin',l.origin)+tag('manufacturer-id',l.mid)+tag('country-export',i.countryExport)+tag('export-date',i.exportDate)+tag('lading-port',f.foreignPortCode)+tag('related-party',f.relatedParty===undefined?null:f.relatedParty?'Y':'N')+tag('invoice-quantity',l.quantity)+'<tariffs><tariff>'+tag('tariff-no',l.hts)+tag('value',l.valueCents===null?null:(l.valueCents/100).toFixed(2))+quantities+'</tariff></tariffs></line-item>';
   }).join('')+'</line-items></invoice>').join('');
   return '<?xml version="1.0" encoding="UTF-8"?>\n<entry xmlns="http://www.netchb.com/xml/entry"><entry-no><system-generated/></entry-no><header>'+header+'</header><manifest>'+manifest+'</manifest>'+containers+'<invoices>'+invoices+'</invoices></entry>';
 }

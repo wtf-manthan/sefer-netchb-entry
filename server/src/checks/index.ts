@@ -1,3 +1,4 @@
+import {filingSuggestions,decisionValue} from '@sefer/shared';
 import { createHash } from 'crypto';
 import { RawExtractedShipment, BrokerDecisions, BrokerDecisionsSchema, RawExtractedShipmentSchema, StructuredFinding, normalizeUom, normalizeCountryCode, applyObservationCorrections } from '@sefer/shared';
 import { validateContainerNumber } from './iso6346';
@@ -39,7 +40,14 @@ export function resolveShipment(input:RawExtractedShipment, choices:BrokerDecisi
   const containerIds=new Set(shipment.bills.flatMap(b=>b.containers.map(c=>c.id)));
   for(const [map,ids] of [[decisions.lineDecisions,lineIds],[decisions.invoiceDecisions,invoiceIds],[decisions.containerOverrides,containerIds]] as const)
     for(const id of Object.keys(map))if(!ids.has(id))throw new Error('Decision references unknown entity: '+id);
+  for(const [target,selection] of Object.entries(decisions.suggestionSelections)){
+    // A different directly entered value is an explicit manual override.
+    if(decisionValue(decisions,target)!==selection.value)continue;
+    const match=filingSuggestions(shipment).find(s=>s.id===selection.id&&s.target===target&&s.value===selection.value&&s.fingerprint===selection.fingerprint);
+    if(!match){let parent:any=decisions;const keys=target.split('.');for(const key of keys.slice(0,-1))parent=parent?.[key];if(parent)delete parent[keys.at(-1)!];decisions.customsFiling.referenceDataConfirmed=false;add('STALE_SUGGESTION',target,'This accepted suggestion no longer matches its evidence. Verify a current suggestion or enter a reviewed value.');}
+  }
   const filing=decisions.customsFiling;
+  if(filing.ultimateConsignee&&(!filing.ultimateConsignee.name||!filing.ultimateConsignee.taxId))add('MISSING_FILING','ultimateConsignee','Provide the reviewed consignee name and tax ID.');
   for(const key of ['importerEin','bondType','suretyCode','entryDate','entryType','processingPortCode','entryPortCode','unladingPortCode','foreignPortCode','ultimateConsignee'] as const)
     if(filing[key]===undefined&&!findings.some(f=>f.code==='STALE_PORT_SELECTION'&&f.entityId===key))add('MISSING_FILING',key,'Provide '+key+'.');
   if(filing.relatedParty===undefined)add('RELATED_PARTY','shipment','Confirm related-party status.');
@@ -130,8 +138,10 @@ export function resolveShipment(input:RawExtractedShipment, choices:BrokerDecisi
         (normalizeCountryCode(line.countryOfOrigin.value)??line.countryOfOrigin.value.trim().toUpperCase())!==
         (normalizeCountryCode(invoice.countryOfOrigin.value)??invoice.countryOfOrigin.value.trim().toUpperCase()))
         add('ORIGIN_CONFLICT',line.id,'Confirm this line origin differs from the invoice header.','NEEDS_DECISION',d.countryOfOrigin!==undefined,[line.countryOfOrigin.value,invoice.countryOfOrigin.value],refs);
-      const mid=d.manufacturerId??line.manufacturerId.value;
-      if(!mid)add('MISSING_MID',line.id,'Provide the reviewed manufacturer identifier.','BLOCKER',false,[],refs);
+      const observedMid=line.manufacturerId.value;
+      // A numeric local tax/registration number is not sufficient evidence of a customs MID.
+      const mid=d.manufacturerId??(observedMid&&/^\d+$/.test(observedMid)?null:observedMid);
+      if(!mid)add('MISSING_MID',line.id,'Provide the reviewed customs manufacturer identifier; a local tax or registration number is insufficient.','BLOCKER',false,[],refs);
       const hts=d.htsCode??line.hsCode.value?.replace(/[.\s]/g,'')??null;
       if(!hts||!/^\d{10}$/.test(hts))add('MISSING_HTS',line.id,'Select and confirm a complete ten-digit classification.','BLOCKER',false,[String(hts)],refs);
       if(!d.reportingQuantities)add('REPORTING_QUANTITIES',line.id,'Provide the statistical quantities and units required by the selected classification.','BLOCKER',false,[],refs);

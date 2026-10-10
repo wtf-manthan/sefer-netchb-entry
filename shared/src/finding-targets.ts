@@ -1,6 +1,7 @@
 import {StructuredFinding} from './types/findings';
 /** One display location per finding. Unmapped checks stay in the general checklist. */
 export function findingTarget(f:StructuredFinding):string|undefined {
+  if(f.code==='STALE_SUGGESTION')return f.entityId;
   if(f.code==='EVIDENCE_REVIEW')return f.entityId?.replace(/^shipment\./,'');
   if(f.code==='MISSING_FILING'||f.code==='STALE_PORT_SELECTION')return 'customsFiling.'+f.entityId;
   const filing:Record<string,string>={UNSUPPORTED_MODE:'modeOfTransport',UNSUPPORTED_ENTRY:'entryType',RELATED_PARTY:'relatedParty',REFERENCE_REVIEW:'referenceDataConfirmed'};

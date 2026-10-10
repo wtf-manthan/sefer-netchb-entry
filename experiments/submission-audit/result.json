@@ -1,0 +1,361 @@
+{
+  "cacheFile": ".cache/extractions/live-v2/a0b58e06713a3a17dbc7f51299bf0c29ebc10c7c11029a0d3ca916dee0ef2bd1.json",
+  "identity": {
+    "provider": "gemini",
+    "model": "gemini-3.8-flash",
+    "effort": "medium",
+    "promptVersion": "gemini-v2-bc30a666cf4e40afcdead4c02bf3a69a74997f10d13eb84121dc5ca64e87a188"
+  },
+  "sampleHashesVerified": true,
+  "liveInferenceCalls": 0,
+  "xmlGenerated": false,
+  "schemaValid": false,
+  "readyToTransmit": false,
+  "blockers": 57,
+  "findings": [
+    {
+      "code": "EVIDENCE_REVIEW",
+      "entity": "shipment.invoices.0.invoiceDate",
+      "status": "open",
+      "message": "Review invoices.0.invoiceDate against its source."
+    },
+    {
+      "code": "EVIDENCE_REVIEW",
+      "entity": "shipment.invoices.0.lines.0.countryOfOrigin",
+      "status": "open",
+      "message": "Review invoices.0.lines.0.countryOfOrigin against its source."
+    },
+    {
+      "code": "EVIDENCE_REVIEW",
+      "entity": "shipment.invoices.0.lines.0.foc",
+      "status": "open",
+      "message": "Review invoices.0.lines.0.foc against its source."
+    },
+    {
+      "code": "EVIDENCE_REVIEW",
+      "entity": "shipment.invoices.0.lines.1.countryOfOrigin",
+      "status": "open",
+      "message": "Review invoices.0.lines.1.countryOfOrigin against its source."
+    },
+    {
+      "code": "EVIDENCE_REVIEW",
+      "entity": "shipment.invoices.0.lines.1.foc",
+      "status": "open",
+      "message": "Review invoices.0.lines.1.foc against its source."
+    },
+    {
+      "code": "EVIDENCE_REVIEW",
+      "entity": "shipment.invoices.0.lines.2.countryOfOrigin",
+      "status": "open",
+      "message": "Review invoices.0.lines.2.countryOfOrigin against its source."
+    },
+    {
+      "code": "EVIDENCE_REVIEW",
+      "entity": "shipment.invoices.0.lines.2.foc",
+      "status": "open",
+      "message": "Review invoices.0.lines.2.foc against its source."
+    },
+    {
+      "code": "EVIDENCE_REVIEW",
+      "entity": "shipment.invoices.0.lines.3.countryOfOrigin",
+      "status": "open",
+      "message": "Review invoices.0.lines.3.countryOfOrigin against its source."
+    },
+    {
+      "code": "EVIDENCE_REVIEW",
+      "entity": "shipment.invoices.0.lines.3.foc",
+      "status": "open",
+      "message": "Review invoices.0.lines.3.foc against its source."
+    },
+    {
+      "code": "EVIDENCE_REVIEW",
+      "entity": "shipment.modeOfTransport",
+      "status": "open",
+      "message": "Review modeOfTransport against its source."
+    },
+    {
+      "code": "MISSING_FILING",
+      "entity": "importerEin",
+      "status": "open",
+      "message": "Provide importerEin."
+    },
+    {
+      "code": "MISSING_FILING",
+      "entity": "bondType",
+      "status": "open",
+      "message": "Provide bondType."
+    },
+    {
+      "code": "MISSING_FILING",
+      "entity": "suretyCode",
+      "status": "open",
+      "message": "Provide suretyCode."
+    },
+    {
+      "code": "MISSING_FILING",
+      "entity": "entryDate",
+      "status": "open",
+      "message": "Provide entryDate."
+    },
+    {
+      "code": "MISSING_FILING",
+      "entity": "entryType",
+      "status": "open",
+      "message": "Provide entryType."
+    },
+    {
+      "code": "MISSING_FILING",
+      "entity": "processingPortCode",
+      "status": "open",
+      "message": "Provide processingPortCode."
+    },
+    {
+      "code": "MISSING_FILING",
+      "entity": "entryPortCode",
+      "status": "open",
+      "message": "Provide entryPortCode."
+    },
+    {
+      "code": "MISSING_FILING",
+      "entity": "unladingPortCode",
+      "status": "open",
+      "message": "Provide unladingPortCode."
+    },
+    {
+      "code": "MISSING_FILING",
+      "entity": "foreignPortCode",
+      "status": "open",
+      "message": "Provide foreignPortCode."
+    },
+    {
+      "code": "MISSING_FILING",
+      "entity": "ultimateConsignee",
+      "status": "open",
+      "message": "Provide ultimateConsignee."
+    },
+    {
+      "code": "RELATED_PARTY",
+      "entity": "shipment",
+      "status": "open",
+      "message": "Confirm related-party status."
+    },
+    {
+      "code": "REFERENCE_REVIEW",
+      "entity": "shipment",
+      "status": "open",
+      "message": "Broker must confirm selected classifications, reporting units, ports and manufacturer identifiers against authoritative references."
+    },
+    {
+      "code": "UNSUPPORTED_MODE",
+      "entity": "shipment",
+      "status": "open",
+      "message": "Only ocean modes 10 and 11 are implemented; select or review transport mode."
+    },
+    {
+      "code": "VALUATION_BASIS",
+      "entity": "inv-1",
+      "status": "open",
+      "message": "Confirm whether line amounts already include freight and insurance."
+    },
+    {
+      "code": "INVOICE_NORMALIZATION",
+      "entity": "inv-1",
+      "status": "open",
+      "message": "Review the normalized invoice number."
+    },
+    {
+      "code": "AMBIGUOUS_DATE",
+      "entity": "inv-1",
+      "status": "open",
+      "message": "Confirm the document date interpretation; no date convention is assumed."
+    },
+    {
+      "code": "ASSIST_ALLOCATION_REQUIRED",
+      "entity": "inv-1",
+      "status": "open",
+      "message": "Assign a reviewed assist amount to the affected line(s); no amount or allocation is assumed."
+    },
+    {
+      "code": "ASSIST_ALLOCATION",
+      "entity": "inv-1",
+      "status": "open",
+      "message": "Review invoice-level assist evidence and confirm allocation to affected lines."
+    },
+    {
+      "code": "VALUE_CHOICE",
+      "entity": "inv-1-line-1",
+      "status": "open",
+      "message": "Choose the printed value or value computed from the selected quantity."
+    },
+    {
+      "code": "MISSING_MID",
+      "entity": "inv-1-line-1",
+      "status": "open",
+      "message": "Provide the reviewed manufacturer identifier."
+    },
+    {
+      "code": "MISSING_HTS",
+      "entity": "inv-1-line-1",
+      "status": "open",
+      "message": "Select and confirm a complete ten-digit classification."
+    },
+    {
+      "code": "REPORTING_QUANTITIES",
+      "entity": "inv-1-line-1",
+      "status": "open",
+      "message": "Provide the statistical quantities and units required by the selected classification."
+    },
+    {
+      "code": "MATERIAL_REVIEW",
+      "entity": "inv-1-line-1-pl-1-row-1",
+      "status": "open",
+      "message": "Invoice material and packing description use different text. Compare composition; wording differences alone do not prove a conflict."
+    },
+    {
+      "code": "QUANTITY_CONFLICT",
+      "entity": "inv-1-line-2",
+      "status": "open",
+      "message": "Choose packed, invoiced, or a documented custom quantity."
+    },
+    {
+      "code": "MISSING_MID",
+      "entity": "inv-1-line-2",
+      "status": "open",
+      "message": "Provide the reviewed manufacturer identifier."
+    },
+    {
+      "code": "MISSING_HTS",
+      "entity": "inv-1-line-2",
+      "status": "open",
+      "message": "Select and confirm a complete ten-digit classification."
+    },
+    {
+      "code": "REPORTING_QUANTITIES",
+      "entity": "inv-1-line-2",
+      "status": "open",
+      "message": "Provide the statistical quantities and units required by the selected classification."
+    },
+    {
+      "code": "MATERIAL_REVIEW",
+      "entity": "inv-1-line-2-pl-1-row-2",
+      "status": "open",
+      "message": "Invoice material and packing description use different text. Compare composition; wording differences alone do not prove a conflict."
+    },
+    {
+      "code": "MISSING_MID",
+      "entity": "inv-1-line-3",
+      "status": "open",
+      "message": "Provide the reviewed manufacturer identifier."
+    },
+    {
+      "code": "MISSING_HTS",
+      "entity": "inv-1-line-3",
+      "status": "open",
+      "message": "Select and confirm a complete ten-digit classification."
+    },
+    {
+      "code": "REPORTING_QUANTITIES",
+      "entity": "inv-1-line-3",
+      "status": "open",
+      "message": "Provide the statistical quantities and units required by the selected classification."
+    },
+    {
+      "code": "MATERIAL_REVIEW",
+      "entity": "inv-1-line-3-pl-1-row-3",
+      "status": "open",
+      "message": "Invoice material and packing description use different text. Compare composition; wording differences alone do not prove a conflict."
+    },
+    {
+      "code": "ASSIST_VALUE",
+      "entity": "inv-1-line-4",
+      "status": "open",
+      "message": "Confirm the assist amount, including zero only with a documented basis."
+    },
+    {
+      "code": "MISSING_MID",
+      "entity": "inv-1-line-4",
+      "status": "open",
+      "message": "Provide the reviewed manufacturer identifier."
+    },
+    {
+      "code": "MISSING_HTS",
+      "entity": "inv-1-line-4",
+      "status": "open",
+      "message": "Select and confirm a complete ten-digit classification."
+    },
+    {
+      "code": "REPORTING_QUANTITIES",
+      "entity": "inv-1-line-4",
+      "status": "open",
+      "message": "Provide the statistical quantities and units required by the selected classification."
+    },
+    {
+      "code": "MATERIAL_REVIEW",
+      "entity": "inv-1-line-4-pl-1-row-4",
+      "status": "open",
+      "message": "Invoice material and packing description use different text. Compare composition; wording differences alone do not prove a conflict."
+    },
+    {
+      "code": "SAMPLE_VALUE",
+      "entity": "inv-1-line-5",
+      "status": "open",
+      "message": "Confirm the customs value of this free/sample line; no nominal value is assumed."
+    },
+    {
+      "code": "ORIGIN_CONFLICT",
+      "entity": "inv-1-line-5",
+      "status": "open",
+      "message": "Confirm this line origin differs from the invoice header."
+    },
+    {
+      "code": "MISSING_MID",
+      "entity": "inv-1-line-5",
+      "status": "open",
+      "message": "Provide the reviewed manufacturer identifier."
+    },
+    {
+      "code": "MISSING_HTS",
+      "entity": "inv-1-line-5",
+      "status": "open",
+      "message": "Select and confirm a complete ten-digit classification."
+    },
+    {
+      "code": "REPORTING_QUANTITIES",
+      "entity": "inv-1-line-5",
+      "status": "open",
+      "message": "Provide the statistical quantities and units required by the selected classification."
+    },
+    {
+      "code": "MATERIAL_REVIEW",
+      "entity": "inv-1-line-5-pl-1-row-5",
+      "status": "open",
+      "message": "Invoice material and packing description use different text. Compare composition; wording differences alone do not prove a conflict."
+    },
+    {
+      "code": "MISSING_EXPORT_COUNTRY",
+      "entity": "inv-1",
+      "status": "open",
+      "message": "Provide a recognized country of export separately from origin."
+    },
+    {
+      "code": "CONTAINER_CORRECTION",
+      "entity": "bill-1-cntr-1",
+      "status": "open",
+      "message": "Verify the corrected container against the document."
+    },
+    {
+      "code": "WEIGHT_CONFLICT",
+      "entity": "shipment",
+      "status": "open",
+      "message": "Verify the manifest versus packing gross weight."
+    },
+    {
+      "code": "XML_VALIDATION",
+      "status": "open",
+      "message": "Resolve XML generation/schema errors."
+    }
+  ],
+  "schemaErrors": [
+    "XML cannot be generated until required fields and values are resolved."
+  ]
+}

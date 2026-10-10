@@ -1,0 +1,893 @@
+{
+  "artifact": "Incomplete sample draft; do not transmit",
+  "sampleHashesVerified": true,
+  "schemaValid": false,
+  "readyToTransmit": false,
+  "blockersCount": 58,
+  "schemaErrors": [
+    "Schemas validity error : Element '{http://www.netchb.com/xml/entry}header': Missing child element(s). Expected is one of ( {http://www.netchb.com/xml/entry}importer-tax-id, {http://www.netchb.com/xml/entry}importer-name, {http://www.netchb.com/xml/entry}ultimate-consignee, {http://www.netchb.com/xml/entry}processing-port, {http://www.netchb.com/xml/entry}entry-port, {http://www.netchb.com/xml/entry}entry-date, {http://www.netchb.com/xml/entry}entry-type, {http://www.netchb.com/xml/entry}bond-type, {http://www.netchb.com/xml/entry}payment-type, {http://www.netchb.com/xml/entry}statement-date ).",
+    "Schemas validity error : Element '{http://www.netchb.com/xml/entry}unit': [facet 'maxLength'] The value has a length of '7'; this exceeds the allowed maximum length of '5'.",
+    "Schemas validity error : Element '{http://www.netchb.com/xml/entry}tariff': Missing child element(s). Expected is one of ( {http://www.netchb.com/xml/entry}value, {http://www.netchb.com/xml/entry}duty, {http://www.netchb.com/xml/entry}quantity1, {http://www.netchb.com/xml/entry}unit-of-measure1, {http://www.netchb.com/xml/entry}quantity2, {http://www.netchb.com/xml/entry}unit-of-measure2, {http://www.netchb.com/xml/entry}quantity3, {http://www.netchb.com/xml/entry}unit-of-measure3, {http://www.netchb.com/xml/entry}special-program, {http://www.netchb.com/xml/entry}secondary-special-program )."
+  ],
+  "findings": [
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.invoiceDate:24574abe02cc",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.invoiceDate against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "\"2026-09-12\"",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"Invoice Date: 12/09/2026\"}"
+      ],
+      "entityId": "shipment.invoices.0.invoiceDate"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.countryOfExport:d7aab7600bae",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.countryOfExport against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "\"Vietnam\"",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"Port of Loading: CAT LAI, HO CHI MINH CITY, VN\"}"
+      ],
+      "entityId": "shipment.invoices.0.countryOfExport"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lineChargesIncluded:02adf30d02d3",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lineChargesIncluded against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "false",
+        "{\"doc\":\"doc-1\",\"page\":2,\"snippet\":\"TOTAL FOB VALUE (Items 1 - 4): 23,235.00\\nOcean Freight (Cat Lai - Tacoma): 3,850.00\\nMarine Insurance Premium: 185.00\\nTOTAL CIF TACOMA, WA (USD): 27,270.00\"}"
+      ],
+      "entityId": "shipment.invoices.0.lineChargesIncluded"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.0.customsValue:c10418143f1a",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.0.customsValue against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "6480",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"6,480.00\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.0.customsValue"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.0.countryOfOrigin:989f499eea57",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.0.countryOfOrigin against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "\"VIETNAM\"",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"Country of Origin: VIETNAM\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.0.countryOfOrigin"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.0.foc:c976f309300b",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.0.foc against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "false",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"6,480.00\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.0.foc"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.1.customsValue:27e950951b2d",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.1.customsValue against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "8880",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"8,880.00\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.1.customsValue"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.1.countryOfOrigin:989f499eea57",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.1.countryOfOrigin against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "\"VIETNAM\"",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"Country of Origin: VIETNAM\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.1.countryOfOrigin"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.1.foc:5b9297efe56c",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.1.foc against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "false",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"8,880.00\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.1.foc"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.2.customsValue:7db99a3e1bde",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.2.customsValue against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "6255",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"6,255.00\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.2.customsValue"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.2.countryOfOrigin:989f499eea57",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.2.countryOfOrigin against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "\"VIETNAM\"",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"Country of Origin: VIETNAM\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.2.countryOfOrigin"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.2.foc:fc444a36d9ed",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.2.foc against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "false",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"6,255.00\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.2.foc"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.3.customsValue:d0badc7c2d32",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.3.customsValue against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "5440",
+        "{\"doc\":\"doc-1\",\"page\":2,\"snippet\":\"(*) Style W-B220: Price is CMT (cut, make & trim) only. Main fabric (100% polyester crepe de chine, 1,450 m) supplied free of charge by buyer under buyer's fabric P.O. NB-26-0918F, value USD 4,180.00, not included in this invoice.\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.3.customsValue"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.3.countryOfOrigin:989f499eea57",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.3.countryOfOrigin against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "\"VIETNAM\"",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"Country of Origin: VIETNAM\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.3.countryOfOrigin"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.3.foc:dbb64360d7ae",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.3.foc against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "false",
+        "{\"doc\":\"doc-1\",\"page\":2,\"snippet\":\"1,260.00\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.3.foc"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.invoices.0.lines.4.customsValue:fb8c699080a8",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review invoices.0.lines.4.customsValue against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "24",
+        "{\"doc\":\"doc-1\",\"page\":2,\"snippet\":\"Value for customs purpose only USD 1.00/pc\"}"
+      ],
+      "entityId": "shipment.invoices.0.lines.4.customsValue"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.bills.0.loadingPort.city:76514ccb1f62",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review bills.0.loadingPort.city against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "\"HO CHI MINH CITY\"",
+        "{\"doc\":\"doc-1\",\"page\":1,\"snippet\":\"Port of Loading: CAT LAI, HO CHI MINH CITY, VN\"}"
+      ],
+      "entityId": "shipment.bills.0.loadingPort.city"
+    },
+    {
+      "id": "EVIDENCE_REVIEW:shipment.modeOfTransport:e215918672e7",
+      "code": "EVIDENCE_REVIEW",
+      "severity": "VERIFY",
+      "message": "Review modeOfTransport against its source.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "\"Ocean\"",
+        "{\"doc\":\"doc-3\",\"page\":1,\"snippet\":\"Ocean Vessel / Voy. No.\\nPACIFIC ARGOS 041E\"}"
+      ],
+      "entityId": "shipment.modeOfTransport"
+    },
+    {
+      "id": "MISSING_FILING:importerEin:4f53cda18c2b",
+      "code": "MISSING_FILING",
+      "severity": "BLOCKER",
+      "message": "Provide importerEin.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "importerEin"
+    },
+    {
+      "id": "MISSING_FILING:bondType:4f53cda18c2b",
+      "code": "MISSING_FILING",
+      "severity": "BLOCKER",
+      "message": "Provide bondType.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "bondType"
+    },
+    {
+      "id": "MISSING_FILING:suretyCode:4f53cda18c2b",
+      "code": "MISSING_FILING",
+      "severity": "BLOCKER",
+      "message": "Provide suretyCode.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "suretyCode"
+    },
+    {
+      "id": "MISSING_FILING:entryDate:4f53cda18c2b",
+      "code": "MISSING_FILING",
+      "severity": "BLOCKER",
+      "message": "Provide entryDate.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "entryDate"
+    },
+    {
+      "id": "MISSING_FILING:entryType:4f53cda18c2b",
+      "code": "MISSING_FILING",
+      "severity": "BLOCKER",
+      "message": "Provide entryType.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "entryType"
+    },
+    {
+      "id": "MISSING_FILING:processingPortCode:4f53cda18c2b",
+      "code": "MISSING_FILING",
+      "severity": "BLOCKER",
+      "message": "Provide processingPortCode.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "processingPortCode"
+    },
+    {
+      "id": "MISSING_FILING:entryPortCode:4f53cda18c2b",
+      "code": "MISSING_FILING",
+      "severity": "BLOCKER",
+      "message": "Provide entryPortCode.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "entryPortCode"
+    },
+    {
+      "id": "MISSING_FILING:ultimateConsignee:4f53cda18c2b",
+      "code": "MISSING_FILING",
+      "severity": "BLOCKER",
+      "message": "Provide ultimateConsignee.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "ultimateConsignee"
+    },
+    {
+      "id": "RELATED_PARTY:shipment:4f53cda18c2b",
+      "code": "RELATED_PARTY",
+      "severity": "BLOCKER",
+      "message": "Confirm related-party status.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "shipment"
+    },
+    {
+      "id": "REFERENCE_REVIEW:shipment:4f53cda18c2b",
+      "code": "REFERENCE_REVIEW",
+      "severity": "BLOCKER",
+      "message": "Broker must confirm selected classifications, reporting units, ports and manufacturer identifiers against authoritative references.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "shipment"
+    },
+    {
+      "id": "INVOICE_NORMALIZATION:inv-1:54f37fb97abe",
+      "code": "INVOICE_NORMALIZATION",
+      "severity": "VERIFY",
+      "message": "Review the normalized invoice number.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "KBAS/NB/26-0912",
+        "KBAS-NB-26-0912"
+      ],
+      "entityId": "inv-1",
+      "invoiceId": "inv-1"
+    },
+    {
+      "id": "AMBIGUOUS_DATE:inv-1:be20377a51d5",
+      "code": "AMBIGUOUS_DATE",
+      "severity": "VERIFY",
+      "message": "Confirm the document date interpretation; no date convention is assumed.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "12/09/2026",
+        "2026-09-12"
+      ],
+      "entityId": "inv-1"
+    },
+    {
+      "id": "ASSIST_ALLOCATION:inv-1:7545125563fd",
+      "code": "ASSIST_ALLOCATION",
+      "severity": "VERIFY",
+      "message": "Review invoice-level assist evidence and confirm allocation to affected lines.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "(*) Style W-B220: Price is CMT (cut, make & trim) only. Main fabric (100% polyester crepe de chine, 1,450 m) supplied free of charge by buyer under buyer's fabric P.O. NB-26-0918F, value USD 4,180.00, not included in this invoice. (1) Goods manufactured and shipped by our contracted factory in Binh Duong, Vietnam. Factory packing list attached. (2) Item 5 samples are free of charge, not for resale, value stated for customs purpose only and not included in invoice total. (3) Insurance covered under open policy No. VHI/MC/2026/0331, Institute Cargo Clauses (A).",
+        "[[\"inv-1-line-1\",null],[\"inv-1-line-2\",null],[\"inv-1-line-3\",null],[\"inv-1-line-4\",4180],[\"inv-1-line-5\",null]]"
+      ],
+      "entityId": "inv-1",
+      "invoiceId": "inv-1"
+    },
+    {
+      "id": "VALUE_CHOICE:inv-1-line-1:67798fc52689",
+      "code": "VALUE_CHOICE",
+      "severity": "NEEDS_DECISION",
+      "message": "Choose the printed value or value computed from the selected quantity.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "684000",
+        "648000"
+      ],
+      "entityId": "inv-1-line-1",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-1",
+      "candidates": {
+        "computed": 6840,
+        "printed": 6480
+      }
+    },
+    {
+      "id": "MISSING_MID:inv-1-line-1:4f53cda18c2b",
+      "code": "MISSING_MID",
+      "severity": "BLOCKER",
+      "message": "Provide the reviewed customs manufacturer identifier; a local tax or registration number is insufficient.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "inv-1-line-1",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-1"
+    },
+    {
+      "id": "MISSING_HTS:inv-1-line-1:cac75bc6e464",
+      "code": "MISSING_HTS",
+      "severity": "BLOCKER",
+      "message": "Select and confirm a complete ten-digit classification.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "610910"
+      ],
+      "entityId": "inv-1-line-1",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-1"
+    },
+    {
+      "id": "REPORTING_QUANTITIES:inv-1-line-1:4f53cda18c2b",
+      "code": "REPORTING_QUANTITIES",
+      "severity": "BLOCKER",
+      "message": "Provide the statistical quantities and units required by the selected classification.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "inv-1-line-1",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-1"
+    },
+    {
+      "id": "MATERIAL_REVIEW:inv-1-line-1-pl-1-row-1:beafe68a0871",
+      "code": "MATERIAL_REVIEW",
+      "severity": "VERIFY",
+      "message": "Invoice material and packing description use different text. Compare composition; wording differences alone do not prove a conflict.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "100% Cotton single jersey, 160 GSM, knitted",
+        "MEN'S CREW NECK S/S TEE\n100% COTTON JERSEY 160GSM"
+      ],
+      "entityId": "inv-1-line-1-pl-1-row-1",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-1"
+    },
+    {
+      "id": "QUANTITY_CONFLICT:inv-1-line-2:18907259329b",
+      "code": "QUANTITY_CONFLICT",
+      "severity": "NEEDS_DECISION",
+      "message": "Choose packed, invoiced, or a documented custom quantity.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "1200",
+        "1176"
+      ],
+      "entityId": "inv-1-line-2",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-2",
+      "candidates": {
+        "invoiced": 1200,
+        "packed": 1176
+      }
+    },
+    {
+      "id": "MISSING_MID:inv-1-line-2:4f53cda18c2b",
+      "code": "MISSING_MID",
+      "severity": "BLOCKER",
+      "message": "Provide the reviewed customs manufacturer identifier; a local tax or registration number is insufficient.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "inv-1-line-2",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-2"
+    },
+    {
+      "id": "MISSING_HTS:inv-1-line-2:c2708a57ded5",
+      "code": "MISSING_HTS",
+      "severity": "BLOCKER",
+      "message": "Select and confirm a complete ten-digit classification.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "611020"
+      ],
+      "entityId": "inv-1-line-2",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-2"
+    },
+    {
+      "id": "REPORTING_QUANTITIES:inv-1-line-2:4f53cda18c2b",
+      "code": "REPORTING_QUANTITIES",
+      "severity": "BLOCKER",
+      "message": "Provide the statistical quantities and units required by the selected classification.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "inv-1-line-2",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-2"
+    },
+    {
+      "id": "MATERIAL_REVIEW:inv-1-line-2-pl-1-row-2:54f27b84226f",
+      "code": "MATERIAL_REVIEW",
+      "severity": "VERIFY",
+      "message": "Invoice material and packing description use different text. Compare composition; wording differences alone do not prove a conflict.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "60% Cotton 40% Polyester brushed fleece, 280 GSM, knitted",
+        "LADIES PULLOVER HOODIE\nTC 65/35 FLEECE 280GSM"
+      ],
+      "entityId": "inv-1-line-2-pl-1-row-2",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-2"
+    },
+    {
+      "id": "MISSING_MID:inv-1-line-3:4f53cda18c2b",
+      "code": "MISSING_MID",
+      "severity": "BLOCKER",
+      "message": "Provide the reviewed customs manufacturer identifier; a local tax or registration number is insufficient.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "inv-1-line-3",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-3"
+    },
+    {
+      "id": "MISSING_HTS:inv-1-line-3:df66049d2f4f",
+      "code": "MISSING_HTS",
+      "severity": "BLOCKER",
+      "message": "Select and confirm a complete ten-digit classification.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "620342"
+      ],
+      "entityId": "inv-1-line-3",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-3"
+    },
+    {
+      "id": "REPORTING_QUANTITIES:inv-1-line-3:4f53cda18c2b",
+      "code": "REPORTING_QUANTITIES",
+      "severity": "BLOCKER",
+      "message": "Provide the statistical quantities and units required by the selected classification.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "inv-1-line-3",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-3"
+    },
+    {
+      "id": "MATERIAL_REVIEW:inv-1-line-3-pl-1-row-3:c6718bfcd150",
+      "code": "MATERIAL_REVIEW",
+      "severity": "VERIFY",
+      "message": "Invoice material and packing description use different text. Compare composition; wording differences alone do not prove a conflict.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "98% Cotton 2% Elastane stretch twill, 245 GSM, woven",
+        "MEN'S SLIM CHINO PANT\n98/2 COTTON/SPANDEX TWILL"
+      ],
+      "entityId": "inv-1-line-3-pl-1-row-3",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-3"
+    },
+    {
+      "id": "ASSIST_VALUE:inv-1-line-4:a23f64d3f9bc",
+      "code": "ASSIST_VALUE",
+      "severity": "NEEDS_DECISION",
+      "message": "Confirm the assist amount, including zero only with a documented basis.",
+      "status": "resolved",
+      "blocking": true,
+      "evidence": [
+        "Price is CMT (cut, make & trim) only. Main fabric (100% polyester crepe de chine, 1,450 m) supplied free of charge by buyer under buyer's fabric P.O. NB-26-0918F, value USD 4,180.00, not included in this invoice.",
+        "4180"
+      ],
+      "entityId": "inv-1-line-4",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-4"
+    },
+    {
+      "id": "MISSING_MID:inv-1-line-4:4f53cda18c2b",
+      "code": "MISSING_MID",
+      "severity": "BLOCKER",
+      "message": "Provide the reviewed customs manufacturer identifier; a local tax or registration number is insufficient.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "inv-1-line-4",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-4"
+    },
+    {
+      "id": "MISSING_HTS:inv-1-line-4:f6d8af78972d",
+      "code": "MISSING_HTS",
+      "severity": "BLOCKER",
+      "message": "Select and confirm a complete ten-digit classification.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "620640"
+      ],
+      "entityId": "inv-1-line-4",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-4"
+    },
+    {
+      "id": "REPORTING_QUANTITIES:inv-1-line-4:4f53cda18c2b",
+      "code": "REPORTING_QUANTITIES",
+      "severity": "BLOCKER",
+      "message": "Provide the statistical quantities and units required by the selected classification.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "inv-1-line-4",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-4"
+    },
+    {
+      "id": "MATERIAL_REVIEW:inv-1-line-4-pl-1-row-4:920748557fac",
+      "code": "MATERIAL_REVIEW",
+      "severity": "VERIFY",
+      "message": "Invoice material and packing description use different text. Compare composition; wording differences alone do not prove a conflict.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "100% Polyester crepe de chine, woven",
+        "LADIES L/S V-NECK BLOUSE\n100% POLY CREPE (BUYER FABRIC)"
+      ],
+      "entityId": "inv-1-line-4-pl-1-row-4",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-4"
+    },
+    {
+      "id": "SAMPLE_VALUE:inv-1-line-5:eb7eedd2171a",
+      "code": "SAMPLE_VALUE",
+      "severity": "NEEDS_DECISION",
+      "message": "Confirm the customs value of this free/sample line; no nominal value is assumed.",
+      "status": "resolved",
+      "blocking": true,
+      "evidence": [
+        "24"
+      ],
+      "entityId": "inv-1-line-5",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-5"
+    },
+    {
+      "id": "ORIGIN_CONFLICT:inv-1-line-5:115eb65e58c0",
+      "code": "ORIGIN_CONFLICT",
+      "severity": "NEEDS_DECISION",
+      "message": "Confirm this line origin differs from the invoice header.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "Bangladesh",
+        "VIETNAM"
+      ],
+      "entityId": "inv-1-line-5",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-5"
+    },
+    {
+      "id": "MISSING_MID:inv-1-line-5:4f53cda18c2b",
+      "code": "MISSING_MID",
+      "severity": "BLOCKER",
+      "message": "Provide the reviewed customs manufacturer identifier; a local tax or registration number is insufficient.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "inv-1-line-5",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-5"
+    },
+    {
+      "id": "MISSING_HTS:inv-1-line-5:19d083671cda",
+      "code": "MISSING_HTS",
+      "severity": "BLOCKER",
+      "message": "Select and confirm a complete ten-digit classification.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "610610"
+      ],
+      "entityId": "inv-1-line-5",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-5"
+    },
+    {
+      "id": "REPORTING_QUANTITIES:inv-1-line-5:4f53cda18c2b",
+      "code": "REPORTING_QUANTITIES",
+      "severity": "BLOCKER",
+      "message": "Provide the statistical quantities and units required by the selected classification.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [],
+      "entityId": "inv-1-line-5",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-5"
+    },
+    {
+      "id": "MATERIAL_REVIEW:inv-1-line-5-pl-1-row-5:31d8f7ca4b87",
+      "code": "MATERIAL_REVIEW",
+      "severity": "VERIFY",
+      "message": "Invoice material and packing description use different text. Compare composition; wording differences alone do not prove a conflict.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "100% Cotton pique, knitted",
+        "LADIES POLO - SAMPLES (FOC)\n100% COTTON PIQUE"
+      ],
+      "entityId": "inv-1-line-5-pl-1-row-5",
+      "invoiceId": "inv-1",
+      "lineId": "inv-1-line-5"
+    },
+    {
+      "id": "INVOICE_TOTAL:inv-1:baa26670f5a7",
+      "code": "INVOICE_TOTAL",
+      "severity": "VERIFY",
+      "message": "Printed line totals do not reconcile to the invoice total under the selected valuation basis.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "26910",
+        "27270"
+      ],
+      "entityId": "inv-1"
+    },
+    {
+      "id": "CONTAINER_CORRECTION:bill-1-cntr-1:7020550b5af8",
+      "code": "CONTAINER_CORRECTION",
+      "severity": "VERIFY",
+      "message": "Verify the corrected container against the document.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "OPLU3041728",
+        "OPLU3041722"
+      ],
+      "entityId": "bill-1-cntr-1"
+    },
+    {
+      "id": "WEIGHT_CONFLICT:shipment:3b72f8e99a48",
+      "code": "WEIGHT_CONFLICT",
+      "severity": "VERIFY",
+      "message": "Verify the manifest versus packing gross weight.",
+      "status": "open",
+      "blocking": true,
+      "evidence": [
+        "1888",
+        "1930"
+      ],
+      "entityId": "shipment"
+    },
+    {
+      "id": "XML_VALIDATION",
+      "code": "XML_VALIDATION",
+      "severity": "BLOCKER",
+      "status": "open",
+      "blocking": true,
+      "message": "Resolve XML generation/schema errors.",
+      "evidence": [
+        "XML cannot be generated until required fields and values are resolved."
+      ]
+    }
+  ],
+  "correctionAudit": {
+    "invoices.0.lines.0.manufacturerId": {
+      "value": null,
+      "source": {
+        "doc": "doc-2",
+        "page": 1,
+        "snippet": "MST/Tax Code: 3702148865"
+      },
+      "note": "The cited factory local tax/registration number does not establish a customs MID. Obtain a reviewed MID."
+    },
+    "invoices.0.lines.1.manufacturerId": {
+      "value": null,
+      "source": {
+        "doc": "doc-2",
+        "page": 1,
+        "snippet": "MST/Tax Code: 3702148865"
+      },
+      "note": "The cited factory local tax/registration number does not establish a customs MID. Obtain a reviewed MID."
+    },
+    "invoices.0.lines.2.manufacturerId": {
+      "value": null,
+      "source": {
+        "doc": "doc-2",
+        "page": 1,
+        "snippet": "MST/Tax Code: 3702148865"
+      },
+      "note": "The cited factory local tax/registration number does not establish a customs MID. Obtain a reviewed MID."
+    },
+    "invoices.0.lines.3.manufacturerId": {
+      "value": null,
+      "source": {
+        "doc": "doc-2",
+        "page": 1,
+        "snippet": "MST/Tax Code: 3702148865"
+      },
+      "note": "The cited factory local tax/registration number does not establish a customs MID. Obtain a reviewed MID."
+    },
+    "bills.0.masterBill": {
+      "value": "OPLUSGN260917735",
+      "source": {
+        "doc": "doc-3",
+        "page": 1,
+        "snippet": "MBL: OPLUSGN260917735"
+      },
+      "note": "Compared against the original B/L master-number box; OCR dropped/misread digits."
+    },
+    "bills.0.containers.0.number": {
+      "value": "OPLU3041722",
+      "source": {
+        "doc": "doc-3",
+        "page": 1,
+        "snippet": "OPLU 304172 2"
+      },
+      "note": "Visual reading of handwritten replacement for crossed-out OPLU3041728; check digit agrees. Carrier confirmation remains a review item."
+    },
+    "bills.0.loadingPort.country": {
+      "value": "Vietnam",
+      "source": {
+        "doc": "doc-1",
+        "page": 1,
+        "snippet": "Port of Loading: CAT LAI, HO CHI MINH CITY, VN"
+      },
+      "note": "Use routing evidence for loading country; country-of-origin box alone does not establish loading country."
+    }
+  },
+  "portSelections": {
+    "unladingPortCode": {
+      "request": {
+        "target": "unladingPortCode",
+        "query": "Tacoma"
+      },
+      "candidateCode": "3002",
+      "lookupFingerprint": "0bf4b96d36507e272e55ad90116fa8c17c16ddf242b67e2025eefa42a41be999",
+      "evidenceFingerprint": "9c1ebd01b2cf4e77e4d0b125fb07d02af9b62129c9937e73ba0a32e9412b4bc7"
+    },
+    "foreignPortCode": {
+      "request": {
+        "target": "foreignPortCode",
+        "query": "Ho Chi Minh City"
+      },
+      "candidateCode": "55224",
+      "lookupFingerprint": "0d70a396e897f0691a2b76ea36ad1f266340ce66e47e985833f34a236b5f703c",
+      "evidenceFingerprint": "9c1ebd01b2cf4e77e4d0b125fb07d02af9b62129c9937e73ba0a32e9412b4bc7"
+    }
+  },
+  "suggestionSelections": {
+    "customsFiling.modeOfTransport": {
+      "id": "transport",
+      "fingerprint": "46866c569d8c0981d18db0bb166e3277dae3a4a1d1d22f3c2d87b75dfaef9d1f",
+      "value": "11"
+    },
+    "invoiceDecisions.inv-1.valuationBasis": {
+      "id": "inv-1-charges",
+      "fingerprint": "aad59e9312b1787b25ff6448c24d060bbeccec3025c43675e50382bd6d161a35",
+      "value": "LINE_VALUES_EXCLUDE_CHARGES"
+    },
+    "lineDecisions.inv-1-line-4.assistAmount": {
+      "id": "inv-1-line-4-assist",
+      "fingerprint": "84deb71d036cbd97489f3609b16b31f832c4ed635f125d4a69ea9568eb6e856e",
+      "value": 4180
+    },
+    "lineDecisions.inv-1-line-5.sampleValue": {
+      "id": "inv-1-line-5-sample",
+      "fingerprint": "bf1cfc6e0cbfd80db09dcdda391c6600980d914739ef5ca585db7c66a39a0f6e",
+      "value": 24
+    }
+  }
+}

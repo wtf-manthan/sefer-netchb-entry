@@ -96,8 +96,8 @@ export function createApp(options:{enableDemo?:boolean;maxUploadBytes?:number;ex
     try {
       const result=await generateEntry(s.data,d.data);
       if(kind==='ready'&&!result.readyToTransmit)return res.status(409).json({error:'Resolve open blockers and schema errors before checked XML export.',blockersCount:result.blockersCount});
-      if(kind!=='review'&&!result.xml)return res.status(409).json({error:'Required values are missing; download the review report first.'});
-      return res.json({xml:result.xml,fileName:kind==='ready'?'netchb-entry-checked.xml':'netchb-entry-DRAFT.xml',reviewReport:{schemaValid:result.schemaValid,schemaErrors:result.schemaErrors,readyToTransmit:result.readyToTransmit,readinessScope:result.readinessScope,findings:result.findings,portSelections:d.data.portSelections,corrections:d.data.observationCorrections}});
+      if((kind==='ready'&&!result.xml)||(kind==='draft'&&!result.draftXml))return res.status(409).json({error:'Required values are missing; download the review report first.'});
+      return res.json({xml:kind==='draft'?result.draftXml:result.xml,fileName:kind==='ready'?'netchb-entry-checked.xml':'netchb-entry-DRAFT.xml',reviewReport:{draftSchemaValid:result.draftSchemaValid,draftSchemaErrors:result.draftSchemaErrors,suggestionSelections:d.data.suggestionSelections,schemaValid:result.schemaValid,schemaErrors:result.schemaErrors,readyToTransmit:result.readyToTransmit,readinessScope:result.readinessScope,findings:result.findings,portSelections:d.data.portSelections,corrections:d.data.observationCorrections}});
     } catch(e){if((e as Error).name==='ZodError'||/correction|Decision references/i.test((e as Error).message))return res.status(400).json({error:'Invalid review decisions.'});next(e);}
   });
   app.get('/api/hts/lookup',async(req,res)=>{

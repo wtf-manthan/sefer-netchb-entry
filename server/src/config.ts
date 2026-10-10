@@ -9,7 +9,7 @@ const env=z.object({
   GEMINI_API_KEY:z.string().default(''),
   GEMINI_FREE_TIER_CONFIRMED:z.enum(['true','false']).default('false'),
   EXTRACTION_MAX_PAGES:z.coerce.number().int().min(1).max(50).default(20),
-  EXTRACTION_MAX_TOKENS:z.coerce.number().int().min(1024).max(64000).default(24000),
+  EXTRACTION_MAX_TOKENS:z.coerce.number().int().min(1024).max(64000).default(48000),
   LLM_MODEL:z.string().default(''), LLM_EFFORT:z.enum(['','minimal','low','medium','high']).default(''),
   SPEND_CAP_USD:z.coerce.number().finite().nonnegative().default(0),
   EXTRACTION_CACHE_DIR:z.string().default('.cache/extractions'),

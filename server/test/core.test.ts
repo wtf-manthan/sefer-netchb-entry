@@ -115,7 +115,7 @@ test('cache boundaries, ordering, version isolation, validation and corrupt data
   const hash=cache.calculateHash([Buffer.from('a')]);assert.equal(cache.get(hash,id),null);
   cache.set(hash,id,fixture().shipment,{inputTokens:0,outputTokens:0,costUsd:0,latencyMs:0});
   assert.ok(cache.get(hash,id));assert.equal(cache.get(hash,{...id,effort:'high'}),null);
-  fs.writeFileSync(path.join(dir,'live-v2',fs.readdirSync(path.join(dir,'live-v2'))[0]),'bad json');assert.equal(cache.get(hash,id),null);
+  fs.writeFileSync(path.join(dir,'live-v3',fs.readdirSync(path.join(dir,'live-v3'))[0]),'bad json');assert.equal(cache.get(hash,id),null);
  }finally{assert.ok(path.resolve(dir).startsWith(root+path.sep+'phase1-test-'));fs.rmSync(dir,{recursive:true});}
 });
 test('HTS failure never fabricates codes; absent rates remain null',async()=>{

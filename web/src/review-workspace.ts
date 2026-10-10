@@ -3,7 +3,7 @@ export const REVIEW_SECTIONS=['Shipment','Parties','Invoices','Goods','Transport
 export type ReviewSection=typeof REVIEW_SECTIONS[number];
 export const fieldLabel=(key:string)=>({hsCode:'Document HS code',htsCode:'US HTS classification',foc:'Free of charge',manufacturerId:'Manufacturer ID',importerEin:'Importer tax ID',suretyCode:'Surety code',entryDate:'Entry date',entryType:'Entry type',processingPortCode:'Processing port',entryPortCode:'Entry port',unladingPortCode:'Port of unlading',foreignPortCode:'Foreign port',assistAmount:'Assist value',sampleValue:'Sample customs value',countryOfOrigin:'Country of origin',invoiceNo:'Invoice number',masterScac:'Master carrier SCAC',houseScac:'House carrier SCAC'}[key]??key.replace(/([a-z])([A-Z])/g,'$1 $2').replace(/^./,c=>c.toUpperCase()));
 export function observationSection(path:string):ReviewSection {
- if(/\.(seller|buyer|shipTo)\./.test(path))return 'Parties';
+ if(/\.(seller|buyer|shipTo|consignee)\./.test(path))return 'Parties';
  if(path.startsWith('bills.')||path==='modeOfTransport')return 'Transport';
  if(path.includes('.lines.')||path.startsWith('packingLists.'))return 'Goods';
  if(path.startsWith('invoices.'))return 'Invoices';
@@ -22,7 +22,7 @@ export function findingSection(f:StructuredFinding,shipment?:RawExtractedShipmen
  if(target.startsWith('containerOverrides.'))return 'Transport';
  if(target.startsWith('lineDecisions.'))return 'Goods';
  if(target.startsWith('invoiceDecisions.'))return 'Invoices';
- if(target.startsWith('customsFiling.'))return (target.endsWith('modeOfTransport')||target.endsWith('grossWeightKg'))?'Transport':(target.endsWith('ultimateConsignee')||target.endsWith('relatedParty'))?'Parties':'Shipment';
+ if(target.startsWith('customsFiling.'))return (target.endsWith('modeOfTransport')||target.endsWith('grossWeightKg'))?'Transport':(target.includes('ultimateConsignee')||target.endsWith('relatedParty'))?'Parties':'Shipment';
  return observationSection(target);
 }
 export const uniqueFindings=(findings:StructuredFinding[])=>[...new Map(findings.map(f=>[f.id,f])).values()];

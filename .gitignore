@@ -8,4 +8,11 @@ coverage/
 .cache/
 scratch/
 .DS_Store
-*.log
+*.log# Local tooling, caches and personal continuation notes
+.agents/
+.codex/
+AGENTS.md
+GEMINI.md
+tmp/
+docs/handoff.md
+docs/prefill.md

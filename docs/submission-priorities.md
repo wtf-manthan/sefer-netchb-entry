@@ -1,3 +1,7 @@
+# Current status 2026-10-11
+
+[VERIFIED - schema v3, submission/, docs/approach.md] Structured ports and source-backed suggestions, reviewed corrections, incomplete-draft export, sample artifacts and the one-page writeup are now implemented. Earlier phase plans below are historical. Deferred work remains: wider entry/commodity profiles, full HTS/MID/statistical-unit logic, SPI/state/SCAC expansion, production storage/security and broader real-document evaluation. These improve coverage, classification context and operational reliability.
+
 # Remaining budget: submission scope and task priorities
 
 [INFERRED — user's original table order] Numbering below treats infrastructure as Task 1, Schedule D as Task 2, Schedule K as Task 3, and integration as Task 14. The original external Antigravity checklist is not stored in this repository; use the task NAME if its numbering differs.

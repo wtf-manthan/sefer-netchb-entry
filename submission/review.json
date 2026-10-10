@@ -1,0 +1,1925 @@
+{
+  "reviewVersion": 1,
+  "shipmentData": {
+    "schemaVersion": "3",
+    "documents": [
+      {
+        "id": "doc-1",
+        "name": "KBAS-NB-26-0912_Commercial_Invoice.pdf",
+        "kind": "invoice",
+        "sha256": "8da4ffda2019078ab1502ca9f7899090810081f1321e1bd4139584044028d3a9"
+      },
+      {
+        "id": "doc-2",
+        "name": "SPG-PL-2609-117_Packing_List.pdf",
+        "kind": "packing_list",
+        "sha256": "c2404938fa7f1c8fd349cebd43a12337a069ee41df711d51c3327b0534f0d31c"
+      },
+      {
+        "id": "doc-3",
+        "name": "BMLVHCM26090418_House_BL.pdf",
+        "kind": "bill_of_lading",
+        "sha256": "d075d076bca14ec33c11440772b8580f96180e636bb5920f1c81f5769fbda34b"
+      }
+    ],
+    "invoices": [
+      {
+        "id": "inv-1",
+        "documentId": "doc-1",
+        "invoiceNo": {
+          "value": "KBAS/NB/26-0912",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-1",
+            "page": 1,
+            "snippet": "Invoice No.: KBAS/NB/26-0912"
+          },
+          "confidence": 1
+        },
+        "invoiceDateRaw": {
+          "value": "12/09/2026",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-1",
+            "page": 1,
+            "snippet": "Invoice Date: 12/09/2026"
+          },
+          "confidence": 1
+        },
+        "invoiceDate": {
+          "value": "2026-09-12",
+          "status": "inferred",
+          "source": {
+            "doc": "doc-1",
+            "page": 1,
+            "snippet": "Invoice Date: 12/09/2026"
+          },
+          "confidence": 0.95
+        },
+        "seller": {
+          "name": {
+            "value": "KOWLOON BAY APPAREL SOURCING LIMITED",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-1",
+              "page": 1,
+              "snippet": "KOWLOON BAY APPAREL SOURCING LIMITED"
+            },
+            "confidence": 1
+          },
+          "address": {
+            "value": "Unit 1708, 17/F, Hing Fat Industrial Building, 223 Wai Yip Street, Kwun Tong, Kowloon, Hong Kong",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-1",
+              "page": 1,
+              "snippet": "Unit 1708, 17/F, Hing Fat Industrial Building, 223 Wai Yip Street, Kwun Tong, Kowloon, Hong Kong"
+            },
+            "confidence": 1
+          },
+          "country": {
+            "value": "Hong Kong",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-1",
+              "page": 1,
+              "snippet": "Kwun Tong, Kowloon, Hong Kong"
+            },
+            "confidence": 0.95
+          }
+        },
+        "buyer": {
+          "name": {
+            "value": "NORTHBOUND OUTFITTERS, INC.",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-1",
+              "page": 1,
+              "snippet": "NORTHBOUND OUTFITTERS, INC."
+            },
+            "confidence": 1
+          },
+          "address": {
+            "value": "2150 NW Raleigh Street, Suite 300\nPortland, OR 97210, U.S.A.",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-1",
+              "page": 1,
+              "snippet": "2150 NW Raleigh Street, Suite 300\nPortland, OR 97210, U.S.A."
+            },
+            "confidence": 1
+          },
+          "country": {
+            "value": "U.S.A.",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-1",
+              "page": 1,
+              "snippet": "Portland, OR 97210, U.S.A."
+            },
+            "confidence": 0.95
+          }
+        },
+        "shipTo": {
+          "name": {
+            "value": "CASCADE FULFILLMENT PARTNERS LLC",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-1",
+              "page": 1,
+              "snippet": "CASCADE FULFILLMENT PARTNERS LLC"
+            },
+            "confidence": 1
+          },
+          "address": {
+            "value": "21820 76th Avenue South, Dock 4\nKent, WA 98032, U.S.A.",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-1",
+              "page": 1,
+              "snippet": "21820 76th Avenue South, Dock 4\nKent, WA 98032, U.S.A."
+            },
+            "confidence": 1
+          },
+          "country": {
+            "value": "U.S.A.",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-1",
+              "page": 1,
+              "snippet": "Kent, WA 98032, U.S.A."
+            },
+            "confidence": 0.95
+          }
+        },
+        "currency": {
+          "value": "USD",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-1",
+            "page": 1,
+            "snippet": "Currency: USD"
+          },
+          "confidence": 1
+        },
+        "incoterms": {
+          "value": "CIF TACOMA, WA (INCOTERMS 2020)",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-1",
+            "page": 1,
+            "snippet": "Incoterms: CIF TACOMA, WA (INCOTERMS 2020)"
+          },
+          "confidence": 1
+        },
+        "countryOfOrigin": {
+          "value": "VIETNAM",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-1",
+            "page": 1,
+            "snippet": "Country of Origin: VIETNAM"
+          },
+          "confidence": 1
+        },
+        "countryOfExport": {
+          "value": "Vietnam",
+          "status": "inferred",
+          "source": {
+            "doc": "doc-1",
+            "page": 1,
+            "snippet": "Port of Loading: CAT LAI, HO CHI MINH CITY, VN"
+          },
+          "confidence": 0.95
+        },
+        "exportDate": {
+          "value": "2026-09-24",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "SHIPPED ON BOARD\nDATE: 24 SEP 2026"
+          },
+          "confidence": 0.95
+        },
+        "totalAmount": {
+          "value": 27270,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-1",
+            "page": 2,
+            "snippet": "TOTAL CIF TACOMA, WA (USD): 27,270.00"
+          },
+          "confidence": 1
+        },
+        "freight": {
+          "value": 3850,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-1",
+            "page": 2,
+            "snippet": "Ocean Freight (Cat Lai - Tacoma): 3,850.00"
+          },
+          "confidence": 1
+        },
+        "insurance": {
+          "value": 185,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-1",
+            "page": 2,
+            "snippet": "Marine Insurance Premium: 185.00"
+          },
+          "confidence": 1
+        },
+        "lineChargesIncluded": {
+          "value": false,
+          "status": "inferred",
+          "source": {
+            "doc": "doc-1",
+            "page": 2,
+            "snippet": "TOTAL FOB VALUE (Items 1 - 4): 23,235.00\nOcean Freight (Cat Lai - Tacoma): 3,850.00\nMarine Insurance Premium: 185.00\nTOTAL CIF TACOMA, WA (USD): 27,270.00"
+          },
+          "confidence": 0.95
+        },
+        "remarks": {
+          "value": [
+            "(*) Style W-B220: Price is CMT (cut, make & trim) only. Main fabric (100% polyester crepe de chine, 1,450 m) supplied free of charge by buyer under buyer's fabric P.O. NB-26-0918F, value USD 4,180.00, not included in this invoice.",
+            "(1) Goods manufactured and shipped by our contracted factory in Binh Duong, Vietnam. Factory packing list attached.",
+            "(2) Item 5 samples are free of charge, not for resale, value stated for customs purpose only and not included in invoice total.",
+            "(3) Insurance covered under open policy No. VHI/MC/2026/0331, Institute Cargo Clauses (A)."
+          ],
+          "status": "extracted",
+          "source": {
+            "doc": "doc-1",
+            "page": 2,
+            "snippet": "NOTES:\n(*) Style W-B220: Price is CMT (cut, make & trim) only. Main fabric (100% polyester crepe de chine, 1,450 m) supplied free of charge by buyer under buyer's fabric P.O. NB-26-0918F, value USD 4,180.00, not included in this invoice.\n(1) Goods manufactured and shipped by our contracted factory in Binh Duong, Vietnam. Factory packing list attached.\n(2) Item 5 samples are free of charge, not for resale, value stated for customs purpose only and not included in invoice total.\n(3) Insurance covered under open policy No. VHI/MC/2026/0331, Institute Cargo Clauses (A)."
+          },
+          "confidence": 1
+        },
+        "lines": [
+          {
+            "id": "inv-1-line-1",
+            "lineNo": 1,
+            "style": {
+              "value": "NB-T101",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "NB-T101"
+              },
+              "confidence": 1
+            },
+            "description": {
+              "value": "MEN'S CREW NECK SHORT SLEEVE T-SHIRT\n100% Cotton single jersey, 160 GSM, knitted\nColours: Black / White / Heather Navy\nSize ratio S-M-L-XL-XXL : 1-3-3-2-1",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "MEN'S CREW NECK SHORT SLEEVE T-SHIRT\n100% Cotton single jersey, 160 GSM, knitted\nColours: Black / White / Heather Navy\nSize ratio S-M-L-XL-XXL : 1-3-3-2-1"
+              },
+              "confidence": 1
+            },
+            "material": {
+              "value": "100% Cotton single jersey, 160 GSM, knitted",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "100% Cotton single jersey, 160 GSM, knitted"
+              },
+              "confidence": 1
+            },
+            "hsCode": {
+              "value": "6109.10",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "6109.10"
+              },
+              "confidence": 1
+            },
+            "quantity": {
+              "value": 2400,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "2,400"
+              },
+              "confidence": 1
+            },
+            "unit": {
+              "value": "PCS",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "PCS"
+              },
+              "confidence": 1
+            },
+            "unitPrice": {
+              "value": 2.85,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "2.85"
+              },
+              "confidence": 1
+            },
+            "amountAsPrinted": {
+              "value": 6480,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "6,480.00"
+              },
+              "confidence": 1
+            },
+            "customsValue": {
+              "value": 6480,
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "6,480.00"
+              },
+              "confidence": 0.95
+            },
+            "countryOfOrigin": {
+              "value": "VIETNAM",
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "Country of Origin: VIETNAM"
+              },
+              "confidence": 0.95
+            },
+            "manufacturerId": {
+              "value": "3702148865",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "MST/Tax Code: 3702148865"
+              },
+              "confidence": 0.9
+            },
+            "manufacturer": {
+              "name": {
+                "value": "SAIGON PHOENIX GARMENT JOINT STOCK COMPANY",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "SAIGON PHOENIX GARMENT JOINT STOCK COMPANY"
+                },
+                "confidence": 0.95
+              },
+              "address": {
+                "value": "Lot C7-C8, Road No. 9, Song Than 2 Industrial Park, Di An Ward, Di An City, Binh Duong Province, Vietnam",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "Lot C7-C8, Road No. 9, Song Than 2 Industrial Park, Di An Ward, Di An City, Binh Duong Province, Vietnam"
+                },
+                "confidence": 0.95
+              },
+              "country": {
+                "value": "Vietnam",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "Binh Duong Province, Vietnam"
+                },
+                "confidence": 0.95
+              }
+            },
+            "assistAppliesToLine": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "foc": {
+              "value": false,
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "6,480.00"
+              },
+              "confidence": 0.95
+            },
+            "notes": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "assistAmount": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            }
+          },
+          {
+            "id": "inv-1-line-2",
+            "lineNo": 2,
+            "style": {
+              "value": "NB-H205",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "NB-H205"
+              },
+              "confidence": 1
+            },
+            "description": {
+              "value": "WOMEN'S PULLOVER HOODIE W/ KANGAROO POCKET\n60% Cotton 40% Polyester brushed fleece, 280 GSM, knitted\nColours: Oatmeal / Sage\nSize ratio XS-S-M-L-XL : 1-2-3-3-3",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "WOMEN'S PULLOVER HOODIE W/ KANGAROO POCKET\n60% Cotton 40% Polyester brushed fleece, 280 GSM, knitted\nColours: Oatmeal / Sage\nSize ratio XS-S-M-L-XL : 1-2-3-3-3"
+              },
+              "confidence": 1
+            },
+            "material": {
+              "value": "60% Cotton 40% Polyester brushed fleece, 280 GSM, knitted",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "60% Cotton 40% Polyester brushed fleece, 280 GSM, knitted"
+              },
+              "confidence": 1
+            },
+            "hsCode": {
+              "value": "6110.20",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "6110.20"
+              },
+              "confidence": 1
+            },
+            "quantity": {
+              "value": 1200,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "1,200"
+              },
+              "confidence": 1
+            },
+            "unit": {
+              "value": "PCS",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "PCS"
+              },
+              "confidence": 1
+            },
+            "unitPrice": {
+              "value": 7.4,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "7.40"
+              },
+              "confidence": 1
+            },
+            "amountAsPrinted": {
+              "value": 8880,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "8,880.00"
+              },
+              "confidence": 1
+            },
+            "customsValue": {
+              "value": 8880,
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "8,880.00"
+              },
+              "confidence": 0.95
+            },
+            "countryOfOrigin": {
+              "value": "VIETNAM",
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "Country of Origin: VIETNAM"
+              },
+              "confidence": 0.95
+            },
+            "manufacturerId": {
+              "value": "3702148865",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "MST/Tax Code: 3702148865"
+              },
+              "confidence": 0.9
+            },
+            "manufacturer": {
+              "name": {
+                "value": "SAIGON PHOENIX GARMENT JOINT STOCK COMPANY",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "SAIGON PHOENIX GARMENT JOINT STOCK COMPANY"
+                },
+                "confidence": 0.95
+              },
+              "address": {
+                "value": "Lot C7-C8, Road No. 9, Song Than 2 Industrial Park, Di An Ward, Di An City, Binh Duong Province, Vietnam",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "Lot C7-C8, Road No. 9, Song Than 2 Industrial Park, Di An Ward, Di An City, Binh Duong Province, Vietnam"
+                },
+                "confidence": 0.95
+              },
+              "country": {
+                "value": "Vietnam",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "Binh Duong Province, Vietnam"
+                },
+                "confidence": 0.95
+              }
+            },
+            "assistAppliesToLine": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "foc": {
+              "value": false,
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "8,880.00"
+              },
+              "confidence": 0.95
+            },
+            "notes": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "assistAmount": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            }
+          },
+          {
+            "id": "inv-1-line-3",
+            "lineNo": 3,
+            "style": {
+              "value": "NB-C330",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "NB-C330"
+              },
+              "confidence": 1
+            },
+            "description": {
+              "value": "MEN'S SLIM FIT CHINO TROUSERS\n98% Cotton 2% Elastane stretch twill, 245 GSM, woven\nColours: Khaki / Olive / Navy\nWaist 30-32-34-36-38 : 1-2-3-3-1",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "MEN'S SLIM FIT CHINO TROUSERS\n98% Cotton 2% Elastane stretch twill, 245 GSM, woven\nColours: Khaki / Olive / Navy\nWaist 30-32-34-36-38 : 1-2-3-3-1"
+              },
+              "confidence": 1
+            },
+            "material": {
+              "value": "98% Cotton 2% Elastane stretch twill, 245 GSM, woven",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "98% Cotton 2% Elastane stretch twill, 245 GSM, woven"
+              },
+              "confidence": 1
+            },
+            "hsCode": {
+              "value": "6203.42",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "6203.42"
+              },
+              "confidence": 1
+            },
+            "quantity": {
+              "value": 900,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "900"
+              },
+              "confidence": 1
+            },
+            "unit": {
+              "value": "PCS",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "PCS"
+              },
+              "confidence": 1
+            },
+            "unitPrice": {
+              "value": 6.95,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "6.95"
+              },
+              "confidence": 1
+            },
+            "amountAsPrinted": {
+              "value": 6255,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "6,255.00"
+              },
+              "confidence": 1
+            },
+            "customsValue": {
+              "value": 6255,
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "6,255.00"
+              },
+              "confidence": 0.95
+            },
+            "countryOfOrigin": {
+              "value": "VIETNAM",
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "Country of Origin: VIETNAM"
+              },
+              "confidence": 0.95
+            },
+            "manufacturerId": {
+              "value": "3702148865",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "MST/Tax Code: 3702148865"
+              },
+              "confidence": 0.9
+            },
+            "manufacturer": {
+              "name": {
+                "value": "SAIGON PHOENIX GARMENT JOINT STOCK COMPANY",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "SAIGON PHOENIX GARMENT JOINT STOCK COMPANY"
+                },
+                "confidence": 0.95
+              },
+              "address": {
+                "value": "Lot C7-C8, Road No. 9, Song Than 2 Industrial Park, Di An Ward, Di An City, Binh Duong Province, Vietnam",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "Lot C7-C8, Road No. 9, Song Than 2 Industrial Park, Di An Ward, Di An City, Binh Duong Province, Vietnam"
+                },
+                "confidence": 0.95
+              },
+              "country": {
+                "value": "Vietnam",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "Binh Duong Province, Vietnam"
+                },
+                "confidence": 0.95
+              }
+            },
+            "assistAppliesToLine": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "foc": {
+              "value": false,
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "6,255.00"
+              },
+              "confidence": 0.95
+            },
+            "notes": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "assistAmount": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            }
+          },
+          {
+            "id": "inv-1-line-4",
+            "lineNo": 4,
+            "style": {
+              "value": "W-B220",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "W-B220"
+              },
+              "confidence": 1
+            },
+            "description": {
+              "value": "WOMEN'S LONG SLEEVE BLOUSE, V-NECK\n100% Polyester crepe de chine, woven\nColours: Ivory / Black\nSize ratio XS-S-M-L-XL : 1-2-3-3-1\nCMT price, see note (*)",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "WOMEN'S LONG SLEEVE BLOUSE, V-NECK\n100% Polyester crepe de chine, woven\nColours: Ivory / Black\nSize ratio XS-S-M-L-XL : 1-2-3-3-1\nCMT price, see note (*)"
+              },
+              "confidence": 1
+            },
+            "material": {
+              "value": "100% Polyester crepe de chine, woven",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "100% Polyester crepe de chine, woven"
+              },
+              "confidence": 1
+            },
+            "hsCode": {
+              "value": "6206.40",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "6206.40"
+              },
+              "confidence": 1
+            },
+            "quantity": {
+              "value": 600,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "600"
+              },
+              "confidence": 1
+            },
+            "unit": {
+              "value": "PCS",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "PCS"
+              },
+              "confidence": 1
+            },
+            "unitPrice": {
+              "value": 2.1,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "2.10 *"
+              },
+              "confidence": 1
+            },
+            "amountAsPrinted": {
+              "value": 1260,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "1,260.00"
+              },
+              "confidence": 1
+            },
+            "customsValue": {
+              "value": 5440,
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "(*) Style W-B220: Price is CMT (cut, make & trim) only. Main fabric (100% polyester crepe de chine, 1,450 m) supplied free of charge by buyer under buyer's fabric P.O. NB-26-0918F, value USD 4,180.00, not included in this invoice."
+              },
+              "confidence": 0.9
+            },
+            "countryOfOrigin": {
+              "value": "VIETNAM",
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 1,
+                "snippet": "Country of Origin: VIETNAM"
+              },
+              "confidence": 0.95
+            },
+            "manufacturerId": {
+              "value": "3702148865",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "MST/Tax Code: 3702148865"
+              },
+              "confidence": 0.9
+            },
+            "manufacturer": {
+              "name": {
+                "value": "SAIGON PHOENIX GARMENT JOINT STOCK COMPANY",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "SAIGON PHOENIX GARMENT JOINT STOCK COMPANY"
+                },
+                "confidence": 0.95
+              },
+              "address": {
+                "value": "Lot C7-C8, Road No. 9, Song Than 2 Industrial Park, Di An Ward, Di An City, Binh Duong Province, Vietnam",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "Lot C7-C8, Road No. 9, Song Than 2 Industrial Park, Di An Ward, Di An City, Binh Duong Province, Vietnam"
+                },
+                "confidence": 0.95
+              },
+              "country": {
+                "value": "Vietnam",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "Binh Duong Province, Vietnam"
+                },
+                "confidence": 0.95
+              }
+            },
+            "assistAppliesToLine": {
+              "value": true,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "(*) Style W-B220: Price is CMT (cut, make & trim) only. Main fabric (100% polyester crepe de chine, 1,450 m) supplied free of charge by buyer under buyer's fabric P.O. NB-26-0918F, value USD 4,180.00, not included in this invoice."
+              },
+              "confidence": 1
+            },
+            "foc": {
+              "value": false,
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "1,260.00"
+              },
+              "confidence": 0.95
+            },
+            "notes": {
+              "value": "Price is CMT (cut, make & trim) only. Main fabric (100% polyester crepe de chine, 1,450 m) supplied free of charge by buyer under buyer's fabric P.O. NB-26-0918F, value USD 4,180.00, not included in this invoice.",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "(*) Style W-B220: Price is CMT (cut, make & trim) only. Main fabric (100% polyester crepe de chine, 1,450 m) supplied free of charge by buyer under buyer's fabric P.O. NB-26-0918F, value USD 4,180.00, not included in this invoice."
+              },
+              "confidence": 1
+            },
+            "assistAmount": {
+              "value": 4180,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "value USD 4,180.00, not included in this invoice."
+              },
+              "confidence": 1
+            }
+          },
+          {
+            "id": "inv-1-line-5",
+            "lineNo": 5,
+            "style": {
+              "value": "NB-P118S",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "NB-P118S"
+              },
+              "confidence": 1
+            },
+            "description": {
+              "value": "WOMEN'S SHORT SLEEVE POLO SHIRT - SAMPLES\n100% Cotton pique, knitted\nFOC SAMPLES - NO COMMERCIAL VALUE\nValue for customs purpose only USD 1.00/pc\n(Origin: Bangladesh)",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "WOMEN'S SHORT SLEEVE POLO SHIRT - SAMPLES\n100% Cotton pique, knitted\nFOC SAMPLES - NO COMMERCIAL VALUE\nValue for customs purpose only USD 1.00/pc\n(Origin: Bangladesh)"
+              },
+              "confidence": 1
+            },
+            "material": {
+              "value": "100% Cotton pique, knitted",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "100% Cotton pique, knitted"
+              },
+              "confidence": 1
+            },
+            "hsCode": {
+              "value": "6106.10",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "6106.10"
+              },
+              "confidence": 1
+            },
+            "quantity": {
+              "value": 24,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "24"
+              },
+              "confidence": 1
+            },
+            "unit": {
+              "value": "PCS",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "PCS"
+              },
+              "confidence": 1
+            },
+            "unitPrice": {
+              "value": 1,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "Value for customs purpose only USD 1.00/pc"
+              },
+              "confidence": 0.95
+            },
+            "amountAsPrinted": {
+              "value": 24,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "(24.00)"
+              },
+              "confidence": 0.9
+            },
+            "customsValue": {
+              "value": 24,
+              "status": "inferred",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "Value for customs purpose only USD 1.00/pc"
+              },
+              "confidence": 0.95
+            },
+            "countryOfOrigin": {
+              "value": "Bangladesh",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "(Origin: Bangladesh)"
+              },
+              "confidence": 1
+            },
+            "manufacturerId": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "manufacturer": {
+              "name": {
+                "value": "SP Garments Dhaka Ltd.",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "SP Garments Dhaka Ltd."
+                },
+                "confidence": 0.95
+              },
+              "address": {
+                "value": "Plot 41, Gazipur, Bangladesh",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "Plot 41, Gazipur, Bangladesh"
+                },
+                "confidence": 0.95
+              },
+              "country": {
+                "value": "Bangladesh",
+                "status": "extracted",
+                "source": {
+                  "doc": "doc-2",
+                  "page": 1,
+                  "snippet": "Plot 41, Gazipur, Bangladesh"
+                },
+                "confidence": 0.95
+              }
+            },
+            "assistAppliesToLine": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "foc": {
+              "value": true,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "FOC SAMPLES - NO COMMERCIAL VALUE"
+              },
+              "confidence": 1
+            },
+            "notes": {
+              "value": "FOC SAMPLES - NO COMMERCIAL VALUE Value for customs purpose only USD 1.00/pc",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-1",
+                "page": 2,
+                "snippet": "FOC SAMPLES - NO COMMERCIAL VALUE\nValue for customs purpose only USD 1.00/pc"
+              },
+              "confidence": 0.95
+            },
+            "assistAmount": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            }
+          }
+        ]
+      }
+    ],
+    "packingLists": [
+      {
+        "id": "pl-1",
+        "documentId": "doc-2",
+        "rows": [
+          {
+            "id": "pl-1-row-1",
+            "invoiceId": "inv-1",
+            "lineId": "inv-1-line-1",
+            "style": {
+              "value": "NB-T101",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "NB-T101"
+              },
+              "confidence": 1
+            },
+            "description": {
+              "value": "MEN'S CREW NECK S/S TEE\n100% COTTON JERSEY 160GSM",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "MEN'S CREW NECK S/S TEE\n100% COTTON JERSEY 160GSM"
+              },
+              "confidence": 1
+            },
+            "quantity": {
+              "value": 2400,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "2,400"
+              },
+              "confidence": 1
+            },
+            "unit": {
+              "value": "Pcs",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "Total\nPcs"
+              },
+              "confidence": 0.9
+            },
+            "packages": {
+              "value": 48,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "48"
+              },
+              "confidence": 1
+            },
+            "grossWeightKg": {
+              "value": 480,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "480.00"
+              },
+              "confidence": 1
+            }
+          },
+          {
+            "id": "pl-1-row-2",
+            "invoiceId": "inv-1",
+            "lineId": "inv-1-line-2",
+            "style": {
+              "value": "NB-H205",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "NB-H205"
+              },
+              "confidence": 1
+            },
+            "description": {
+              "value": "LADIES PULLOVER HOODIE\nTC 65/35 FLEECE 280GSM",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "LADIES PULLOVER HOODIE\nTC 65/35 FLEECE 280GSM"
+              },
+              "confidence": 1
+            },
+            "quantity": {
+              "value": 1176,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "1,176"
+              },
+              "confidence": 1
+            },
+            "unit": {
+              "value": "Pcs",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "Total\nPcs"
+              },
+              "confidence": 0.9
+            },
+            "packages": {
+              "value": 49,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "49"
+              },
+              "confidence": 1
+            },
+            "grossWeightKg": {
+              "value": 774.2,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "774.20"
+              },
+              "confidence": 1
+            }
+          },
+          {
+            "id": "pl-1-row-3",
+            "invoiceId": "inv-1",
+            "lineId": "inv-1-line-3",
+            "style": {
+              "value": "NB-C330",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "NB-C330"
+              },
+              "confidence": 1
+            },
+            "description": {
+              "value": "MEN'S SLIM CHINO PANT\n98/2 COTTON/SPANDEX TWILL",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "MEN'S SLIM CHINO PANT\n98/2 COTTON/SPANDEX TWILL"
+              },
+              "confidence": 1
+            },
+            "quantity": {
+              "value": 900,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "900"
+              },
+              "confidence": 1
+            },
+            "unit": {
+              "value": "Pcs",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "Total\nPcs"
+              },
+              "confidence": 0.9
+            },
+            "packages": {
+              "value": 30,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "30"
+              },
+              "confidence": 1
+            },
+            "grossWeightKg": {
+              "value": 522,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "522.00"
+              },
+              "confidence": 1
+            }
+          },
+          {
+            "id": "pl-1-row-4",
+            "invoiceId": "inv-1",
+            "lineId": "inv-1-line-4",
+            "style": {
+              "value": "W-B220",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "W-B220"
+              },
+              "confidence": 1
+            },
+            "description": {
+              "value": "LADIES L/S V-NECK BLOUSE\n100% POLY CREPE (BUYER FABRIC)",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "LADIES L/S V-NECK BLOUSE\n100% POLY CREPE (BUYER FABRIC)"
+              },
+              "confidence": 1
+            },
+            "quantity": {
+              "value": 600,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "600"
+              },
+              "confidence": 1
+            },
+            "unit": {
+              "value": "Pcs",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "Total\nPcs"
+              },
+              "confidence": 0.9
+            },
+            "packages": {
+              "value": 10,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "10"
+              },
+              "confidence": 1
+            },
+            "grossWeightKg": {
+              "value": 106,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "106.00"
+              },
+              "confidence": 1
+            }
+          },
+          {
+            "id": "pl-1-row-5",
+            "invoiceId": "inv-1",
+            "lineId": "inv-1-line-5",
+            "style": {
+              "value": "NB-P118S",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "NB-P118S"
+              },
+              "confidence": 1
+            },
+            "description": {
+              "value": "LADIES POLO - SAMPLES (FOC)\n100% COTTON PIQUE",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "LADIES POLO - SAMPLES (FOC)\n100% COTTON PIQUE"
+              },
+              "confidence": 1
+            },
+            "quantity": {
+              "value": 24,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "24"
+              },
+              "confidence": 1
+            },
+            "unit": {
+              "value": "Pcs",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "Total\nPcs"
+              },
+              "confidence": 0.9
+            },
+            "packages": {
+              "value": 1,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "1"
+              },
+              "confidence": 1
+            },
+            "grossWeightKg": {
+              "value": 5.8,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-2",
+                "page": 1,
+                "snippet": "5.80"
+              },
+              "confidence": 1
+            }
+          }
+        ]
+      }
+    ],
+    "bills": [
+      {
+        "id": "bill-1",
+        "documentId": "doc-3",
+        "masterScac": {
+          "value": "OPLU",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "CARRIER: ORIENT PACIFIC LINES (OPLU)"
+          },
+          "confidence": 1
+        },
+        "masterBill": {
+          "value": "OPLUSGN26091775",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "MBL: OPLUSGN26091775"
+          },
+          "confidence": 1
+        },
+        "houseScac": {
+          "value": "BMLV",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "SCAC: BMLV"
+          },
+          "confidence": 1
+        },
+        "houseBill": {
+          "value": "BMLVHCM26090418",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "B/L No.\nBMLVHCM26090418"
+          },
+          "confidence": 1
+        },
+        "loadingPort": {
+          "name": {
+            "value": "CAT LAI, HCMC, VN",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-3",
+              "page": 1,
+              "snippet": "Port of Loading\nCAT LAI, HCMC, VN"
+            },
+            "confidence": 1
+          },
+          "city": {
+            "value": "HO CHI MINH CITY",
+            "status": "inferred",
+            "source": {
+              "doc": "doc-1",
+              "page": 1,
+              "snippet": "Port of Loading: CAT LAI, HO CHI MINH CITY, VN"
+            },
+            "confidence": 0.95
+          },
+          "country": {
+            "value": "Vietnam",
+            "status": "inferred",
+            "source": {
+              "doc": "doc-3",
+              "page": 1,
+              "snippet": "Point and Country of Origin of Goods\nVIETNAM"
+            },
+            "confidence": 0.95
+          },
+          "state": {
+            "value": null,
+            "status": "missing",
+            "source": {
+              "doc": null,
+              "page": null,
+              "snippet": null
+            },
+            "confidence": 0
+          }
+        },
+        "dischargePort": {
+          "name": {
+            "value": "TACOMA, WA, USA",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-3",
+              "page": 1,
+              "snippet": "Port of Discharge\nTACOMA, WA, USA"
+            },
+            "confidence": 1
+          },
+          "city": {
+            "value": "Tacoma",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-3",
+              "page": 1,
+              "snippet": "TACOMA, WA, USA"
+            },
+            "confidence": 0.95
+          },
+          "country": {
+            "value": "USA",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-3",
+              "page": 1,
+              "snippet": "TACOMA, WA, USA"
+            },
+            "confidence": 0.95
+          },
+          "state": {
+            "value": "WA",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-3",
+              "page": 1,
+              "snippet": "TACOMA, WA, USA"
+            },
+            "confidence": 0.95
+          }
+        },
+        "containerized": {
+          "value": true,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "1 X 20'GP CONTAINER S.T.C.:"
+          },
+          "confidence": 1
+        },
+        "consignee": {
+          "name": {
+            "value": "CASCADE FULFILLMENT PARTNERS LLC",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-3",
+              "page": 1,
+              "snippet": "CASCADE FULFILLMENT PARTNERS LLC"
+            },
+            "confidence": 1
+          },
+          "address": {
+            "value": "21820 76TH AVENUE SOUTH, DOCK 4\nKENT, WA 98032, USA",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-3",
+              "page": 1,
+              "snippet": "21820 76TH AVENUE SOUTH, DOCK 4\nKENT, WA 98032, USA"
+            },
+            "confidence": 1
+          },
+          "country": {
+            "value": "USA",
+            "status": "extracted",
+            "source": {
+              "doc": "doc-3",
+              "page": 1,
+              "snippet": "KENT, WA 98032, USA"
+            },
+            "confidence": 0.95
+          }
+        },
+        "vessel": {
+          "value": "PACIFIC ARGOS",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "PACIFIC ARGOS 041E"
+          },
+          "confidence": 0.95
+        },
+        "voyage": {
+          "value": "041E",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "PACIFIC ARGOS 041E"
+          },
+          "confidence": 0.95
+        },
+        "packages": {
+          "value": 138,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "138\nCARTONS"
+          },
+          "confidence": 1
+        },
+        "packageUnit": {
+          "value": "CARTONS",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "138\nCARTONS"
+          },
+          "confidence": 1
+        },
+        "grossWeightKg": {
+          "value": 1930,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-3",
+            "page": 1,
+            "snippet": "1,930.000\nKGS"
+          },
+          "confidence": 1
+        },
+        "containers": [
+          {
+            "id": "bill-1-cntr-1",
+            "number": {
+              "value": "OPSU 304172 2",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-3",
+                "page": 1,
+                "snippet": "OPSU 304172 2"
+              },
+              "confidence": 0.95
+            },
+            "printedNumber": {
+              "value": "OPLU3041728",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-3",
+                "page": 1,
+                "snippet": "OPLU3041728"
+              },
+              "confidence": 0.95
+            },
+            "seal": {
+              "value": "OPL7731482",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-3",
+                "page": 1,
+                "snippet": "SEAL: OPL7731482"
+              },
+              "confidence": 1
+            }
+          }
+        ]
+      }
+    ],
+    "modeOfTransport": {
+      "value": "Ocean",
+      "status": "inferred",
+      "source": {
+        "doc": "doc-3",
+        "page": 1,
+        "snippet": "Ocean Vessel / Voy. No.\nPACIFIC ARGOS 041E"
+      },
+      "confidence": 0.95
+    }
+  },
+  "brokerDecisions": {
+    "suggestionSelections": {
+      "customsFiling.modeOfTransport": {
+        "id": "transport",
+        "fingerprint": "46866c569d8c0981d18db0bb166e3277dae3a4a1d1d22f3c2d87b75dfaef9d1f",
+        "value": "11"
+      },
+      "invoiceDecisions.inv-1.valuationBasis": {
+        "id": "inv-1-charges",
+        "fingerprint": "aad59e9312b1787b25ff6448c24d060bbeccec3025c43675e50382bd6d161a35",
+        "value": "LINE_VALUES_EXCLUDE_CHARGES"
+      },
+      "lineDecisions.inv-1-line-4.assistAmount": {
+        "id": "inv-1-line-4-assist",
+        "fingerprint": "84deb71d036cbd97489f3609b16b31f832c4ed635f125d4a69ea9568eb6e856e",
+        "value": 4180
+      },
+      "lineDecisions.inv-1-line-5.sampleValue": {
+        "id": "inv-1-line-5-sample",
+        "fingerprint": "bf1cfc6e0cbfd80db09dcdda391c6600980d914739ef5ca585db7c66a39a0f6e",
+        "value": 24
+      }
+    },
+    "portSelections": {
+      "unladingPortCode": {
+        "request": {
+          "target": "unladingPortCode",
+          "query": "Tacoma"
+        },
+        "candidateCode": "3002",
+        "lookupFingerprint": "0bf4b96d36507e272e55ad90116fa8c17c16ddf242b67e2025eefa42a41be999",
+        "evidenceFingerprint": "9c1ebd01b2cf4e77e4d0b125fb07d02af9b62129c9937e73ba0a32e9412b4bc7"
+      },
+      "foreignPortCode": {
+        "request": {
+          "target": "foreignPortCode",
+          "query": "Ho Chi Minh City"
+        },
+        "candidateCode": "55224",
+        "lookupFingerprint": "0d70a396e897f0691a2b76ea36ad1f266340ce66e47e985833f34a236b5f703c",
+        "evidenceFingerprint": "9c1ebd01b2cf4e77e4d0b125fb07d02af9b62129c9937e73ba0a32e9412b4bc7"
+      }
+    },
+    "observationCorrections": {
+      "invoices.0.lines.0.manufacturerId": {
+        "value": null,
+        "source": {
+          "doc": "doc-2",
+          "page": 1,
+          "snippet": "MST/Tax Code: 3702148865"
+        },
+        "note": "The cited factory local tax/registration number does not establish a customs MID. Obtain a reviewed MID."
+      },
+      "invoices.0.lines.1.manufacturerId": {
+        "value": null,
+        "source": {
+          "doc": "doc-2",
+          "page": 1,
+          "snippet": "MST/Tax Code: 3702148865"
+        },
+        "note": "The cited factory local tax/registration number does not establish a customs MID. Obtain a reviewed MID."
+      },
+      "invoices.0.lines.2.manufacturerId": {
+        "value": null,
+        "source": {
+          "doc": "doc-2",
+          "page": 1,
+          "snippet": "MST/Tax Code: 3702148865"
+        },
+        "note": "The cited factory local tax/registration number does not establish a customs MID. Obtain a reviewed MID."
+      },
+      "invoices.0.lines.3.manufacturerId": {
+        "value": null,
+        "source": {
+          "doc": "doc-2",
+          "page": 1,
+          "snippet": "MST/Tax Code: 3702148865"
+        },
+        "note": "The cited factory local tax/registration number does not establish a customs MID. Obtain a reviewed MID."
+      },
+      "bills.0.masterBill": {
+        "value": "OPLUSGN260917735",
+        "source": {
+          "doc": "doc-3",
+          "page": 1,
+          "snippet": "MBL: OPLUSGN260917735"
+        },
+        "note": "Compared against the original B/L master-number box; OCR dropped/misread digits."
+      },
+      "bills.0.containers.0.number": {
+        "value": "OPLU3041722",
+        "source": {
+          "doc": "doc-3",
+          "page": 1,
+          "snippet": "OPLU 304172 2"
+        },
+        "note": "Visual reading of handwritten replacement for crossed-out OPLU3041728; check digit agrees. Carrier confirmation remains a review item."
+      },
+      "bills.0.loadingPort.country": {
+        "value": "Vietnam",
+        "source": {
+          "doc": "doc-1",
+          "page": 1,
+          "snippet": "Port of Loading: CAT LAI, HO CHI MINH CITY, VN"
+        },
+        "note": "Use routing evidence for loading country; country-of-origin box alone does not establish loading country."
+      }
+    },
+    "lineDecisions": {
+      "inv-1-line-4": {
+        "assistAmount": 4180
+      },
+      "inv-1-line-5": {
+        "sampleValue": 24
+      }
+    },
+    "invoiceDecisions": {
+      "inv-1": {
+        "valuationBasis": "LINE_VALUES_EXCLUDE_CHARGES"
+      }
+    },
+    "containerOverrides": {},
+    "acknowledgements": {},
+    "customsFiling": {
+      "modeOfTransport": "11",
+      "referenceDataConfirmed": false,
+      "unladingPortCode": "3002",
+      "foreignPortCode": "55224"
+    }
+  }
+}
