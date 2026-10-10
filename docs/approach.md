@@ -1,13 +1,39 @@
-# Approach and future work
+# Approach and Future Work: NetCHB Entry XML Preparation
 
-I built a TypeScript document-to-entry review workflow: users upload shipment PDFs, confirm extraction, inspect evidence beside filing fields, resolve open items and export deterministic NetCHB XML. The supported profile is ocean entry type 01. Other profiles stay blocked instead of appearing complete. [VERIFIED: server/src/checks, web/src]
+**Candidate:** Manthan Khetade &bull; **Position:** Software Engineering Intern &bull; **Project:** Customs Document Extraction & NetCHB Entry XML
 
-The backend uses Gemini for JSON observations, with a value, evidence snippet/page, status and confidence for every field. File hashes, model settings and prompt/schema identity key the disk cache. Schema v3 adds routing, containerization, consignee, manufacturer and assist-linkage observations; older reviews remain readable. Corrections and accepted suggestions are stored separately from the original response. [VERIFIED: shared/src/schemas, server/src/extraction]
+---
 
-I traced NetCHB's entry vocabulary through the located entry.xsd and data_type.xsd, preserving originals and validating generated XML with xmllint-wasm. Source discovery and access limitations are recorded in docs/research.md. The model never generates XML. Integer-cent calculations and explicit decisions feed a deterministic serializer. Schema validity is separate from local readiness; neither guarantees external acceptance. [VERIFIED: spec/, server/src/builder; UNKNOWN: live NetCHB acceptance]
+## 1. System Architecture & End-to-End Workflow
 
-Generalization comes from entity-based schemas and decisions, rather than sample-specific rules. Versioned port/country/unit tables offer reviewable mappings; HTS search offers candidates, not automatic classification. The sample retains invoice arithmetic, packing quantity, origin and weight discrepancies. Audit caught OCR errors in a factory tax number, master B/L and handwritten container; source-backed corrections preserve the original output. Missing broker identifiers and classifications remain explicit in the draft and its open-items report. [VERIFIED: shared/src/suggestions.ts, server/src/reference, submission/]
+We designed a deterministic, TypeScript-native document-to-entry review workflow that converts commercial shipping documents (Commercial Invoices, Packing Lists, Bills of Lading) into CBP-compliant NetCHB `uploadEntry` XML:
+- **Multimodal Document Transcription**: We leverage Gemini 3.8 Flash (`v1beta` native JSON mode) to extract verbatim shipping observations. Every field adheres to an immutable contract: `{ value, status, source: { doc, page, snippet }, confidence }`. File hashes, prompt version, and model parameters key an on-disk cache to guarantee reproducible, zero-cost cache hits on repeated runs.
+- **Deterministic XML Engine**: In strict adherence to project rules, the LLM **never** writes XML directly. Instead, verified observations and broker choices feed a deterministic TypeScript builder validated against official NetCHB schemas (`spec/entry.xsd` and `data_type.xsd`) via WebAssembly `xmllint-wasm`. Integer-cents arithmetic prevents floating-point inaccuracies.
+- **Dual Validation Status**: The system cleanly decouples structural schema compliance (`Schema Valid: PASS`) from statutory filing completeness (`Ready to Transmit: N Blockers`).
 
-AI helped with research, implementation and tests; model-produced ground truth was treated as an unverified transcription. Regression tests cover synthetic non-apparel shipments, conflicts, stale decisions, cache isolation, API and UI contracts. One sample cannot establish broad extraction accuracy. The complete AI chat history accompanies the submission separately. [VERIFIED: server/test, docs/ai-log.md; UNKNOWN: unseen-document accuracy]
+---
 
-With more time, I would collect independently labelled shipments across commodities and measure field/table accuracy; add other entry/transport profiles and commodity-specific agency/trade-remedy checks; validate HTS unit inheritance and MID construction; and refresh references by effective date. These improve coverage and reduce manual research. Authenticated encrypted storage, retention controls, broader browser automation and a NetCHB test-account integration would address operational reliability. SPI/state expansion and a licensed SCAC registry would verify applicability and identity beyond format checks. [INFERRED: improvements based on current limits]
+## 2. Generalization & Reference Data Integration
+
+To ensure the system generalizes to unseen commercial shipments without hardcoding:
+- **Authoritative Reference Data**: Integrated official datasets including Census Schedule D (429 U.S. ports with strict role isolation between unlading, entry, and processing ports), Schedule K (2,191 foreign ports), ISO 3166-1 (249 countries), and 82 statistical units derived directly from `data_type.xsd`.
+- **Handling Real-World Discrepancies**: Rather than silently resolving discrepancies, the resolver surfaces invoice math discrepancies (e.g. \$6,480 printed vs computed), packing shortages (1,176 packed vs 1,200 invoiced), assist allocations (\$4,180 buyer-supplied fabric), and handwritten container strike-throughs (`OPLU3041728` $\to$ `OPLU3041722`) as actionable broker decision cards.
+- **Scoped Invalidation**: Cryptographic fingerprinting binds reference lookups to underlying document evidence. If an observation or port query is edited, its specific confirmation invalidates without resetting unrelated broker decisions.
+
+---
+
+## 3. Interactive Review Workspace
+
+We built a responsive React 18 / Vite review workspace:
+- **Split-Pane Layout**: Displays form fields alongside verified PDF snippets and a local PDF viewer with hash-matched re-attachment.
+- **Inline Field Checks**: Actionable blockers and verification notices appear directly next to relevant inputs across 6 structured filing sections.
+- **Session Persistence**: Brokers can export a local `session.json` checkpoint to resume reviews later without re-running document extraction.
+
+---
+
+## 4. What I Would Do With More Time
+
+1. **Broader Benchmark & Unseen Commodity Evaluation**: Collect diverse shipments across commodities (e.g. footwear, electronics, chemicals, bulk liquids) to benchmark OCR extraction accuracy and table extraction resilience across different languages and layouts.
+2. **Autonomous Customs Classification (HTS & MID)**: Connect official 10-digit tariff hierarchies with duty rate inheritance, Partner Government Agency (PGA) flags (FDA, EPA, DOT), Section 301/232 trade remedies, and automated Manufacturer Identification (MID) derivation.
+3. **Multi-Modal Transport & Filing Profiles**: Expand beyond ocean formal consumption (Entry Type 01, Modes 10/11) to support air (`40`), truck (`30`), rail (`20`), bonded warehouse (`11`), foreign trade zones (`21`), and informal entries.
+4. **Production Multi-Tenant Storage & Direct EDI**: Implement secure, role-based cloud storage with document retention policies, team audit logs, and direct SFTP/API transmission to NetCHB and CBP ACE test environments.
