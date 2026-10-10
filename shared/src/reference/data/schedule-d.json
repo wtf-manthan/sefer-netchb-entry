@@ -1,0 +1,3434 @@
+{
+  "1001": {
+    "code": "1001",
+    "name": "NEW YORK",
+    "state": "NY",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "NEW YORK, NY"
+  },
+  "1002": {
+    "code": "1002",
+    "name": "ALBANY",
+    "state": "NY",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "ALBANY, NY"
+  },
+  "1003": {
+    "code": "1003",
+    "name": "NEWARK",
+    "state": "NJ",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "NEWARK, NJ"
+  },
+  "1004": {
+    "code": "1004",
+    "name": "PERTH AMBOY",
+    "state": "NJ",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "PERTH AMBOY, NJ"
+  },
+  "1012": {
+    "code": "1012",
+    "name": "JOHN F KENNEDY INTL AIRPORT",
+    "state": "NY",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "JOHN F KENNEDY INTL AIRPORT, NY"
+  },
+  "1068": {
+    "code": "1068",
+    "name": "NEWARK FEDEX ECCF",
+    "state": "NJ",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "NEWARK FEDEX ECCF, NJ"
+  },
+  "1069": {
+    "code": "1069",
+    "name": "UPS, NEWARK",
+    "state": "NJ",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "UPS, NEWARK, NJ"
+  },
+  "1071": {
+    "code": "1071",
+    "name": "NYACC, JAMAICA",
+    "state": "NY",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "NYACC, JAMAICA, NY"
+  },
+  "1072": {
+    "code": "1072",
+    "name": "DHL, JAMAICA",
+    "state": "NY",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "DHL, JAMAICA, NY"
+  },
+  "1073": {
+    "code": "1073",
+    "name": "EMERY WORLDWIDE, JAMAICA",
+    "state": "NY",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "EMERY WORLDWIDE, JAMAICA, NY"
+  },
+  "1074": {
+    "code": "1074",
+    "name": "AIR FRANCE (MACH PLUS), JAMAICA",
+    "state": "NY",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "AIR FRANCE (MACH PLUS), JAMAICA, NY"
+  },
+  "1078": {
+    "code": "1078",
+    "name": "TNT SKYPAK, JAMAICA",
+    "state": "NY",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "TNT SKYPAK, JAMAICA, NY"
+  },
+  "1081": {
+    "code": "1081",
+    "name": "MORRISTOWN AIRPORT",
+    "state": "NJ",
+    "districtCode": "10",
+    "districtName": "NEW YORK CITY, NY",
+    "sourceLabel": "MORRISTOWN AIRPORT, NJ"
+  },
+  "1101": {
+    "code": "1101",
+    "name": "PHILADELPHIA",
+    "state": "PA",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "PHILADELPHIA, PA"
+  },
+  "1102": {
+    "code": "1102",
+    "name": "CHESTER",
+    "state": "PA",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "CHESTER, PA"
+  },
+  "1103": {
+    "code": "1103",
+    "name": "WILMINGTON",
+    "state": "DE",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "WILMINGTON, DE"
+  },
+  "1104": {
+    "code": "1104",
+    "name": "PITTSBURGH",
+    "state": "PA",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "PITTSBURGH, PA"
+  },
+  "1106": {
+    "code": "1106",
+    "name": "WILKES-BARRE/SCRANTON",
+    "state": "PA",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "WILKES-BARRE/SCRANTON, PA"
+  },
+  "1108": {
+    "code": "1108",
+    "name": "PHILA. INTL. AIRPORT",
+    "state": "PA",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "PHILA. INTL. AIRPORT, PA"
+  },
+  "1109": {
+    "code": "1109",
+    "name": "HARRISBURG",
+    "state": "PA",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "HARRISBURG, PA"
+  },
+  "1113": {
+    "code": "1113",
+    "name": "GLOUCESTER CITY",
+    "state": "NJ",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "GLOUCESTER CITY, NJ"
+  },
+  "1119": {
+    "code": "1119",
+    "name": "ALLENTOWN, PA (LEHIGH VALLEY INTL AIRPT)",
+    "state": "",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "ALLENTOWN, PA (LEHIGH VALLEY INTL AIRPT)"
+  },
+  "1182": {
+    "code": "1182",
+    "name": "ATLANTIC CITY REGIONAL AIRPORT",
+    "state": "NJ",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "ATLANTIC CITY REGIONAL AIRPORT, NJ"
+  },
+  "1183": {
+    "code": "1183",
+    "name": "TRENTON/MERCER COUNTY AIRPORT",
+    "state": "NJ",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "TRENTON/MERCER COUNTY AIRPORT, NJ"
+  },
+  "1195": {
+    "code": "1195",
+    "name": "UPS, PHILADELPHIA",
+    "state": "PA",
+    "districtCode": "11",
+    "districtName": "PHILADELPHIA, PA",
+    "sourceLabel": "UPS, PHILADELPHIA, PA"
+  },
+  "1301": {
+    "code": "1301",
+    "name": "ANNAPOLIS",
+    "state": "MD",
+    "districtCode": "13",
+    "districtName": "BALTIMORE, MD",
+    "sourceLabel": "ANNAPOLIS, MD"
+  },
+  "1302": {
+    "code": "1302",
+    "name": "CAMBRIDGE",
+    "state": "MD",
+    "districtCode": "13",
+    "districtName": "BALTIMORE, MD",
+    "sourceLabel": "CAMBRIDGE, MD"
+  },
+  "1303": {
+    "code": "1303",
+    "name": "BALTIMORE",
+    "state": "MD",
+    "districtCode": "13",
+    "districtName": "BALTIMORE, MD",
+    "sourceLabel": "BALTIMORE, MD"
+  },
+  "1304": {
+    "code": "1304",
+    "name": "CRISFIELD",
+    "state": "MD",
+    "districtCode": "13",
+    "districtName": "BALTIMORE, MD",
+    "sourceLabel": "CRISFIELD, MD"
+  },
+  "1305": {
+    "code": "1305",
+    "name": "BALTIMORE-WASHINGTON INTL AIRPORT",
+    "state": "MD",
+    "districtCode": "13",
+    "districtName": "BALTIMORE, MD",
+    "sourceLabel": "BALTIMORE-WASHINGTON INTL AIRPORT, MD"
+  },
+  "1401": {
+    "code": "1401",
+    "name": "NORFOLK-NEWPORT NEWS",
+    "state": "VA",
+    "districtCode": "14",
+    "districtName": "NORFOLK, VA",
+    "sourceLabel": "NORFOLK-NEWPORT NEWS, VA"
+  },
+  "1404": {
+    "code": "1404",
+    "name": "RICHMOND-PETERSBURG",
+    "state": "VA",
+    "districtCode": "14",
+    "districtName": "NORFOLK, VA",
+    "sourceLabel": "RICHMOND-PETERSBURG, VA"
+  },
+  "1409": {
+    "code": "1409",
+    "name": "CHARLESTON",
+    "state": "WV",
+    "districtCode": "14",
+    "districtName": "NORFOLK, VA",
+    "sourceLabel": "CHARLESTON, WV"
+  },
+  "1410": {
+    "code": "1410",
+    "name": "FRONT ROYAL",
+    "state": "VA",
+    "districtCode": "14",
+    "districtName": "NORFOLK, VA",
+    "sourceLabel": "FRONT ROYAL, VA"
+  },
+  "1412": {
+    "code": "1412",
+    "name": "NEW RIVER VALLEY AIRPORT",
+    "state": "VA",
+    "districtCode": "14",
+    "districtName": "NORFOLK, VA",
+    "sourceLabel": "NEW RIVER VALLEY AIRPORT, VA"
+  },
+  "1501": {
+    "code": "1501",
+    "name": "WILMINGTON",
+    "state": "NC",
+    "districtCode": "15",
+    "districtName": "WILMINGTON, NC",
+    "sourceLabel": "WILMINGTON, NC"
+  },
+  "1502": {
+    "code": "1502",
+    "name": "WINSTON-SALEM",
+    "state": "NC",
+    "districtCode": "15",
+    "districtName": "WILMINGTON, NC",
+    "sourceLabel": "WINSTON-SALEM, NC"
+  },
+  "1503": {
+    "code": "1503",
+    "name": "DURHAM",
+    "state": "NC",
+    "districtCode": "15",
+    "districtName": "WILMINGTON, NC",
+    "sourceLabel": "DURHAM, NC"
+  },
+  "1511": {
+    "code": "1511",
+    "name": "BEAUFORT-MOREHEAD CITY",
+    "state": "NC",
+    "districtCode": "15",
+    "districtName": "WILMINGTON, NC",
+    "sourceLabel": "BEAUFORT-MOREHEAD CITY,NC"
+  },
+  "1512": {
+    "code": "1512",
+    "name": "CHARLOTTE",
+    "state": "NC",
+    "districtCode": "15",
+    "districtName": "WILMINGTON, NC",
+    "sourceLabel": "CHARLOTTE, NC"
+  },
+  "1601": {
+    "code": "1601",
+    "name": "CHARLESTON",
+    "state": "SC",
+    "districtCode": "16",
+    "districtName": "CHARLESTON, SC",
+    "sourceLabel": "CHARLESTON, SC"
+  },
+  "1602": {
+    "code": "1602",
+    "name": "GEORGETOWN",
+    "state": "SC",
+    "districtCode": "16",
+    "districtName": "CHARLESTON, SC",
+    "sourceLabel": "GEORGETOWN, SC"
+  },
+  "1603": {
+    "code": "1603",
+    "name": "GREENVILLE-SPARTANBRG",
+    "state": "SC",
+    "districtCode": "16",
+    "districtName": "CHARLESTON, SC",
+    "sourceLabel": "GREENVILLE-SPARTANBRG, SC"
+  },
+  "1604": {
+    "code": "1604",
+    "name": "COLUMBIA",
+    "state": "SC",
+    "districtCode": "16",
+    "districtName": "CHARLESTON, SC",
+    "sourceLabel": "COLUMBIA, SC"
+  },
+  "1681": {
+    "code": "1681",
+    "name": "MYRTLE BEACH INTL AIRPORT",
+    "state": "SC",
+    "districtCode": "16",
+    "districtName": "CHARLESTON, SC",
+    "sourceLabel": "MYRTLE BEACH INTL AIRPORT, SC"
+  },
+  "1701": {
+    "code": "1701",
+    "name": "BRUNSWICK",
+    "state": "GA",
+    "districtCode": "17",
+    "districtName": "SAVANNAH, GA",
+    "sourceLabel": "BRUNSWICK, GA"
+  },
+  "1703": {
+    "code": "1703",
+    "name": "SAVANNAH",
+    "state": "GA",
+    "districtCode": "17",
+    "districtName": "SAVANNAH, GA",
+    "sourceLabel": "SAVANNAH, GA"
+  },
+  "1704": {
+    "code": "1704",
+    "name": "ATLANTA",
+    "state": "GA",
+    "districtCode": "17",
+    "districtName": "SAVANNAH, GA",
+    "sourceLabel": "ATLANTA, GA"
+  },
+  "1801": {
+    "code": "1801",
+    "name": "TAMPA",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "TAMPA, FL"
+  },
+  "1803": {
+    "code": "1803",
+    "name": "JACKSONVILLE",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "JACKSONVILLE, FL"
+  },
+  "1805": {
+    "code": "1805",
+    "name": "FERNANDINA BEACH",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "FERNANDINA BEACH, FL"
+  },
+  "1807": {
+    "code": "1807",
+    "name": "BOCA GRANDE",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "BOCA GRANDE, FL"
+  },
+  "1808": {
+    "code": "1808",
+    "name": "ORLANDO",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "ORLANDO, FL"
+  },
+  "1809": {
+    "code": "1809",
+    "name": "ORLANDO-SANFORD AIRPORT",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "ORLANDO-SANFORD AIRPORT, FL"
+  },
+  "1814": {
+    "code": "1814",
+    "name": "ST. PETERSBURG",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "ST. PETERSBURG, FL"
+  },
+  "1816": {
+    "code": "1816",
+    "name": "PORT CANAVERAL",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "PORT CANAVERAL, FL"
+  },
+  "1818": {
+    "code": "1818",
+    "name": "PANAMA CITY",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "PANAMA CITY, FL"
+  },
+  "1819": {
+    "code": "1819",
+    "name": "PENSACOLA",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "PENSACOLA, FL"
+  },
+  "1821": {
+    "code": "1821",
+    "name": "PORT MANATEE",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "PORT MANATEE, FL"
+  },
+  "1822": {
+    "code": "1822",
+    "name": "FORT MYERS AIRPORT",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "FORT MYERS AIRPORT, FL"
+  },
+  "1880": {
+    "code": "1880",
+    "name": "NAPLES MUNICIPAL USER FEE AIRP",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "NAPLES MUNICIPAL USER FEE AIRP, FL"
+  },
+  "1883": {
+    "code": "1883",
+    "name": "SARASOTA BRADENTON ARPT",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "SARASOTA BRADENTON ARPT, FL"
+  },
+  "1884": {
+    "code": "1884",
+    "name": "DAYTONA BEACH INT'L ARPT",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "DAYTONA BEACH INT'L ARPT, FL"
+  },
+  "1885": {
+    "code": "1885",
+    "name": "MELBOURNE REGIONAL AIRPORT",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "MELBOURNE REGIONAL AIRPORT, FL"
+  },
+  "1887": {
+    "code": "1887",
+    "name": "LEESBURG REGIONAL AIRP, LEESBURG",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "LEESBURG REGIONAL AIRP, LEESBURG, FL"
+  },
+  "1888": {
+    "code": "1888",
+    "name": "ORLANDO EXECUTIVE AIRPORT",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "ORLANDO EXECUTIVE AIRPORT, FL"
+  },
+  "1889": {
+    "code": "1889",
+    "name": "ST. AUGUSTINE AIRPORT",
+    "state": "FL",
+    "districtCode": "18",
+    "districtName": "TAMPA, FL",
+    "sourceLabel": "ST. AUGUSTINE AIRPORT, FL"
+  },
+  "1901": {
+    "code": "1901",
+    "name": "MOBILE",
+    "state": "AL",
+    "districtCode": "19",
+    "districtName": "MOBILE, AL",
+    "sourceLabel": "MOBILE, AL"
+  },
+  "1902": {
+    "code": "1902",
+    "name": "GULFPORT",
+    "state": "MS",
+    "districtCode": "19",
+    "districtName": "MOBILE, AL",
+    "sourceLabel": "GULFPORT, MS"
+  },
+  "1903": {
+    "code": "1903",
+    "name": "PASCAGOULA",
+    "state": "MS",
+    "districtCode": "19",
+    "districtName": "MOBILE, AL",
+    "sourceLabel": "PASCAGOULA, MS"
+  },
+  "1904": {
+    "code": "1904",
+    "name": "BIRMINGHAM",
+    "state": "AL",
+    "districtCode": "19",
+    "districtName": "MOBILE, AL",
+    "sourceLabel": "BIRMINGHAM, AL"
+  },
+  "1910": {
+    "code": "1910",
+    "name": "HUNTSVILLE",
+    "state": "AL",
+    "districtCode": "19",
+    "districtName": "MOBILE, AL",
+    "sourceLabel": "HUNTSVILLE, AL"
+  },
+  "2001": {
+    "code": "2001",
+    "name": "MORGAN CITY",
+    "state": "LA",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "MORGAN CITY, LA"
+  },
+  "2002": {
+    "code": "2002",
+    "name": "NEW ORLEANS",
+    "state": "LA",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "NEW ORLEANS, LA"
+  },
+  "2003": {
+    "code": "2003",
+    "name": "LITTLE ROCK",
+    "state": "AR",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "LITTLE ROCK, AR"
+  },
+  "2004": {
+    "code": "2004",
+    "name": "BATON ROUGE",
+    "state": "LA",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "BATON ROUGE, LA"
+  },
+  "2006": {
+    "code": "2006",
+    "name": "MEMPHIS",
+    "state": "TN",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "MEMPHIS, TN"
+  },
+  "2007": {
+    "code": "2007",
+    "name": "NASHVILLE",
+    "state": "TN",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "NASHVILLE, TN"
+  },
+  "2008": {
+    "code": "2008",
+    "name": "CHATTANOOGA",
+    "state": "TN",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "CHATTANOOGA, TN"
+  },
+  "2010": {
+    "code": "2010",
+    "name": "GRAMERCY",
+    "state": "LA",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "GRAMERCY, LA"
+  },
+  "2011": {
+    "code": "2011",
+    "name": "GREENVILLE",
+    "state": "MS",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "GREENVILLE, MS"
+  },
+  "2015": {
+    "code": "2015",
+    "name": "VICKSBURG",
+    "state": "MS",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "VICKSBURG, MS"
+  },
+  "2016": {
+    "code": "2016",
+    "name": "KNOXVILLE",
+    "state": "TN",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "KNOXVILLE, TN"
+  },
+  "2017": {
+    "code": "2017",
+    "name": "LAKE CHARLES",
+    "state": "LA",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "LAKE CHARLES, LA"
+  },
+  "2018": {
+    "code": "2018",
+    "name": "SHREVEPORT/BOSSIER CITY",
+    "state": "LA",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "SHREVEPORT/BOSSIER CITY, LA"
+  },
+  "2027": {
+    "code": "2027",
+    "name": "TRI-CITIES AIRPORT",
+    "state": "TN",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "TRI-CITIES AIRPORT, TN"
+  },
+  "2095": {
+    "code": "2095",
+    "name": "FEDEX, MEMPHIS",
+    "state": "TN",
+    "districtCode": "20",
+    "districtName": "NEW ORLEANS, LA",
+    "sourceLabel": "FEDEX, MEMPHIS, TN"
+  },
+  "2101": {
+    "code": "2101",
+    "name": "PORT ARTHUR",
+    "state": "TX",
+    "districtCode": "21",
+    "districtName": "PORT ARTHUR, TX",
+    "sourceLabel": "PORT ARTHUR, TX"
+  },
+  "2102": {
+    "code": "2102",
+    "name": "SABINE",
+    "state": "TX",
+    "districtCode": "21",
+    "districtName": "PORT ARTHUR, TX",
+    "sourceLabel": "SABINE, TX"
+  },
+  "2103": {
+    "code": "2103",
+    "name": "ORANGE",
+    "state": "TX",
+    "districtCode": "21",
+    "districtName": "PORT ARTHUR, TX",
+    "sourceLabel": "ORANGE, TX"
+  },
+  "2104": {
+    "code": "2104",
+    "name": "BEAUMONT",
+    "state": "TX",
+    "districtCode": "21",
+    "districtName": "PORT ARTHUR, TX",
+    "sourceLabel": "BEAUMONT, TX"
+  },
+  "2301": {
+    "code": "2301",
+    "name": "BROWNSVILLE",
+    "state": "TX",
+    "districtCode": "23",
+    "districtName": "LAREDO, TX",
+    "sourceLabel": "BROWNSVILLE, TX"
+  },
+  "2302": {
+    "code": "2302",
+    "name": "DEL RIO",
+    "state": "TX",
+    "districtCode": "23",
+    "districtName": "LAREDO, TX",
+    "sourceLabel": "DEL RIO, TX"
+  },
+  "2303": {
+    "code": "2303",
+    "name": "EAGLE PASS",
+    "state": "TX",
+    "districtCode": "23",
+    "districtName": "LAREDO, TX",
+    "sourceLabel": "EAGLE PASS, TX"
+  },
+  "2304": {
+    "code": "2304",
+    "name": "LAREDO",
+    "state": "TX",
+    "districtCode": "23",
+    "districtName": "LAREDO, TX",
+    "sourceLabel": "LAREDO, TX"
+  },
+  "2305": {
+    "code": "2305",
+    "name": "HIDALGO, PHARR",
+    "state": "TX",
+    "districtCode": "23",
+    "districtName": "LAREDO, TX",
+    "sourceLabel": "HIDALGO, PHARR, TX"
+  },
+  "2307": {
+    "code": "2307",
+    "name": "RIO GRANDE CITY",
+    "state": "TX",
+    "districtCode": "23",
+    "districtName": "LAREDO, TX",
+    "sourceLabel": "RIO GRANDE CITY, TX"
+  },
+  "2309": {
+    "code": "2309",
+    "name": "PROGRESO",
+    "state": "TX",
+    "districtCode": "23",
+    "districtName": "LAREDO, TX",
+    "sourceLabel": "PROGRESO, TX"
+  },
+  "2310": {
+    "code": "2310",
+    "name": "ROMA",
+    "state": "TX",
+    "districtCode": "23",
+    "districtName": "LAREDO, TX",
+    "sourceLabel": "ROMA, TX"
+  },
+  "2383": {
+    "code": "2383",
+    "name": "VALLEY INTL AIRPORT, HARLINGEN",
+    "state": "TX",
+    "districtCode": "23",
+    "districtName": "LAREDO, TX",
+    "sourceLabel": "VALLEY INTL AIRPORT, HARLINGEN, TX"
+  },
+  "2401": {
+    "code": "2401",
+    "name": "YSLETA",
+    "state": "TX",
+    "districtCode": "24",
+    "districtName": "EL PASO, TX",
+    "sourceLabel": "YSLETA, TX"
+  },
+  "2402": {
+    "code": "2402",
+    "name": "EL PASO",
+    "state": "TX",
+    "districtCode": "24",
+    "districtName": "EL PASO, TX",
+    "sourceLabel": "EL PASO, TX"
+  },
+  "2403": {
+    "code": "2403",
+    "name": "PRESIDIO",
+    "state": "TX",
+    "districtCode": "24",
+    "districtName": "EL PASO, TX",
+    "sourceLabel": "PRESIDIO, TX"
+  },
+  "2404": {
+    "code": "2404",
+    "name": "FABENS",
+    "state": "TX",
+    "districtCode": "24",
+    "districtName": "EL PASO, TX",
+    "sourceLabel": "FABENS, TX"
+  },
+  "2406": {
+    "code": "2406",
+    "name": "COLUMBUS",
+    "state": "NM",
+    "districtCode": "24",
+    "districtName": "EL PASO, TX",
+    "sourceLabel": "COLUMBUS, NM"
+  },
+  "2407": {
+    "code": "2407",
+    "name": "ALBUQUERQUE",
+    "state": "NM",
+    "districtCode": "24",
+    "districtName": "EL PASO, TX",
+    "sourceLabel": "ALBUQUERQUE, NM"
+  },
+  "2408": {
+    "code": "2408",
+    "name": "SANTA TERESA",
+    "state": "NM",
+    "districtCode": "24",
+    "districtName": "EL PASO, TX",
+    "sourceLabel": "SANTA TERESA, NM"
+  },
+  "2481": {
+    "code": "2481",
+    "name": "SANTA TERESA AIRPORT",
+    "state": "NM",
+    "districtCode": "24",
+    "districtName": "EL PASO, TX",
+    "sourceLabel": "SANTA TERESA AIRPORT, NM"
+  },
+  "2501": {
+    "code": "2501",
+    "name": "SAN DIEGO",
+    "state": "CA",
+    "districtCode": "25",
+    "districtName": "SAN DIEGO, CA",
+    "sourceLabel": "SAN DIEGO, CA"
+  },
+  "2502": {
+    "code": "2502",
+    "name": "ANDRADE",
+    "state": "CA",
+    "districtCode": "25",
+    "districtName": "SAN DIEGO, CA",
+    "sourceLabel": "ANDRADE, CA"
+  },
+  "2503": {
+    "code": "2503",
+    "name": "CALEXICO",
+    "state": "CA",
+    "districtCode": "25",
+    "districtName": "SAN DIEGO, CA",
+    "sourceLabel": "CALEXICO, CA"
+  },
+  "2504": {
+    "code": "2504",
+    "name": "SAN YSIDRO",
+    "state": "",
+    "districtCode": "25",
+    "districtName": "SAN DIEGO, CA",
+    "sourceLabel": "SAN YSIDRO"
+  },
+  "2505": {
+    "code": "2505",
+    "name": "TECATE",
+    "state": "CA",
+    "districtCode": "25",
+    "districtName": "SAN DIEGO, CA",
+    "sourceLabel": "TECATE, CA"
+  },
+  "2506": {
+    "code": "2506",
+    "name": "OTAY MESA",
+    "state": "",
+    "districtCode": "25",
+    "districtName": "SAN DIEGO, CA",
+    "sourceLabel": "OTAY MESA"
+  },
+  "2507": {
+    "code": "2507",
+    "name": "CALEXICO-EAST",
+    "state": "",
+    "districtCode": "25",
+    "districtName": "SAN DIEGO, CA",
+    "sourceLabel": "CALEXICO-EAST"
+  },
+  "2601": {
+    "code": "2601",
+    "name": "DOUGLAS",
+    "state": "AZ",
+    "districtCode": "26",
+    "districtName": "NOGALES, AZ",
+    "sourceLabel": "DOUGLAS, AZ"
+  },
+  "2602": {
+    "code": "2602",
+    "name": "LUKEVILLE",
+    "state": "AZ",
+    "districtCode": "26",
+    "districtName": "NOGALES, AZ",
+    "sourceLabel": "LUKEVILLE, AZ"
+  },
+  "2603": {
+    "code": "2603",
+    "name": "NACO",
+    "state": "AZ",
+    "districtCode": "26",
+    "districtName": "NOGALES, AZ",
+    "sourceLabel": "NACO, AZ"
+  },
+  "2604": {
+    "code": "2604",
+    "name": "NOGALES",
+    "state": "AZ",
+    "districtCode": "26",
+    "districtName": "NOGALES, AZ",
+    "sourceLabel": "NOGALES, AZ"
+  },
+  "2605": {
+    "code": "2605",
+    "name": "PHOENIX",
+    "state": "AZ",
+    "districtCode": "26",
+    "districtName": "NOGALES, AZ",
+    "sourceLabel": "PHOENIX, AZ"
+  },
+  "2606": {
+    "code": "2606",
+    "name": "SASABE",
+    "state": "AZ",
+    "districtCode": "26",
+    "districtName": "NOGALES, AZ",
+    "sourceLabel": "SASABE, AZ"
+  },
+  "2608": {
+    "code": "2608",
+    "name": "SAN LUIS",
+    "state": "AZ",
+    "districtCode": "26",
+    "districtName": "NOGALES, AZ",
+    "sourceLabel": "SAN LUIS, AZ"
+  },
+  "2609": {
+    "code": "2609",
+    "name": "TUCSON",
+    "state": "AZ",
+    "districtCode": "26",
+    "districtName": "NOGALES, AZ",
+    "sourceLabel": "TUCSON, AZ"
+  },
+  "2704": {
+    "code": "2704",
+    "name": "LOS ANGELES",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "LOS ANGELES, CA"
+  },
+  "2709": {
+    "code": "2709",
+    "name": "LONG BEACH",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "LONG BEACH, CA"
+  },
+  "2712": {
+    "code": "2712",
+    "name": "VENTURA",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "VENTURA, CA"
+  },
+  "2713": {
+    "code": "2713",
+    "name": "PORT HUENEME",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "PORT HUENEME, CA"
+  },
+  "2715": {
+    "code": "2715",
+    "name": "CAPITAN",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "CAPITAN, CA"
+  },
+  "2719": {
+    "code": "2719",
+    "name": "MORRO BAY",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "MORRO BAY, CA"
+  },
+  "2720": {
+    "code": "2720",
+    "name": "LOS ANGELES INTL AIRPORT",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "LOS ANGELES INTL AIRPORT, CA"
+  },
+  "2721": {
+    "code": "2721",
+    "name": "ONTARIO INTL AIRPORT",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "ONTARIO INTL AIRPORT, CA"
+  },
+  "2722": {
+    "code": "2722",
+    "name": "LAS VEGAS",
+    "state": "NV",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "LAS VEGAS, NV"
+  },
+  "2775": {
+    "code": "2775",
+    "name": "TNT EXPRESS, LAX",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "TNT EXPRESS, LAX, CA"
+  },
+  "2776": {
+    "code": "2776",
+    "name": "IBC PACIFIC",
+    "state": "",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "IBC PACIFIC"
+  },
+  "2786": {
+    "code": "2786",
+    "name": "MEADOWS FIELD AIRPORT",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "MEADOWS FIELD AIRPORT, CA"
+  },
+  "2791": {
+    "code": "2791",
+    "name": "DHL-HUB, LOS ANGELES",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "DHL-HUB, LOS ANGELES, CA"
+  },
+  "2795": {
+    "code": "2795",
+    "name": "UPS-ONTARIO",
+    "state": "CA",
+    "districtCode": "27",
+    "districtName": "LOS ANGELES, CA",
+    "sourceLabel": "UPS-ONTARIO, CA"
+  },
+  "2801": {
+    "code": "2801",
+    "name": "SAN FRANCISCO INTL ARPT",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "SAN FRANCISCO INTL ARPT, CA"
+  },
+  "2802": {
+    "code": "2802",
+    "name": "EUREKA",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "EUREKA, CA"
+  },
+  "2803": {
+    "code": "2803",
+    "name": "FRESNO",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "FRESNO, CA"
+  },
+  "2805": {
+    "code": "2805",
+    "name": "MONTEREY",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "MONTEREY, CA"
+  },
+  "2809": {
+    "code": "2809",
+    "name": "SAN FRANCISCO",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "SAN FRANCISCO, CA"
+  },
+  "2810": {
+    "code": "2810",
+    "name": "STOCKTON",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "STOCKTON, CA"
+  },
+  "2811": {
+    "code": "2811",
+    "name": "OAKLAND",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "OAKLAND, CA"
+  },
+  "2812": {
+    "code": "2812",
+    "name": "RICHMOND",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "RICHMOND,CA"
+  },
+  "2815": {
+    "code": "2815",
+    "name": "CROCKETT",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "CROCKETT,CA"
+  },
+  "2820": {
+    "code": "2820",
+    "name": "MARTINEZ",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "MARTINEZ,CA"
+  },
+  "2821": {
+    "code": "2821",
+    "name": "REDWOOD CITY",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "REDWOOD CITY,CA"
+  },
+  "2827": {
+    "code": "2827",
+    "name": "SELBY",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "SELBY,CA"
+  },
+  "2828": {
+    "code": "2828",
+    "name": "SAN JUAQUIN RIVER",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "SAN JUAQUIN RIVER,CA"
+  },
+  "2829": {
+    "code": "2829",
+    "name": "SAN PABLO BAY",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "SAN PABLO BAY,CA"
+  },
+  "2830": {
+    "code": "2830",
+    "name": "CARQUINEZ STRAIT",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "CARQUINEZ STRAIT,CA"
+  },
+  "2833": {
+    "code": "2833",
+    "name": "RENO",
+    "state": "NV",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "RENO, NV"
+  },
+  "2834": {
+    "code": "2834",
+    "name": "SAN JOSE INTL AIRPORT",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "SAN JOSE INTL AIRPORT, CA"
+  },
+  "2835": {
+    "code": "2835",
+    "name": "SACRAMENTO INT'L AIRPORT",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "SACRAMENTO INT'L AIRPORT, CA"
+  },
+  "2895": {
+    "code": "2895",
+    "name": "FEDEX, OAKLAND",
+    "state": "CA",
+    "districtCode": "28",
+    "districtName": "SAN FRANCISCO, CA",
+    "sourceLabel": "FEDEX, OAKLAND, CA"
+  },
+  "2901": {
+    "code": "2901",
+    "name": "ASTORIA",
+    "state": "OR",
+    "districtCode": "29",
+    "districtName": "COLUMBIA-SNAKE, OR",
+    "sourceLabel": "ASTORIA, OR"
+  },
+  "2902": {
+    "code": "2902",
+    "name": "NEWPORT",
+    "state": "OR",
+    "districtCode": "29",
+    "districtName": "COLUMBIA-SNAKE, OR",
+    "sourceLabel": "NEWPORT, OR"
+  },
+  "2903": {
+    "code": "2903",
+    "name": "COOS BAY",
+    "state": "OR",
+    "districtCode": "29",
+    "districtName": "COLUMBIA-SNAKE, OR",
+    "sourceLabel": "COOS BAY, OR"
+  },
+  "2904": {
+    "code": "2904",
+    "name": "PORTLAND",
+    "state": "OR",
+    "districtCode": "29",
+    "districtName": "COLUMBIA-SNAKE, OR",
+    "sourceLabel": "PORTLAND, OR"
+  },
+  "2905": {
+    "code": "2905",
+    "name": "LONGVIEW",
+    "state": "WA",
+    "districtCode": "29",
+    "districtName": "COLUMBIA-SNAKE, OR",
+    "sourceLabel": "LONGVIEW, WA"
+  },
+  "2907": {
+    "code": "2907",
+    "name": "BOISE",
+    "state": "ID",
+    "districtCode": "29",
+    "districtName": "COLUMBIA-SNAKE, OR",
+    "sourceLabel": "BOISE, ID"
+  },
+  "2908": {
+    "code": "2908",
+    "name": "VANCOUVER",
+    "state": "WA",
+    "districtCode": "29",
+    "districtName": "COLUMBIA-SNAKE, OR",
+    "sourceLabel": "VANCOUVER, WA"
+  },
+  "2909": {
+    "code": "2909",
+    "name": "KALAMA",
+    "state": "WA",
+    "districtCode": "29",
+    "districtName": "COLUMBIA-SNAKE, OR",
+    "sourceLabel": "KALAMA, WA"
+  },
+  "2910": {
+    "code": "2910",
+    "name": "PORTLAND INTL AIRPORT",
+    "state": "OR",
+    "districtCode": "29",
+    "districtName": "COLUMBIA-SNAKE, OR",
+    "sourceLabel": "PORTLAND INTL AIRPORT, OR"
+  },
+  "3001": {
+    "code": "3001",
+    "name": "SEATTLE",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "SEATTLE, WA"
+  },
+  "3002": {
+    "code": "3002",
+    "name": "TACOMA",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "TACOMA, WA"
+  },
+  "3003": {
+    "code": "3003",
+    "name": "ABERDEEN-HOQUIAM",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "ABERDEEN-HOQUIAM, WA"
+  },
+  "3004": {
+    "code": "3004",
+    "name": "BLAINE",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "BLAINE, WA"
+  },
+  "3005": {
+    "code": "3005",
+    "name": "BELLINGHAM",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "BELLINGHAM, WA"
+  },
+  "3006": {
+    "code": "3006",
+    "name": "EVERETT",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "EVERETT, WA"
+  },
+  "3007": {
+    "code": "3007",
+    "name": "PORT ANGELES",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "PORT ANGELES, WA"
+  },
+  "3008": {
+    "code": "3008",
+    "name": "PORT TOWNSEND",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "PORT TOWNSEND, WA"
+  },
+  "3009": {
+    "code": "3009",
+    "name": "SUMAS",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "SUMAS, WA"
+  },
+  "3010": {
+    "code": "3010",
+    "name": "ANACORTES",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "ANACORTES, WA"
+  },
+  "3011": {
+    "code": "3011",
+    "name": "NIGHTHAWK",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "NIGHTHAWK, WA"
+  },
+  "3012": {
+    "code": "3012",
+    "name": "DANVILLE",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "DANVILLE, WA"
+  },
+  "3013": {
+    "code": "3013",
+    "name": "FERRY",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "FERRY, WA"
+  },
+  "3014": {
+    "code": "3014",
+    "name": "FRIDAY HARBOR",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "FRIDAY HARBOR, WA"
+  },
+  "3015": {
+    "code": "3015",
+    "name": "BOUNDARY",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "BOUNDARY, WA"
+  },
+  "3016": {
+    "code": "3016",
+    "name": "LAURIER",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "LAURIER, WA"
+  },
+  "3017": {
+    "code": "3017",
+    "name": "POINT ROBERTS",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "POINT ROBERTS, WA"
+  },
+  "3018": {
+    "code": "3018",
+    "name": "KENMORE AIR HARBOR",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "KENMORE AIR HARBOR, WA"
+  },
+  "3019": {
+    "code": "3019",
+    "name": "OROVILLE",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "OROVILLE, WA"
+  },
+  "3020": {
+    "code": "3020",
+    "name": "FRONTIER",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "FRONTIER, WA"
+  },
+  "3022": {
+    "code": "3022",
+    "name": "SPOKANE",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "SPOKANE, WA"
+  },
+  "3023": {
+    "code": "3023",
+    "name": "LYNDEN",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "LYNDEN, WA"
+  },
+  "3025": {
+    "code": "3025",
+    "name": "METALINE FALLS",
+    "state": "",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "METALINE FALLS"
+  },
+  "3026": {
+    "code": "3026",
+    "name": "OLYMPIA",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "OLYMPIA, WA"
+  },
+  "3029": {
+    "code": "3029",
+    "name": "SEATTLE-TACOMA INTL ARPT",
+    "state": "",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "SEATTLE-TACOMA INTL ARPT"
+  },
+  "3071": {
+    "code": "3071",
+    "name": "UPS, SEATTLE",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "UPS, SEATTLE, WA"
+  },
+  "3072": {
+    "code": "3072",
+    "name": "AVION BROKERS, SEATTLE",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "AVION BROKERS, SEATTLE, WA"
+  },
+  "3073": {
+    "code": "3073",
+    "name": "DHL, SEATTLE",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "DHL, SEATTLE, WA"
+  },
+  "3074": {
+    "code": "3074",
+    "name": "AIRBORNE EXPRESS, SEATTLE",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "AIRBORNE EXPRESS, SEATTLE, WA"
+  },
+  "3082": {
+    "code": "3082",
+    "name": "GRANT COUNTY AIRPORT",
+    "state": "",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "GRANT COUNTY AIRPORT"
+  },
+  "3095": {
+    "code": "3095",
+    "name": "UPS, SEATTLE",
+    "state": "WA",
+    "districtCode": "30",
+    "districtName": "SEATTLE, WA",
+    "sourceLabel": "UPS, SEATTLE, WA"
+  },
+  "3101": {
+    "code": "3101",
+    "name": "JUNEAU",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "JUNEAU, AK"
+  },
+  "3102": {
+    "code": "3102",
+    "name": "KETCHIKAN",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "KETCHIKAN, AK"
+  },
+  "3103": {
+    "code": "3103",
+    "name": "SKAGWAY",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "SKAGWAY, AK"
+  },
+  "3104": {
+    "code": "3104",
+    "name": "ALCAN",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "ALCAN, AK"
+  },
+  "3105": {
+    "code": "3105",
+    "name": "WRANGELL",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "WRANGELL, AK"
+  },
+  "3106": {
+    "code": "3106",
+    "name": "DALTON CACHE",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "DALTON CACHE, AK"
+  },
+  "3111": {
+    "code": "3111",
+    "name": "FAIRBANKS",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "FAIRBANKS, AK"
+  },
+  "3115": {
+    "code": "3115",
+    "name": "SITKA",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "SITKA, AK"
+  },
+  "3126": {
+    "code": "3126",
+    "name": "ANCHORAGE",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "ANCHORAGE, AK"
+  },
+  "3195": {
+    "code": "3195",
+    "name": "FEDEX, ANCHORAGE",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "FEDEX, ANCHORAGE, AK"
+  },
+  "3196": {
+    "code": "3196",
+    "name": "UPS, ANCHORAGE",
+    "state": "AK",
+    "districtCode": "31",
+    "districtName": "ANCHORAGE, AK",
+    "sourceLabel": "UPS, ANCHORAGE, AK"
+  },
+  "3201": {
+    "code": "3201",
+    "name": "HONOLULU",
+    "state": "HI",
+    "districtCode": "32",
+    "districtName": "HONOLULU, HI",
+    "sourceLabel": "HONOLULU, HI"
+  },
+  "3202": {
+    "code": "3202",
+    "name": "HILO",
+    "state": "HI",
+    "districtCode": "32",
+    "districtName": "HONOLULU, HI",
+    "sourceLabel": "HILO, HI"
+  },
+  "3203": {
+    "code": "3203",
+    "name": "KAHULUI",
+    "state": "HI",
+    "districtCode": "32",
+    "districtName": "HONOLULU, HI",
+    "sourceLabel": "KAHULUI, HI"
+  },
+  "3204": {
+    "code": "3204",
+    "name": "NAWILIWILI-PORT ALLEN",
+    "state": "HI",
+    "districtCode": "32",
+    "districtName": "HONOLULU, HI",
+    "sourceLabel": "NAWILIWILI-PORT ALLEN,HI"
+  },
+  "3205": {
+    "code": "3205",
+    "name": "HONOLULU INTL AIRPRT",
+    "state": "HI",
+    "districtCode": "32",
+    "districtName": "HONOLULU, HI",
+    "sourceLabel": "HONOLULU INTL AIRPRT, HI"
+  },
+  "3206": {
+    "code": "3206",
+    "name": "KONA",
+    "state": "HI",
+    "districtCode": "32",
+    "districtName": "HONOLULU, HI",
+    "sourceLabel": "KONA, HI"
+  },
+  "3301": {
+    "code": "3301",
+    "name": "RAYMOND",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "RAYMOND, MT"
+  },
+  "3302": {
+    "code": "3302",
+    "name": "EASTPORT",
+    "state": "ID",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "EASTPORT, ID"
+  },
+  "3303": {
+    "code": "3303",
+    "name": "SALT LAKE CITY",
+    "state": "UT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "SALT LAKE CITY, UT"
+  },
+  "3304": {
+    "code": "3304",
+    "name": "GREAT FALLS",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "GREAT FALLS, MT"
+  },
+  "3305": {
+    "code": "3305",
+    "name": "BUTTE",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "BUTTE, MT"
+  },
+  "3306": {
+    "code": "3306",
+    "name": "TURNER",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "TURNER, MT"
+  },
+  "3307": {
+    "code": "3307",
+    "name": "DENVER",
+    "state": "CO",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "DENVER, CO"
+  },
+  "3308": {
+    "code": "3308",
+    "name": "PORTHILL",
+    "state": "ID",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "PORTHILL, ID"
+  },
+  "3309": {
+    "code": "3309",
+    "name": "SCOBY",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "SCOBY, MT"
+  },
+  "3310": {
+    "code": "3310",
+    "name": "SWEETGRASS",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "SWEETGRASS, MT"
+  },
+  "3316": {
+    "code": "3316",
+    "name": "PIEGAN",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "PIEGAN, MT"
+  },
+  "3317": {
+    "code": "3317",
+    "name": "OPHEIM",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "OPHEIM, MT"
+  },
+  "3318": {
+    "code": "3318",
+    "name": "ROOSVILLE",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "ROOSVILLE, MT"
+  },
+  "3319": {
+    "code": "3319",
+    "name": "MORGAN",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "MORGAN, MT"
+  },
+  "3321": {
+    "code": "3321",
+    "name": "WHITLASH",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "WHITLASH, MT"
+  },
+  "3322": {
+    "code": "3322",
+    "name": "DEL BONITA",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "DEL BONITA, MT"
+  },
+  "3323": {
+    "code": "3323",
+    "name": "WILDHORSE",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "WILDHORSE, MT"
+  },
+  "3324": {
+    "code": "3324",
+    "name": "KALISPELL AIRPORT",
+    "state": "",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "KALISPELL AIRPORT"
+  },
+  "3325": {
+    "code": "3325",
+    "name": "HAVRE",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "HAVRE, MT"
+  },
+  "3384": {
+    "code": "3384",
+    "name": "CENTENNIAL AIRPORT",
+    "state": "CO",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "CENTENNIAL AIRPORT, CO"
+  },
+  "3385": {
+    "code": "3385",
+    "name": "EAGLE COUNTY REGIONAL AIRPORT",
+    "state": "",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "EAGLE COUNTY REGIONAL AIRPORT"
+  },
+  "3386": {
+    "code": "3386",
+    "name": "BOZEMAN YELLOWSTONE USER FEE AIRPORT, BELGRADE",
+    "state": "MT",
+    "districtCode": "33",
+    "districtName": "GREAT FALLS, MT",
+    "sourceLabel": "BOZEMAN YELLOWSTONE USER FEE AIRPORT, BELGRADE, MT"
+  },
+  "3401": {
+    "code": "3401",
+    "name": "PEMBINA",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "PEMBINA, ND"
+  },
+  "3403": {
+    "code": "3403",
+    "name": "PORTAL",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "PORTAL, ND"
+  },
+  "3404": {
+    "code": "3404",
+    "name": "NECHE",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "NECHE, ND"
+  },
+  "3405": {
+    "code": "3405",
+    "name": "ST JOHN",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "ST JOHN, ND"
+  },
+  "3406": {
+    "code": "3406",
+    "name": "NORTHGATE",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "NORTHGATE, ND"
+  },
+  "3407": {
+    "code": "3407",
+    "name": "WALHALLA",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "WALHALLA, ND"
+  },
+  "3408": {
+    "code": "3408",
+    "name": "HANNAH",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "HANNAH, ND"
+  },
+  "3409": {
+    "code": "3409",
+    "name": "SARLES",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "SARLES, ND"
+  },
+  "3410": {
+    "code": "3410",
+    "name": "AMBROSE",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "AMBROSE, ND"
+  },
+  "3411": {
+    "code": "3411",
+    "name": "FARGO",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "FARGO,ND"
+  },
+  "3413": {
+    "code": "3413",
+    "name": "ANTLER",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "ANTLER, ND"
+  },
+  "3414": {
+    "code": "3414",
+    "name": "SHERWOOD",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "SHERWOOD, ND"
+  },
+  "3415": {
+    "code": "3415",
+    "name": "HANSBORO",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "HANSBORO, ND"
+  },
+  "3416": {
+    "code": "3416",
+    "name": "MAIDA",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "MAIDA, ND"
+  },
+  "3417": {
+    "code": "3417",
+    "name": "FORTUNA",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "FORTUNA, ND"
+  },
+  "3419": {
+    "code": "3419",
+    "name": "WESTHOPE",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "WESTHOPE, ND"
+  },
+  "3420": {
+    "code": "3420",
+    "name": "NOONAN",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "NOONAN, ND"
+  },
+  "3421": {
+    "code": "3421",
+    "name": "CARBURY",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "CARBURY, ND"
+  },
+  "3422": {
+    "code": "3422",
+    "name": "DUNSEITH",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "DUNSEITH, ND"
+  },
+  "3423": {
+    "code": "3423",
+    "name": "WARROAD",
+    "state": "MN",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "WARROAD, MN"
+  },
+  "3424": {
+    "code": "3424",
+    "name": "BAUDETTE",
+    "state": "MN",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "BAUDETTE, MN"
+  },
+  "3425": {
+    "code": "3425",
+    "name": "PINECREEK",
+    "state": "MN",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "PINECREEK, MN"
+  },
+  "3426": {
+    "code": "3426",
+    "name": "ROSEAU",
+    "state": "MN",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "ROSEAU, MN"
+  },
+  "3427": {
+    "code": "3427",
+    "name": "GRAND FORKS",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "GRAND FORKS, ND"
+  },
+  "3430": {
+    "code": "3430",
+    "name": "LANCASTER",
+    "state": "MN",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "LANCASTER, MN"
+  },
+  "3433": {
+    "code": "3433",
+    "name": "WILLISTON AIRPORT",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "WILLISTON AIRPORT, ND"
+  },
+  "3434": {
+    "code": "3434",
+    "name": "MINOT AIRPORT",
+    "state": "ND",
+    "districtCode": "34",
+    "districtName": "PEMBINA, ND",
+    "sourceLabel": "MINOT AIRPORT, ND"
+  },
+  "3501": {
+    "code": "3501",
+    "name": "MINNEAPOLIS-ST. PAUL",
+    "state": "MN",
+    "districtCode": "35",
+    "districtName": "MINNEAPOLIS, MN",
+    "sourceLabel": "MINNEAPOLIS-ST. PAUL, MN"
+  },
+  "3502": {
+    "code": "3502",
+    "name": "SIOUX FALLS, S.D.",
+    "state": "",
+    "districtCode": "35",
+    "districtName": "MINNEAPOLIS, MN",
+    "sourceLabel": "SIOUX FALLS, S.D."
+  },
+  "3510": {
+    "code": "3510",
+    "name": "DULUTH, MN-SUPERIOR, WI",
+    "state": "",
+    "districtCode": "35",
+    "districtName": "MINNEAPOLIS, MN",
+    "sourceLabel": "DULUTH, MN-SUPERIOR, WI"
+  },
+  "3511": {
+    "code": "3511",
+    "name": "ASHLAND",
+    "state": "WI",
+    "districtCode": "35",
+    "districtName": "MINNEAPOLIS, MN",
+    "sourceLabel": "ASHLAND, WI"
+  },
+  "3512": {
+    "code": "3512",
+    "name": "OMAHA",
+    "state": "NE",
+    "districtCode": "35",
+    "districtName": "MINNEAPOLIS, MN",
+    "sourceLabel": "OMAHA, NE"
+  },
+  "3513": {
+    "code": "3513",
+    "name": "DES MOINES",
+    "state": "IA",
+    "districtCode": "35",
+    "districtName": "MINNEAPOLIS, MN",
+    "sourceLabel": "DES MOINES, IA"
+  },
+  "3581": {
+    "code": "3581",
+    "name": "ROCHESTER USER FEE AIRP, ROCHESTER",
+    "state": "MN",
+    "districtCode": "35",
+    "districtName": "MINNEAPOLIS, MN",
+    "sourceLabel": "ROCHESTER USER FEE AIRP, ROCHESTER, MN"
+  },
+  "3604": {
+    "code": "3604",
+    "name": "INTERNATIONAL FALLS-RANIER",
+    "state": "MN",
+    "districtCode": "36",
+    "districtName": "DULUTH, MN",
+    "sourceLabel": "INTERNATIONAL FALLS-RANIER, MN"
+  },
+  "3613": {
+    "code": "3613",
+    "name": "GRAND PORTAGE",
+    "state": "MN",
+    "districtCode": "36",
+    "districtName": "DULUTH, MN",
+    "sourceLabel": "GRAND PORTAGE, MN"
+  },
+  "3701": {
+    "code": "3701",
+    "name": "MILWAUKEE",
+    "state": "WI",
+    "districtCode": "37",
+    "districtName": "MILWAUKEE, WI",
+    "sourceLabel": "MILWAUKEE, WI"
+  },
+  "3702": {
+    "code": "3702",
+    "name": "MARINETTE",
+    "state": "WI",
+    "districtCode": "37",
+    "districtName": "MILWAUKEE, WI",
+    "sourceLabel": "MARINETTE, WI"
+  },
+  "3703": {
+    "code": "3703",
+    "name": "GREEN BAY",
+    "state": "WI",
+    "districtCode": "37",
+    "districtName": "MILWAUKEE, WI",
+    "sourceLabel": "GREEN BAY, WI"
+  },
+  "3706": {
+    "code": "3706",
+    "name": "MANITOWOC",
+    "state": "WI",
+    "districtCode": "37",
+    "districtName": "MILWAUKEE, WI",
+    "sourceLabel": "MANITOWOC, WI"
+  },
+  "3708": {
+    "code": "3708",
+    "name": "RACINE",
+    "state": "WI",
+    "districtCode": "37",
+    "districtName": "MILWAUKEE, WI",
+    "sourceLabel": "RACINE, WI"
+  },
+  "3801": {
+    "code": "3801",
+    "name": "DETROIT",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "DETROIT, MI"
+  },
+  "3802": {
+    "code": "3802",
+    "name": "PORT HURON",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "PORT HURON, MI"
+  },
+  "3803": {
+    "code": "3803",
+    "name": "SAULT STE. MARIE",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "SAULT STE. MARIE, MI"
+  },
+  "3804": {
+    "code": "3804",
+    "name": "SAGINAW/BAY CITY",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "SAGINAW/BAY CITY, MI"
+  },
+  "3805": {
+    "code": "3805",
+    "name": "BATTLE CREEK",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "BATTLE CREEK, MI"
+  },
+  "3806": {
+    "code": "3806",
+    "name": "GRAND RAPIDS",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "GRAND RAPIDS, MI"
+  },
+  "3807": {
+    "code": "3807",
+    "name": "DETROIT METRO AIRPORT, DETROIT",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "DETROIT METRO AIRPORT, DETROIT, MI"
+  },
+  "3808": {
+    "code": "3808",
+    "name": "ESCANABA",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "ESCANABA, MI"
+  },
+  "3809": {
+    "code": "3809",
+    "name": "MARQUETTE",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "MARQUETTE, MI"
+  },
+  "3814": {
+    "code": "3814",
+    "name": "ALGONAC",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "ALGONAC, MI"
+  },
+  "3815": {
+    "code": "3815",
+    "name": "MUSKEGON",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "MUSKEGON, MI"
+  },
+  "3816": {
+    "code": "3816",
+    "name": "GRAND HAVEN",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "GRAND HAVEN, MI"
+  },
+  "3818": {
+    "code": "3818",
+    "name": "ROGERS CITY",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "ROGERS CITY, MI"
+  },
+  "3819": {
+    "code": "3819",
+    "name": "DETOUR",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "DETOUR, MI"
+  },
+  "3842": {
+    "code": "3842",
+    "name": "PRESQUE ISLE",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "PRESQUE ISLE, MI"
+  },
+  "3843": {
+    "code": "3843",
+    "name": "ALPENA",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "ALPENA, MI"
+  },
+  "3881": {
+    "code": "3881",
+    "name": "OAKLAND/PONTIAC AIRPORT",
+    "state": "",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "OAKLAND/PONTIAC AIRPORT"
+  },
+  "3882": {
+    "code": "3882",
+    "name": "WILLOW RUN AIRPORT, YPSILANTI",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "WILLOW RUN AIRPORT, YPSILANTI, MI"
+  },
+  "3883": {
+    "code": "3883",
+    "name": "CAPITAL REGION INTL AIRPORT, LANSING",
+    "state": "MI",
+    "districtCode": "38",
+    "districtName": "DETROIT, MI",
+    "sourceLabel": "CAPITAL REGION INTL AIRPORT, LANSING, MI"
+  },
+  "3901": {
+    "code": "3901",
+    "name": "CHICAGO",
+    "state": "IL",
+    "districtCode": "39",
+    "districtName": "CHICAGO, IL",
+    "sourceLabel": "CHICAGO, IL"
+  },
+  "3902": {
+    "code": "3902",
+    "name": "PEORIA",
+    "state": "IL",
+    "districtCode": "39",
+    "districtName": "CHICAGO, IL",
+    "sourceLabel": "PEORIA, IL"
+  },
+  "3905": {
+    "code": "3905",
+    "name": "GARY",
+    "state": "IN",
+    "districtCode": "39",
+    "districtName": "CHICAGO, IL",
+    "sourceLabel": "GARY, IN"
+  },
+  "3908": {
+    "code": "3908",
+    "name": "DAVENPORT, IA-ROCK ISLAND, IL",
+    "state": "",
+    "districtCode": "39",
+    "districtName": "CHICAGO, IL",
+    "sourceLabel": "DAVENPORT, IA-ROCK ISLAND, IL"
+  },
+  "3909": {
+    "code": "3909",
+    "name": "ROCKFORD AIRPORT",
+    "state": "IL",
+    "districtCode": "39",
+    "districtName": "CHICAGO, IL",
+    "sourceLabel": "ROCKFORD AIRPORT, IL"
+  },
+  "3910": {
+    "code": "3910",
+    "name": "CHICAGO MIDWAY INT'L AIRPORT",
+    "state": "IL",
+    "districtCode": "39",
+    "districtName": "CHICAGO, IL",
+    "sourceLabel": "CHICAGO MIDWAY INT'L AIRPORT, IL"
+  },
+  "3971": {
+    "code": "3971",
+    "name": "TNT EXPRESS CONSIGNMENT, CHICAGO",
+    "state": "IL",
+    "districtCode": "39",
+    "districtName": "CHICAGO, IL",
+    "sourceLabel": "TNT EXPRESS CONSIGNMENT, CHICAGO, IL"
+  },
+  "3983": {
+    "code": "3983",
+    "name": "CHICAGO EXECUTIVE AIRPORT",
+    "state": "IL",
+    "districtCode": "39",
+    "districtName": "CHICAGO, IL",
+    "sourceLabel": "CHICAGO EXECUTIVE AIRPORT, IL"
+  },
+  "3987": {
+    "code": "3987",
+    "name": "UFA UI WILLARD AIRPORT, SAVOY",
+    "state": "IL",
+    "districtCode": "39",
+    "districtName": "CHICAGO, IL",
+    "sourceLabel": "UFA UI WILLARD AIRPORT, SAVOY, IL"
+  },
+  "4101": {
+    "code": "4101",
+    "name": "CLEVELAND",
+    "state": "OH",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "CLEVELAND, OH"
+  },
+  "4102": {
+    "code": "4102",
+    "name": "CINCINNATI",
+    "state": "OH",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "CINCINNATI, OH"
+  },
+  "4103": {
+    "code": "4103",
+    "name": "COLUMBUS",
+    "state": "OH",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "COLUMBUS, OH"
+  },
+  "4104": {
+    "code": "4104",
+    "name": "DAYTON",
+    "state": "OH",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "DAYTON, OH"
+  },
+  "4105": {
+    "code": "4105",
+    "name": "TOLEDO-SNADUSKY",
+    "state": "OH",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "TOLEDO-SNADUSKY, OH"
+  },
+  "4106": {
+    "code": "4106",
+    "name": "ERIE",
+    "state": "PA",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "ERIE, PA"
+  },
+  "4110": {
+    "code": "4110",
+    "name": "INDIANAPOLIS",
+    "state": "IN",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "INDIANAPOLIS, IN"
+  },
+  "4115": {
+    "code": "4115",
+    "name": "LOUISVILLE",
+    "state": "KY",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "LOUISVILLE, KY"
+  },
+  "4116": {
+    "code": "4116",
+    "name": "OWENSBORO-EVANSVILLE",
+    "state": "KY",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "OWENSBORO-EVANSVILLE, KY"
+  },
+  "4121": {
+    "code": "4121",
+    "name": "LORAIN",
+    "state": "OH",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "LORAIN, OH"
+  },
+  "4122": {
+    "code": "4122",
+    "name": "ASHTABULA/CONNEAUT",
+    "state": "OH",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "ASHTABULA/CONNEAUT, OH"
+  },
+  "4183": {
+    "code": "4183",
+    "name": "FORT WAYNE AIRPORT",
+    "state": "",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "FORT WAYNE AIRPORT"
+  },
+  "4184": {
+    "code": "4184",
+    "name": "BLUE GRASS AIRPORT",
+    "state": "",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "BLUE GRASS AIRPORT"
+  },
+  "4196": {
+    "code": "4196",
+    "name": "UPS COURIER",
+    "state": "",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "UPS COURIER"
+  },
+  "4197": {
+    "code": "4197",
+    "name": "DHL CINCINNATI",
+    "state": "OH",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "DHL CINCINNATI, OH"
+  },
+  "4198": {
+    "code": "4198",
+    "name": "FEDEX, INDIANAPOLIS",
+    "state": "IN",
+    "districtCode": "41",
+    "districtName": "CLEVELAND, OH",
+    "sourceLabel": "FEDEX, INDIANAPOLIS, IN"
+  },
+  "4501": {
+    "code": "4501",
+    "name": "KANSAS CITY",
+    "state": "MO",
+    "districtCode": "45",
+    "districtName": "ST LOUIS, MO",
+    "sourceLabel": "KANSAS CITY, MO"
+  },
+  "4502": {
+    "code": "4502",
+    "name": "ST JOSEPH",
+    "state": "MO",
+    "districtCode": "45",
+    "districtName": "ST LOUIS, MO",
+    "sourceLabel": "ST JOSEPH, MO"
+  },
+  "4503": {
+    "code": "4503",
+    "name": "ST LOUIS",
+    "state": "MO",
+    "districtCode": "45",
+    "districtName": "ST LOUIS, MO",
+    "sourceLabel": "ST LOUIS, MO"
+  },
+  "4504": {
+    "code": "4504",
+    "name": "WICHITA",
+    "state": "KS",
+    "districtCode": "45",
+    "districtName": "ST LOUIS, MO",
+    "sourceLabel": "WICHITA, KS"
+  },
+  "4505": {
+    "code": "4505",
+    "name": "SPRINGFIELD",
+    "state": "MO",
+    "districtCode": "45",
+    "districtName": "ST LOUIS, MO",
+    "sourceLabel": "SPRINGFIELD, MO"
+  },
+  "4581": {
+    "code": "4581",
+    "name": "MIDAMERICAN AIRPORT",
+    "state": "IL",
+    "districtCode": "45",
+    "districtName": "ST LOUIS, MO",
+    "sourceLabel": "MIDAMERICAN AIRPORT, IL"
+  },
+  "4901": {
+    "code": "4901",
+    "name": "AGUADILLA",
+    "state": "PR",
+    "districtCode": "49",
+    "districtName": "SAN JUAN, PR",
+    "sourceLabel": "AGUADILLA, PR"
+  },
+  "4904": {
+    "code": "4904",
+    "name": "FAJARDO",
+    "state": "PR",
+    "districtCode": "49",
+    "districtName": "SAN JUAN, PR",
+    "sourceLabel": "FAJARDO, PR"
+  },
+  "4907": {
+    "code": "4907",
+    "name": "MAYAGUEZ",
+    "state": "PR",
+    "districtCode": "49",
+    "districtName": "SAN JUAN, PR",
+    "sourceLabel": "MAYAGUEZ, PR"
+  },
+  "4908": {
+    "code": "4908",
+    "name": "PONCE",
+    "state": "PR",
+    "districtCode": "49",
+    "districtName": "SAN JUAN, PR",
+    "sourceLabel": "PONCE, PR"
+  },
+  "4909": {
+    "code": "4909",
+    "name": "SAN JUAN",
+    "state": "PR",
+    "districtCode": "49",
+    "districtName": "SAN JUAN, PR",
+    "sourceLabel": "SAN JUAN, PR"
+  },
+  "4913": {
+    "code": "4913",
+    "name": "SAN JUAN INTL AIRPORT",
+    "state": "PR",
+    "districtCode": "49",
+    "districtName": "SAN JUAN, PR",
+    "sourceLabel": "SAN JUAN INTL AIRPORT, PR"
+  },
+  "5101": {
+    "code": "5101",
+    "name": "CHARLOTTE AMALIE",
+    "state": "VI",
+    "districtCode": "51",
+    "districtName": "VIRGIN ISLANDS OF THE UNITED STATES",
+    "sourceLabel": "CHARLOTTE AMALIE, VI"
+  },
+  "5102": {
+    "code": "5102",
+    "name": "CRUZ BAY",
+    "state": "VI",
+    "districtCode": "51",
+    "districtName": "VIRGIN ISLANDS OF THE UNITED STATES",
+    "sourceLabel": "CRUZ BAY, VI"
+  },
+  "5104": {
+    "code": "5104",
+    "name": "CHRISTIANSTED",
+    "state": "VI",
+    "districtCode": "51",
+    "districtName": "VIRGIN ISLANDS OF THE UNITED STATES",
+    "sourceLabel": "CHRISTIANSTED, VI"
+  },
+  "5105": {
+    "code": "5105",
+    "name": "FREDERIKSTED",
+    "state": "VI",
+    "districtCode": "51",
+    "districtName": "VIRGIN ISLANDS OF THE UNITED STATES",
+    "sourceLabel": "FREDERIKSTED, VI"
+  },
+  "5201": {
+    "code": "5201",
+    "name": "MIAMI",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "MIAMI, FL"
+  },
+  "5202": {
+    "code": "5202",
+    "name": "KEY WEST",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "KEY WEST, FL"
+  },
+  "5203": {
+    "code": "5203",
+    "name": "PORT EVERGLADES",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "PORT EVERGLADES, FL"
+  },
+  "5204": {
+    "code": "5204",
+    "name": "WEST PALM BEACH",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "WEST PALM BEACH, FL"
+  },
+  "5205": {
+    "code": "5205",
+    "name": "FORT PIERCE",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "FORT PIERCE, FL"
+  },
+  "5206": {
+    "code": "5206",
+    "name": "MIAMI INTL AIRPORT",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "MIAMI INTL AIRPORT, FL"
+  },
+  "5210": {
+    "code": "5210",
+    "name": "FT. LAUDERDALE INTL AIRP",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "FT. LAUDERDALE INTL AIRP, FL"
+  },
+  "5295": {
+    "code": "5295",
+    "name": "UPS, MIAMI",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "UPS, MIAMI, FL"
+  },
+  "5296": {
+    "code": "5296",
+    "name": "DHL, MIAMI",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "DHL, MIAMI, FL"
+  },
+  "5297": {
+    "code": "5297",
+    "name": "FEDEX, MIAMI",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "FEDEX, MIAMI, FL"
+  },
+  "5298": {
+    "code": "5298",
+    "name": "IBC COURIER HUB",
+    "state": "FL",
+    "districtCode": "52",
+    "districtName": "MIAMI, FL",
+    "sourceLabel": "IBC COURIER HUB, FL"
+  },
+  "5301": {
+    "code": "5301",
+    "name": "HOUSTON",
+    "state": "TX",
+    "districtCode": "53",
+    "districtName": "HOUSTON-GALVESTON, TX",
+    "sourceLabel": "HOUSTON, TX"
+  },
+  "5306": {
+    "code": "5306",
+    "name": "TEXAS CITY",
+    "state": "TX",
+    "districtCode": "53",
+    "districtName": "HOUSTON-GALVESTON, TX",
+    "sourceLabel": "TEXAS CITY, TX"
+  },
+  "5309": {
+    "code": "5309",
+    "name": "HOUSTON INTERCONTL AIRP",
+    "state": "TX",
+    "districtCode": "53",
+    "districtName": "HOUSTON-GALVESTON, TX",
+    "sourceLabel": "HOUSTON INTERCONTL AIRP, TX"
+  },
+  "5310": {
+    "code": "5310",
+    "name": "GALVESTON",
+    "state": "TX",
+    "districtCode": "53",
+    "districtName": "HOUSTON-GALVESTON, TX",
+    "sourceLabel": "GALVESTON, TX"
+  },
+  "5311": {
+    "code": "5311",
+    "name": "FREEPORT",
+    "state": "TX",
+    "districtCode": "53",
+    "districtName": "HOUSTON-GALVESTON, TX",
+    "sourceLabel": "FREEPORT, TX"
+  },
+  "5312": {
+    "code": "5312",
+    "name": "CORPUS CHRISTI",
+    "state": "TX",
+    "districtCode": "53",
+    "districtName": "HOUSTON-GALVESTON, TX",
+    "sourceLabel": "CORPUS CHRISTI, TX"
+  },
+  "5313": {
+    "code": "5313",
+    "name": "PORT LAVACA",
+    "state": "TX",
+    "districtCode": "53",
+    "districtName": "HOUSTON-GALVESTON, TX",
+    "sourceLabel": "PORT LAVACA, TX"
+  },
+  "5381": {
+    "code": "5381",
+    "name": "SUGAR LAND REG AIRP, SUGAR LAND",
+    "state": "TX",
+    "districtCode": "53",
+    "districtName": "HOUSTON-GALVESTON, TX",
+    "sourceLabel": "SUGAR LAND REG AIRP, SUGAR LAND, TX"
+  },
+  "5401": {
+    "code": "5401",
+    "name": "WASHINGTON",
+    "state": "DC",
+    "districtCode": "54",
+    "districtName": "WASHINGTON, DC",
+    "sourceLabel": "WASHINGTON, DC"
+  },
+  "5402": {
+    "code": "5402",
+    "name": "ALEXANDRIA",
+    "state": "VA",
+    "districtCode": "54",
+    "districtName": "WASHINGTON, DC",
+    "sourceLabel": "ALEXANDRIA, VA"
+  },
+  "5501": {
+    "code": "5501",
+    "name": "DALLAS/FT. WORTH",
+    "state": "TX",
+    "districtCode": "55",
+    "districtName": "DALLAS/FT. WORTH, TX",
+    "sourceLabel": "DALLAS/FT. WORTH, TX"
+  },
+  "5502": {
+    "code": "5502",
+    "name": "AMARILLO",
+    "state": "TX",
+    "districtCode": "55",
+    "districtName": "DALLAS/FT. WORTH, TX",
+    "sourceLabel": "AMARILLO, TX"
+  },
+  "5503": {
+    "code": "5503",
+    "name": "LUBBOCK",
+    "state": "TX",
+    "districtCode": "55",
+    "districtName": "DALLAS/FT. WORTH, TX",
+    "sourceLabel": "LUBBOCK, TX"
+  },
+  "5504": {
+    "code": "5504",
+    "name": "OKLAHOMA CITY",
+    "state": "OK",
+    "districtCode": "55",
+    "districtName": "DALLAS/FT. WORTH, TX",
+    "sourceLabel": "OKLAHOMA CITY, OK"
+  },
+  "5505": {
+    "code": "5505",
+    "name": "TULSA",
+    "state": "OK",
+    "districtCode": "55",
+    "districtName": "DALLAS/FT. WORTH, TX",
+    "sourceLabel": "TULSA, OK"
+  },
+  "5506": {
+    "code": "5506",
+    "name": "AUSTIN",
+    "state": "TX",
+    "districtCode": "55",
+    "districtName": "DALLAS/FT. WORTH, TX",
+    "sourceLabel": "AUSTIN, TX"
+  },
+  "5507": {
+    "code": "5507",
+    "name": "SAN ANTONIO",
+    "state": "TX",
+    "districtCode": "55",
+    "districtName": "DALLAS/FT. WORTH, TX",
+    "sourceLabel": "SAN ANTONIO, TX"
+  },
+  "5582": {
+    "code": "5582",
+    "name": "MIDLAND INTL AIRPORT, MIDLAND",
+    "state": "TX",
+    "districtCode": "55",
+    "districtName": "DALLAS/FT. WORTH, TX",
+    "sourceLabel": "MIDLAND INTL AIRPORT, MIDLAND, TX"
+  },
+  "5583": {
+    "code": "5583",
+    "name": "FORTH WORTH ALLIANCE AIRP",
+    "state": "TX",
+    "districtCode": "55",
+    "districtName": "DALLAS/FT. WORTH, TX",
+    "sourceLabel": "FORTH WORTH ALLIANCE AIRP, TX"
+  },
+  "5584": {
+    "code": "5584",
+    "name": "ADDISON AIRPORT, ADDISON",
+    "state": "TX",
+    "districtCode": "55",
+    "districtName": "DALLAS/FT. WORTH, TX",
+    "sourceLabel": "ADDISON AIRPORT, ADDISON, TX"
+  },
+  "5901": {
+    "code": "5901",
+    "name": "NORFOLK/MOBILE/CHARLESTON",
+    "state": "",
+    "districtCode": "59",
+    "districtName": "NORFOLK/MOBILE/CHARLESTON",
+    "sourceLabel": "NORFOLK/MOBILE/CHARLESTON"
+  },
+  "7000": {
+    "code": "7000",
+    "name": "LOW VALUE",
+    "state": "",
+    "districtCode": "70",
+    "districtName": "LOW-VALUED IMPORTS AND EXPORTS",
+    "sourceLabel": "LOW VALUE"
+  },
+  "7010": {
+    "code": "7010",
+    "name": "CANADIAN LATE RECEIPTS ESTIMATE",
+    "state": "",
+    "districtCode": "70",
+    "districtName": "LOW-VALUED IMPORTS AND EXPORTS",
+    "sourceLabel": "CANADIAN LATE RECEIPTS ESTIMATE"
+  },
+  "0101": {
+    "code": "0101",
+    "name": "PORTLAND",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "PORTLAND, ME"
+  },
+  "0102": {
+    "code": "0102",
+    "name": "BANGOR",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "BANGOR, ME"
+  },
+  "0103": {
+    "code": "0103",
+    "name": "EASTPORT",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "EASTPORT, ME"
+  },
+  "0104": {
+    "code": "0104",
+    "name": "JACKMAN",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "JACKMAN, ME"
+  },
+  "0105": {
+    "code": "0105",
+    "name": "VANCEBORO",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "VANCEBORO, ME"
+  },
+  "0106": {
+    "code": "0106",
+    "name": "HOULTON",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "HOULTON, ME"
+  },
+  "0107": {
+    "code": "0107",
+    "name": "FORT FAIRFIELD",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "FORT FAIRFIELD, ME"
+  },
+  "0108": {
+    "code": "0108",
+    "name": "VAN BUREN",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "VAN BUREN, ME"
+  },
+  "0109": {
+    "code": "0109",
+    "name": "MADAWASKA",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "MADAWASKA, ME"
+  },
+  "0110": {
+    "code": "0110",
+    "name": "FORT KENT",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "FORT KENT, ME"
+  },
+  "0111": {
+    "code": "0111",
+    "name": "BATH",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "BATH, ME"
+  },
+  "0112": {
+    "code": "0112",
+    "name": "BAR HARBOR",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "BAR HARBOR, ME"
+  },
+  "0115": {
+    "code": "0115",
+    "name": "CALAIS",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "CALAIS, ME"
+  },
+  "0118": {
+    "code": "0118",
+    "name": "LIMESTONE",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "LIMESTONE, ME"
+  },
+  "0121": {
+    "code": "0121",
+    "name": "ROCKLAND",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "ROCKLAND, ME"
+  },
+  "0122": {
+    "code": "0122",
+    "name": "JONESPORT",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "JONESPORT, ME"
+  },
+  "0127": {
+    "code": "0127",
+    "name": "BRIDGEWATER",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "BRIDGEWATER, ME"
+  },
+  "0131": {
+    "code": "0131",
+    "name": "PORTSMOUTH",
+    "state": "NH",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "PORTSMOUTH, NH"
+  },
+  "0152": {
+    "code": "0152",
+    "name": "SEARSPORT",
+    "state": "ME",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "SEARSPORT, ME"
+  },
+  "0182": {
+    "code": "0182",
+    "name": "MANCHESTER USER FEE AIRPORT",
+    "state": "NH",
+    "districtCode": "01",
+    "districtName": "PORTLAND, ME",
+    "sourceLabel": "MANCHESTER USER FEE AIRPORT, NH"
+  },
+  "0201": {
+    "code": "0201",
+    "name": "ST. ALBANS",
+    "state": "VT",
+    "districtCode": "02",
+    "districtName": "ST. ALBANS, VT",
+    "sourceLabel": "ST. ALBANS, VT"
+  },
+  "0203": {
+    "code": "0203",
+    "name": "RICHFORD",
+    "state": "VT",
+    "districtCode": "02",
+    "districtName": "ST. ALBANS, VT",
+    "sourceLabel": "RICHFORD, VT"
+  },
+  "0206": {
+    "code": "0206",
+    "name": "BEECHER FALLS",
+    "state": "VT",
+    "districtCode": "02",
+    "districtName": "ST. ALBANS, VT",
+    "sourceLabel": "BEECHER FALLS, VT"
+  },
+  "0207": {
+    "code": "0207",
+    "name": "BURLINGTON",
+    "state": "VT",
+    "districtCode": "02",
+    "districtName": "ST. ALBANS, VT",
+    "sourceLabel": "BURLINGTON, VT"
+  },
+  "0209": {
+    "code": "0209",
+    "name": "DERBY LINE",
+    "state": "VT",
+    "districtCode": "02",
+    "districtName": "ST. ALBANS, VT",
+    "sourceLabel": "DERBY LINE, VT"
+  },
+  "0211": {
+    "code": "0211",
+    "name": "NORTON",
+    "state": "VT",
+    "districtCode": "02",
+    "districtName": "ST. ALBANS, VT",
+    "sourceLabel": "NORTON, VT"
+  },
+  "0212": {
+    "code": "0212",
+    "name": "HIGHGATE SPRINGS/ALBURG",
+    "state": "VT",
+    "districtCode": "02",
+    "districtName": "ST. ALBANS, VT",
+    "sourceLabel": "HIGHGATE SPRINGS/ALBURG, VT"
+  },
+  "0401": {
+    "code": "0401",
+    "name": "BOSTON",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "BOSTON, MA"
+  },
+  "0402": {
+    "code": "0402",
+    "name": "SPRINGFIELD",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "SPRINGFIELD, MA"
+  },
+  "0403": {
+    "code": "0403",
+    "name": "WORCESTER",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "WORCESTER, MA"
+  },
+  "0404": {
+    "code": "0404",
+    "name": "GLOUCESTER",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "GLOUCESTER, MA"
+  },
+  "0405": {
+    "code": "0405",
+    "name": "NEW BEDFORD",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "NEW BEDFORD, MA"
+  },
+  "0406": {
+    "code": "0406",
+    "name": "PLYMOUTH",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "PLYMOUTH, MA"
+  },
+  "0407": {
+    "code": "0407",
+    "name": "FALL RIVER",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "FALL RIVER, MA"
+  },
+  "0408": {
+    "code": "0408",
+    "name": "SALEM",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "SALEM, MA"
+  },
+  "0410": {
+    "code": "0410",
+    "name": "BRIDGEPORT",
+    "state": "CT",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "BRIDGEPORT,CT"
+  },
+  "0411": {
+    "code": "0411",
+    "name": "HARTFORD",
+    "state": "CT",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "HARTFORD. CT"
+  },
+  "0412": {
+    "code": "0412",
+    "name": "NEW HAVEN",
+    "state": "CT",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "NEW HAVEN,CT"
+  },
+  "0413": {
+    "code": "0413",
+    "name": "NEW LONDON",
+    "state": "CT",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "NEW LONDON, CT"
+  },
+  "0416": {
+    "code": "0416",
+    "name": "LAWRENCE",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "LAWRENCE, MA"
+  },
+  "0417": {
+    "code": "0417",
+    "name": "LOGAN AIRPORT",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "LOGAN AIRPORT, MA"
+  },
+  "0481": {
+    "code": "0481",
+    "name": "L.G. HANSCOM FIELD",
+    "state": "MA",
+    "districtCode": "04",
+    "districtName": "BOSTON, MA",
+    "sourceLabel": "L.G. HANSCOM FIELD, MA"
+  },
+  "0501": {
+    "code": "0501",
+    "name": "NEWPORT",
+    "state": "RI",
+    "districtCode": "05",
+    "districtName": "PROVIDENCE, RI",
+    "sourceLabel": "NEWPORT, RI"
+  },
+  "0502": {
+    "code": "0502",
+    "name": "PROVIDENCE",
+    "state": "RI",
+    "districtCode": "05",
+    "districtName": "PROVIDENCE, RI",
+    "sourceLabel": "PROVIDENCE, RI"
+  },
+  "0503": {
+    "code": "0503",
+    "name": "MELLVILLE",
+    "state": "RI",
+    "districtCode": "05",
+    "districtName": "PROVIDENCE, RI",
+    "sourceLabel": "MELLVILLE, RI"
+  },
+  "0701": {
+    "code": "0701",
+    "name": "OGDENSBURG",
+    "state": "NY",
+    "districtCode": "07",
+    "districtName": "OGDENSBURG, NY",
+    "sourceLabel": "OGDENSBURG, NY"
+  },
+  "0704": {
+    "code": "0704",
+    "name": "MASSENA",
+    "state": "NY",
+    "districtCode": "07",
+    "districtName": "OGDENSBURG, NY",
+    "sourceLabel": "MASSENA, NY"
+  },
+  "0706": {
+    "code": "0706",
+    "name": "CAPE VINCENT",
+    "state": "NY",
+    "districtCode": "07",
+    "districtName": "OGDENSBURG, NY",
+    "sourceLabel": "CAPE VINCENT, NY"
+  },
+  "0708": {
+    "code": "0708",
+    "name": "ALEXANDRIA BAY",
+    "state": "NY",
+    "districtCode": "07",
+    "districtName": "OGDENSBURG, NY",
+    "sourceLabel": "ALEXANDRIA BAY, NY"
+  },
+  "0712": {
+    "code": "0712",
+    "name": "CHAMPLAIN-ROUSES POINT",
+    "state": "NY",
+    "districtCode": "07",
+    "districtName": "OGDENSBURG, NY",
+    "sourceLabel": "CHAMPLAIN-ROUSES POINT, NY"
+  },
+  "0714": {
+    "code": "0714",
+    "name": "CLAYTON",
+    "state": "NY",
+    "districtCode": "07",
+    "districtName": "OGDENSBURG, NY",
+    "sourceLabel": "CLAYTON, NY"
+  },
+  "0715": {
+    "code": "0715",
+    "name": "TROUT RIVER",
+    "state": "NY",
+    "districtCode": "07",
+    "districtName": "OGDENSBURG, NY",
+    "sourceLabel": "TROUT RIVER, NY"
+  },
+  "0901": {
+    "code": "0901",
+    "name": "BUFFALO-NIAGARA FALLS",
+    "state": "NY",
+    "districtCode": "09",
+    "districtName": "BUFFALO, NY",
+    "sourceLabel": "BUFFALO-NIAGARA FALLS, NY"
+  },
+  "0903": {
+    "code": "0903",
+    "name": "ROCHESTER",
+    "state": "NY",
+    "districtCode": "09",
+    "districtName": "BUFFALO, NY",
+    "sourceLabel": "ROCHESTER, NY"
+  },
+  "0904": {
+    "code": "0904",
+    "name": "OSWEGO",
+    "state": "NY",
+    "districtCode": "09",
+    "districtName": "BUFFALO, NY",
+    "sourceLabel": "OSWEGO, NY"
+  },
+  "0905": {
+    "code": "0905",
+    "name": "SODUS POINT",
+    "state": "NY",
+    "districtCode": "09",
+    "districtName": "BUFFALO, NY",
+    "sourceLabel": "SODUS POINT, NY"
+  },
+  "0906": {
+    "code": "0906",
+    "name": "SYRACUSE",
+    "state": "NY",
+    "districtCode": "09",
+    "districtName": "BUFFALO, NY",
+    "sourceLabel": "SYRACUSE, NY"
+  },
+  "0981": {
+    "code": "0981",
+    "name": "BINGHAMTON REGIONAL AIRPORT",
+    "state": "NY",
+    "districtCode": "09",
+    "districtName": "BUFFALO, NY",
+    "sourceLabel": "BINGHAMTON REGIONAL AIRPORT, NY"
+  },
+  "0983": {
+    "code": "0983",
+    "name": "ITHICA TOMPKINS INTL AIR, ITHACA",
+    "state": "NY",
+    "districtCode": "09",
+    "districtName": "BUFFALO, NY",
+    "sourceLabel": "ITHICA TOMPKINS INTL AIR, ITHACA, NY"
+  }
+}

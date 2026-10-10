@@ -1,0 +1,7 @@
+# Gemini audit
+
+[VERIFIED — audit.ts] Run `node --import tsx experiments/gemini-audit/audit.ts` from the repository root after building shared. This reads the historical Gemini cache through the cache validator, verifies its document hashes, evaluates selected observations against manually inspected PDF pages, and probes current production code using simulated Gemini responses. No real inference request is sent. The command requires exactly one Gemini cache record and writes its report to `.cache/gemini-audit/report.json`. It exits nonzero if selected quality checks or the corrected completion/security/normalization checks fail. Historical cache data is not promoted into the new prompt-version cache.
+
+[VERIFIED — samples/KBAS-NB-26-0912_Commercial_Invoice.pdf pages 1–2; samples/SPG-PL-2609-117_Packing_List.pdf page 1; samples/BMLVHCM26090418_House_BL.pdf page 1] Expected values are evaluation-only observations transcribed from the rendered source pages, not production defaults. The ambiguous invoice date must remain inferred. Parenthesized free-sample amounts are assessed as their stated customs-only magnitudes, not sale proceeds.
+
+[UNKNOWN] Handwritten container certainty, complete word-by-word OCR accuracy, repeatability and generalization to unseen shipments are not established by these selected checks. Model confidence is not an independent accuracy score. The integration probes report observed vulnerabilities rather than asserting the implementation is correct.

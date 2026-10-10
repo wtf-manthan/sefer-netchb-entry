@@ -1,0 +1,12 @@
+{
+  "publisher": "U.S. Census Bureau",
+  "sourceUrl": "https://www.census.gov/foreign-trade/schedules/d/distcode.html",
+  "datasetVersion": "census-snapshot-2026-10-10-c473d65cb125",
+  "retrievedAt": "2026-10-10",
+  "recordCount": 429,
+  "sourceSha256": "c473d65cb1252ac6a2c9fb03e0c1ee405d94c7ae08bc2e1d9617bacda4120dfe",
+  "checksumSha256": "cc2fce15b800def0c51271f04377000c945eba33311d70670c0408e538fb99be",
+  "effectiveDateStatus": "UNKNOWN: snapshot date is not an effective date",
+  "sourceFormat": "Rendered Census table rows preserved from web retrieval; not raw HTML",
+  "licenseStatus": "UNKNOWN: no explicit license captured"
+}

@@ -1,0 +1,527 @@
+{
+  "reviewVersion": 1,
+  "shipmentData": {
+    "schemaVersion": "2",
+    "documents": [
+      {
+        "id": "doc-a",
+        "name": "synthetic.pdf",
+        "kind": "invoice"
+      }
+    ],
+    "invoices": [
+      {
+        "id": "inv-a",
+        "documentId": "doc-a",
+        "invoiceNo": {
+          "value": "SYNTHETIC-42",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"SYNTHETIC-42\""
+          },
+          "confidence": 0.9
+        },
+        "invoiceDateRaw": {
+          "value": null,
+          "status": "missing",
+          "source": {
+            "doc": null,
+            "page": null,
+            "snippet": null
+          },
+          "confidence": 0
+        },
+        "invoiceDate": {
+          "value": null,
+          "status": "missing",
+          "source": {
+            "doc": null,
+            "page": null,
+            "snippet": null
+          },
+          "confidence": 0
+        },
+        "seller": {
+          "name": {
+            "value": null,
+            "status": "missing",
+            "source": {
+              "doc": null,
+              "page": null,
+              "snippet": null
+            },
+            "confidence": 0
+          },
+          "address": {
+            "value": null,
+            "status": "missing",
+            "source": {
+              "doc": null,
+              "page": null,
+              "snippet": null
+            },
+            "confidence": 0
+          },
+          "country": {
+            "value": null,
+            "status": "missing",
+            "source": {
+              "doc": null,
+              "page": null,
+              "snippet": null
+            },
+            "confidence": 0
+          }
+        },
+        "buyer": {
+          "name": {
+            "value": null,
+            "status": "missing",
+            "source": {
+              "doc": null,
+              "page": null,
+              "snippet": null
+            },
+            "confidence": 0
+          },
+          "address": {
+            "value": null,
+            "status": "missing",
+            "source": {
+              "doc": null,
+              "page": null,
+              "snippet": null
+            },
+            "confidence": 0
+          },
+          "country": {
+            "value": null,
+            "status": "missing",
+            "source": {
+              "doc": null,
+              "page": null,
+              "snippet": null
+            },
+            "confidence": 0
+          }
+        },
+        "shipTo": {
+          "name": {
+            "value": null,
+            "status": "missing",
+            "source": {
+              "doc": null,
+              "page": null,
+              "snippet": null
+            },
+            "confidence": 0
+          },
+          "address": {
+            "value": null,
+            "status": "missing",
+            "source": {
+              "doc": null,
+              "page": null,
+              "snippet": null
+            },
+            "confidence": 0
+          },
+          "country": {
+            "value": null,
+            "status": "missing",
+            "source": {
+              "doc": null,
+              "page": null,
+              "snippet": null
+            },
+            "confidence": 0
+          }
+        },
+        "currency": {
+          "value": "USD",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"USD\""
+          },
+          "confidence": 0.9
+        },
+        "incoterms": {
+          "value": null,
+          "status": "missing",
+          "source": {
+            "doc": null,
+            "page": null,
+            "snippet": null
+          },
+          "confidence": 0
+        },
+        "countryOfOrigin": {
+          "value": "US",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"US\""
+          },
+          "confidence": 0.9
+        },
+        "countryOfExport": {
+          "value": "US",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"US\""
+          },
+          "confidence": 0.9
+        },
+        "exportDate": {
+          "value": "2026-01-02",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"2026-01-02\""
+          },
+          "confidence": 0.9
+        },
+        "totalAmount": {
+          "value": 20,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "20"
+          },
+          "confidence": 0.9
+        },
+        "freight": {
+          "value": 0,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "0"
+          },
+          "confidence": 0.9
+        },
+        "insurance": {
+          "value": 0,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "0"
+          },
+          "confidence": 0.9
+        },
+        "remarks": {
+          "value": null,
+          "status": "missing",
+          "source": {
+            "doc": null,
+            "page": null,
+            "snippet": null
+          },
+          "confidence": 0
+        },
+        "lines": [
+          {
+            "id": "line-z",
+            "lineNo": 17,
+            "style": {
+              "value": "WIDGET",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-a",
+                "page": 1,
+                "snippet": "\"WIDGET\""
+              },
+              "confidence": 0.9
+            },
+            "description": {
+              "value": "Synthetic wooden chair — UI testing only",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-a",
+                "page": 1,
+                "snippet": "\"Synthetic wooden chair — UI testing only\""
+              },
+              "confidence": 0.9
+            },
+            "material": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "hsCode": {
+              "value": "1234567890",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-a",
+                "page": 1,
+                "snippet": "\"1234567890\""
+              },
+              "confidence": 0.9
+            },
+            "quantity": {
+              "value": 10,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-a",
+                "page": 1,
+                "snippet": "10"
+              },
+              "confidence": 0.9
+            },
+            "unit": {
+              "value": "NO",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-a",
+                "page": 1,
+                "snippet": "\"NO\""
+              },
+              "confidence": 0.9
+            },
+            "unitPrice": {
+              "value": 2,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-a",
+                "page": 1,
+                "snippet": "2"
+              },
+              "confidence": 0.9
+            },
+            "amountAsPrinted": {
+              "value": 20,
+              "status": "extracted",
+              "source": {
+                "doc": "doc-a",
+                "page": 1,
+                "snippet": "20"
+              },
+              "confidence": 0.9
+            },
+            "customsValue": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "countryOfOrigin": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "manufacturerId": {
+              "value": "USTEST123ABC",
+              "status": "extracted",
+              "source": {
+                "doc": "doc-a",
+                "page": 1,
+                "snippet": "\"USTEST123ABC\""
+              },
+              "confidence": 0.9
+            },
+            "foc": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "notes": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            },
+            "assistAmount": {
+              "value": null,
+              "status": "missing",
+              "source": {
+                "doc": null,
+                "page": null,
+                "snippet": null
+              },
+              "confidence": 0
+            }
+          }
+        ]
+      }
+    ],
+    "packingLists": [],
+    "bills": [
+      {
+        "id": "bill-a",
+        "documentId": "doc-a",
+        "masterScac": {
+          "value": "AAAA",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"AAAA\""
+          },
+          "confidence": 0.9
+        },
+        "masterBill": {
+          "value": "MASTER123",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"MASTER123\""
+          },
+          "confidence": 0.9
+        },
+        "houseScac": {
+          "value": "BBBB",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"BBBB\""
+          },
+          "confidence": 0.9
+        },
+        "houseBill": {
+          "value": "HOUSE456",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"HOUSE456\""
+          },
+          "confidence": 0.9
+        },
+        "vessel": {
+          "value": "TEST VESSEL",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"TEST VESSEL\""
+          },
+          "confidence": 0.9
+        },
+        "voyage": {
+          "value": "V001",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"V001\""
+          },
+          "confidence": 0.9
+        },
+        "packages": {
+          "value": 1,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "1"
+          },
+          "confidence": 0.9
+        },
+        "packageUnit": {
+          "value": "CTN",
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "\"CTN\""
+          },
+          "confidence": 0.9
+        },
+        "grossWeightKg": {
+          "value": 100,
+          "status": "extracted",
+          "source": {
+            "doc": "doc-a",
+            "page": 1,
+            "snippet": "100"
+          },
+          "confidence": 0.9
+        },
+        "containers": []
+      }
+    ],
+    "modeOfTransport": {
+      "value": "10",
+      "status": "inferred",
+      "source": {
+        "doc": "doc-a",
+        "page": 1,
+        "snippet": "\"10\""
+      },
+      "confidence": 0.9
+    }
+  },
+  "brokerDecisions": {
+    "portSelections": {},
+    "observationCorrections": {},
+    "lineDecisions": {
+      "line-z": {
+        "reportingQuantities": [
+          {
+            "quantity": 10,
+            "unit": "NO"
+          }
+        ]
+      }
+    },
+    "invoiceDecisions": {
+      "inv-a": {
+        "valuationBasis": "LINE_VALUES_EXCLUDE_CHARGES"
+      }
+    },
+    "containerOverrides": {},
+    "acknowledgements": {},
+    "customsFiling": {
+      "importerEin": "12-3456789",
+      "bondType": "08",
+      "suretyCode": "123",
+      "entryDate": "2026-01-03",
+      "entryType": "01",
+      "entryPortCode": "1001",
+      "processingPortCode": "1001",
+      "unladingPortCode": "1001",
+      "foreignPortCode": "12345",
+      "ultimateConsignee": {
+        "name": "Test buyer",
+        "taxId": "12-3456789"
+      },
+      "relatedParty": false,
+      "referenceDataConfirmed": true
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# Frontend review walkthrough
+[VERIFIED - prepare.ts] Run `node --import tsx experiments/frontend-review/prepare.ts` from the repository root. Resume the generated session.json in the app. This is synthetic furniture with deliberately artificial filing identifiers and one inferred transport observation, not a real shipment classification. No inference request is made.
+[INFERRED - test procedure] Check section navigation, Transport source verification, Goods controls, invalid input feedback, save/resume and export gating. Use original sample PDFs separately to test upload/go-back and preview; extraction is not required for staging.

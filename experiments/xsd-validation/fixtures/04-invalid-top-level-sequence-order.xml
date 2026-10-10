@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.netchb.com/xml/entry">
+  <entry-no>
+    <system-generated/>
+  </entry-no>
+  <!-- INVALID: <manifest> placed before <header>. <entry> requires strict xsd:sequence order -->
+  <manifest>
+    <bill-of-lading>
+      <master-scac>OPLU</master-scac>
+      <master-bill>OPLUSGN260917735</master-bill>
+      <quantity>138</quantity>
+      <unit>CTN</unit>
+    </bill-of-lading>
+  </manifest>
+  <header>
+    <processing-port>3002</processing-port>
+    <entry-port>3002</entry-port>
+    <entry-date>2026-10-14</entry-date>
+    <entry-type>01</entry-type>
+  </header>
+  <invoices>
+    <invoice>
+      <invoice-no>KBAS-NB-26-0912</invoice-no>
+      <line-items>
+        <line-item>
+          <country-origin>VN</country-origin>
+          <tariffs>
+            <tariff>
+              <tariff-no>6109100004</tariff-no>
+              <value>6840.00</value>
+            </tariff>
+          </tariffs>
+        </line-item>
+      </line-items>
+    </invoice>
+  </invoices>
+</entry>

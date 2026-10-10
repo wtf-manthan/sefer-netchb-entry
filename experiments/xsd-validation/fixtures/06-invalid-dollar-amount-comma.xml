@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.netchb.com/xml/entry">
+  <entry-no>
+    <system-generated/>
+  </entry-no>
+  <header>
+    <processing-port>3002</processing-port>
+    <entry-port>3002</entry-port>
+    <entry-date>2026-10-14</entry-date>
+    <entry-type>01</entry-type>
+  </header>
+  <manifest>
+    <bill-of-lading>
+      <master-scac>OPLU</master-scac>
+      <master-bill>OPLUSGN260917735</master-bill>
+      <quantity>138</quantity>
+      <unit>CTN</unit>
+    </bill-of-lading>
+  </manifest>
+  <invoices>
+    <invoice>
+      <invoice-no>KBAS-NB-26-0912</invoice-no>
+      <line-items>
+        <line-item>
+          <country-origin>VN</country-origin>
+          <tariffs>
+            <tariff>
+              <tariff-no>6109100004</tariff-no>
+              <!-- INVALID: Commas are not permitted in dollarAmountType (xsd:decimal) -->
+              <value>23,235.00</value>
+            </tariff>
+          </tariffs>
+        </line-item>
+      </line-items>
+    </invoice>
+  </invoices>
+</entry>

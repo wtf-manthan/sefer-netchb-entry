@@ -1,0 +1,12 @@
+{
+  "publisher": "United Nations Statistics Division; IANA region descriptions",
+  "sourceUrl": "https://unstats.un.org/unsd/methodology/m49/overview/",
+  "supplementUrl": "https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry",
+  "retrievedAt": "2026-10-10",
+  "datasetVersion": "UNSD-IANA-snapshot-2026-10-10",
+  "recordCount": 249,
+  "sourceSha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+  "supplementSha256": "f06ab6ead09bb8054b17c486e37a5716d1fc1b6a78cb0081259b2176fb6e268f",
+  "checksumSha256": "9639332ebaf1ddba9e7dd948dedd288f649e9d693fe37d951b79b1380f13662c",
+  "effectiveDateStatus": "UNKNOWN: snapshot date only"
+}

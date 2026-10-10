@@ -1,0 +1,18 @@
+{
+  "publisher": "US Army Corps of Engineers, Navigation and Civil Works Decision Support Center",
+  "url": "https://ndclibrary.sec.usace.army.mil/resource/8c90a43a-eaa8-4e2c-ad13-13a9f3ed2b92",
+  "datasetVersion": "Schedule K 2nd Quarter 2026 / 07312026",
+  "retrievedAt": "2026-10-10",
+  "downloadUrl": "https://ndclibrary.sec.usace.army.mil/api/download?id=8c90a43a-eaa8-4e2c-ad13-13a9f3ed2b92&filename=Schedule%20K%202nd%20Quarter%202026.xlsx",
+  "metadataUrl": "https://ndclibrary.sec.usace.army.mil/api/getdocdatapub/8c90a43a-eaa8-4e2c-ad13-13a9f3ed2b92",
+  "releaseMonth": "June 2026",
+  "uploadedAt": "2026-07-31T15:29:08.000Z",
+  "effectiveDateStatus": "UNKNOWN: release and upload dates are not an effective date",
+  "licenseStatus": "UNKNOWN: dataset metadata contains no explicit license",
+  "countryCodeSystem": "USACE source country codes; NOT ISO 3166-1",
+  "sheet": "All Current Schedule K Codes",
+  "sourceSha256": "53ef0914a3a7e4b4e232596c6afc43b5981e59dabfd9c7e01d0e62978d7c7cad",
+  "checksumSha256": "aab682a76ab9fa53e497ce4ab64d13c96c1007c635d4ff5b01adb1aca1a8e9ff",
+  "recordCount": 2191,
+  "sourceRowCount": 4083
+}
